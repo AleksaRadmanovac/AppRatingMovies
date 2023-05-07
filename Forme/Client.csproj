@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7FB7B342-1CD5-44AA-AD28-FFA4D455077B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Forme</RootNamespace>
+    <AssemblyName>Forme</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdministratorCoordinator.cs" />
+    <Compile Include="Communication.cs" />
+    <Compile Include="Forme\FormAdministrator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\FormAdministrator.Designer.cs">
+      <DependentUpon>FormAdministrator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\FormKorisnik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\FormKorisnik.Designer.cs">
+      <DependentUpon>FormKorisnik.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUIControllers\Admin\AdministratorPocetnaGUIController.cs" />
+    <Compile Include="GUIControllers\Admin\ObradaZahtevaZaFilmGUIController.cs" />
+    <Compile Include="GUIControllers\Admin\ObradaZahtevaZaGlumcaGUIController.cs" />
+    <Compile Include="GUIControllers\Korisnik\DodajFilmGUIController.cs" />
+    <Compile Include="GUIControllers\Korisnik\DodajGlumcaGUIController.cs" />
+    <Compile Include="GUIControllers\Korisnik\KorisnikPocetnaGUIController.cs" />
+    <Compile Include="GUIControllers\LoginGUIController.cs" />
+    <Compile Include="GUIControllers\Korisnik\OcenaFilmaGUIController.cs" />
+    <Compile Include="GUIControllers\Korisnik\OcenaGlumcaGUIController.cs" />
+    <Compile Include="GUIControllers\RegistracijaGUIController.cs" />
+    <Compile Include="KorisnikCoordinator.cs" />
+    <Compile Include="MainCoordinator.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserControls\Admin\UCAdministratorPocetna.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Admin\UCAdministratorPocetna.Designer.cs">
+      <DependentUpon>UCAdministratorPocetna.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Admin\UCObradaZahtevaZaFilm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Admin\UCObradaZahtevaZaFilm.Designer.cs">
+      <DependentUpon>UCObradaZahtevaZaFilm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Admin\UCObradaZahtevaZaGlumca.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Admin\UCObradaZahtevaZaGlumca.Designer.cs">
+      <DependentUpon>UCObradaZahtevaZaGlumca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Korisnik\UCDodajGlumca.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Korisnik\UCDodajGlumca.Designer.cs">
+      <DependentUpon>UCDodajGlumca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Korisnik\UCOcenaFilma.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Korisnik\UCOcenaFilma.Designer.cs">
+      <DependentUpon>UCOcenaFilma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Korisnik\UCDodajFilm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Korisnik\UCDodajFilm.Designer.cs">
+      <DependentUpon>UCDodajFilm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Korisnik\UCKorisnikPocetna.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Korisnik\UCKorisnikPocetna.Designer.cs">
+      <DependentUpon>UCKorisnikPocetna.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UCLogin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UCLogin.Designer.cs">
+      <DependentUpon>UCLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Korisnik\UCOcenaGlumca.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Korisnik\UCOcenaGlumca.Designer.cs">
+      <DependentUpon>UCOcenaGlumca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UCRegistracija.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UCRegistracija.Designer.cs">
+      <DependentUpon>UCRegistracija.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Forme\FormAdministrator.resx">
+      <DependentUpon>FormAdministrator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forme\FormKorisnik.resx">
+      <DependentUpon>FormKorisnik.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forme\FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="UserControls\Admin\UCAdministratorPocetna.resx">
+      <DependentUpon>UCAdministratorPocetna.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Admin\UCObradaZahtevaZaFilm.resx">
+      <DependentUpon>UCObradaZahtevaZaFilm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Admin\UCObradaZahtevaZaGlumca.resx">
+      <DependentUpon>UCObradaZahtevaZaGlumca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Korisnik\UCDodajFilm.resx">
+      <DependentUpon>UCDodajFilm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Korisnik\UCDodajGlumca.resx">
+      <DependentUpon>UCDodajGlumca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Korisnik\UCKorisnikPocetna.resx">
+      <DependentUpon>UCKorisnikPocetna.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UCLogin.resx">
+      <DependentUpon>UCLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Korisnik\UCOcenaFilma.resx">
+      <DependentUpon>UCOcenaFilma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Korisnik\UCOcenaGlumca.resx">
+      <DependentUpon>UCOcenaGlumca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UCRegistracija.resx">
+      <DependentUpon>UCRegistracija.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Domen\Common.csproj">
+      <Project>{3B2675C8-8C7D-4CDD-BAD5-0FB79A5F3322}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
