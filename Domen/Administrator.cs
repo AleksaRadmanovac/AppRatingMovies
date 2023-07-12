@@ -7,13 +7,31 @@ using System.Threading.Tasks;
 
 namespace Domen
 {
+    /// <summary>
+    /// Predstavlja nalog administratora koji u sebi sadrzi id, username, password i broj obradjenih zahteva tog administratora.
+    /// Implementira interfejs IDomenObjekat.
+    /// </summary>
     [Serializable]
     public class Administrator : IDomenObjekat
     {
+
+        /// <summary>
+        /// Get i set metoda za id koji predstavlja primarni kljuc za administratora.
+        /// </summary>
         public int Id { get; set; }
+        /// <summary>
+        /// Get i set metoda za username naloga administratora.
+        /// </summary>
         public string Username { get; set; }
+        /// <summary>
+        /// Get i set metoda za passworda naloga administratora.
+        /// </summary>
         public string Password { get; set; }
+        /// <summary>
+        /// Get i set metoda za broj zahteva koje je administrator obradio.
+        /// </summary>
         public int BrojObradjenihZahteva { get; set; }
+/// <inheritdoc/>
 
         public string TableName => "Administrator";
 

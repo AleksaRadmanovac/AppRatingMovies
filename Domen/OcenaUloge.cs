@@ -7,13 +7,30 @@ using System.Threading.Tasks;
 
 namespace Domen
 {
+    /// <summary>
+    /// Ocena uloge koja sadrzi korisnika koji je ocenio ulogu, uloga koja je ocenjena, ocenu i komentar.
+    /// Implementira interfejs IDomenObjekat.
+    /// </summary>
     [Serializable]
     public class OcenaUloge : IDomenObjekat
     {
+        /// <summary>
+        /// Get i set metoda za korisnika koji je dao ocenu.
+        /// </summary>
         public Korisnik Korisnik { get; set; }
+        /// <summary>
+        /// Get i set metoda za ulogu koja je ocenjena.
+        /// </summary>
         public Uloga Uloga { get; set; } = new Uloga();
+        /// <summary>
+        /// Get i set metoda za broj koji predstavlja ocenu uloge.
+        /// </summary>
         public int Ocena { get; set; }
+        /// <summary>
+        /// Get i set metoda za komentar.
+        /// </summary>
         public string Komentar { get; set; }
+/// <inheritdoc/>
 
         public string TableName => "OcenaUloge";
 

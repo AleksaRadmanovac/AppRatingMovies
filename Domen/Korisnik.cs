@@ -8,13 +8,30 @@ using System.Threading.Tasks;
 
 namespace Domen
 {
+    /// <summary>
+    /// Predstavlja nalog korisnika koji u sebi sadrzi id, username korisnika, password korisnika, pol korisnika.
+    /// Implementira interfejs IDomenObjekat.
+    /// </summary>
     [Serializable]
     public class Korisnik : IDomenObjekat
     {
+        /// <summary>
+        /// Get i set metoda za id koji predstavlja primarni kljuc.
+        /// </summary>
         public int Id { get; set; }
+        /// <summary>
+        /// Get i set metoda za username korisnika.
+        /// </summary>
         public string Username { get; set; }
+        /// <summary>
+        /// Get i set metoda za password korisnika.
+        /// </summary>
         public string Password { get; set; }
+        /// <summary>
+        /// Get i set metoda za pol korisnika.
+        /// </summary>
         public Pol Pol { get; set; }
+/// <inheritdoc/>
 
         public string TableName => "Korisnik";
 

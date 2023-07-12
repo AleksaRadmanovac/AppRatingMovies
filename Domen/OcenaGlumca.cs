@@ -7,13 +7,30 @@ using System.Threading.Tasks;
 
 namespace Domen
 {
+    /// <summary>
+    /// Ocena glumca koja sadrzi korisnika koji je ocenio glumca, glumac koji je ocenjen, ocenu i komentar.
+    /// Implementira interfejs IDomenObjekat.
+    /// </summary>
     [Serializable]
     public class OcenaGlumca : IDomenObjekat
     {
+        /// <summary>
+        /// Get i set metoda za korisnika koji je dao ocenu.
+        /// </summary>
         public Korisnik Korisnik { get; set; }
+        /// <summary>
+        /// Get i set metoda za glumca koji je ocenjen.
+        /// </summary>
         public Glumac Glumac { get; set; }
+        /// <summary>
+        /// Get i set metoda za broj koji predstavlja ocenu glumca.
+        /// </summary>
         public int Ocena { get; set; }
+        /// <summary>
+        /// Get i set metoda za komentar.
+        /// </summary>
         public string Komentar { get; set; }
+/// <inheritdoc/>
 
         public string TableName => "OcenaGlumca";
 

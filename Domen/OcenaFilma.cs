@@ -8,13 +8,30 @@ using System.Threading.Tasks;
 
 namespace Domen
 {
+    /// <summary>
+    /// Ocena filma koja sadrzi korisnika koji je ocenio film, film koji je ocenjen, ocenu i komentar.
+    /// Implementira interfejs IDomenObjekat.
+    /// </summary>
     [Serializable]
     public class OcenaFilma : IDomenObjekat
     {
+        /// <summary>
+        /// Get i set metoda za korisnika koji je dao ocenu.
+        /// </summary>
         public Korisnik Korisnik { get; set; }
+        /// <summary>
+        /// Get i set metoda za film koji je ocenjen.
+        /// </summary>
         public Film Film { get; set; }
+        /// <summary>
+        /// Get i set metoda za broj koji predstavlja ocenu filma.
+        /// </summary>
         public int Ocena { get; set; }
+        /// <summary>
+        /// Get i set metoda za komentar.
+        /// </summary>
         public string Komentar { get; set; }
+/// <inheritdoc/>
 
         public string TableName => "OcenaFilma";
 

@@ -7,16 +7,42 @@ using System.Threading.Tasks;
 
 namespace Domen
 {
+    /// <summary>
+    /// Zahtev za film koji predstavlja zahtev korisnika administratoru za unos filma u prikazane filmove,
+    /// sadrzi id, boolean o tome da li je odobren, boolean o tome da li je obradjen,
+    /// administratora koji obradjuje zahtev, film koji je predmet zahteva, uloge koje postoje u filmu ili trebaju
+    /// da mu se pridruze.
+    /// </summary>
     [Serializable]
     public class ZahtevZaFilm : IDomenObjekat
     {
+        /// <summary>
+        /// Get i set metoda za id koji predstavlja primarni kljuc.
+        /// </summary>
         public int Id { get; set; }
+        /// <summary>
+        /// Get i set metoda za boolean koji predstavlja da li je zahtev za unos filma u prikazane filmove odobren
+        /// ili odbijen.
+        /// </summary>
         public bool Odobren { get; set; } = false;
+        /// <summary>
+        /// Get i set metoda za boolean koji predstavlja da li je zahtev obradjen od strane administratora.
+        /// </summary>
         public bool Obradjen { get; set; } = false;
+        /// <summary>
+        /// Get i set metoda za administratora koji obradjuje zahtev.
+        /// </summary>
         public Administrator Administrator { get; set; }
+        /// <summary>
+        /// Get i set metoda za film koji je predmet zahteva.
+        /// </summary>
         public Film Film { get; set; }
+        /// <summary>
+        /// Get i set metoda za listu uloga koje su trenutno u filmu ili trebaju da se dodaju filmu koji je predmet zahteva.
+        /// </summary>
         public List<Uloga> Uloge { get; set; }
-
+        /// <inheritdoc/>
+        
         public string TableName => "ZahtevZaFilm";
 
         public string InsertValues => $"{Help.Instance.boolToNumber(Odobren)}, {Help.Instance.boolToNumber(Obradjen)}, null, {Film.Id}";

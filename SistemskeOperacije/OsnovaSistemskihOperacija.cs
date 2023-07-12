@@ -9,15 +9,29 @@ using System.Threading.Tasks;
 
 namespace SistemskeOperacije
 {
+    /// <summary>
+    /// Apstraktna klasa u kojoj definisemo sve zajednicke delove svake sistemske operacije.
+    /// </summary>
     public abstract class OsnovaSistemskihOperacija
     {
+        /// <summary>
+        /// repozitorijum preko kojeg komuniciramo sa DbConnection-om.
+        /// </summary>
         public IDbRepository<IDomenObjekat> repository;
 
+        /// <summary>
+        /// Neparametarski konstruktor preko kojeg inicijalizujemo atribut repository.
+        /// </summary>
         public OsnovaSistemskihOperacija()
         {
             repository = new GenericRepository();
         }
 
+        /// <summary>
+        /// metoda koja izvrsava sistemsku operaciju i commit-uje rad nad bazom.
+        /// Ako dodje do exception-a
+        /// 
+        /// </summary>
         public void Izvrsi() 
         {
             try

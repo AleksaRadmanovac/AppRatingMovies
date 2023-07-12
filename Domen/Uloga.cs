@@ -7,27 +7,57 @@ using System.Threading.Tasks;
 
 namespace Domen
 {
+    /// <summary>
+    /// Uloga koja sadrzi film iz kog je uloga, glumac koji glumi u ulozi, ime uloge, da li je ona glavna
+    /// i lista ocena te uloge.
+    /// Implementira interfejs IDomenObjekat.
+    /// </summary>
     [Serializable]
     public class Uloga : IDomenObjekat
     {
+        /// <summary>
+        /// Get i set metoda za film u kom se pojavljuje uloga.
+        /// </summary>
         public Film Film { get; set; }
+        /// <summary>
+        /// Get i set metoda za glumca koji glumi u ulozi.
+        /// </summary>
         public Glumac Glumac { get; set; }
+        /// <summary>
+        /// Get i set metoda za ime uloge.
+        /// </summary>
         public string Ime { get; set; }
+        /// <summary>
+        /// Get i set metoda za boolean vrednost koja pokazuje da li je uloga glavna(true) ili ne(false).
+        /// </summary>
         public bool JeGlavna { get; set; }
+        /// <summary>
+        /// Get i set metoda za listu ocena za ulogu.
+        /// </summary>
         public List<OcenaUloge> Ocene { get; set; }
-        public string TableName => "Uloga";
+        /// <summary>
+        /// Metoda koja vraca string sa imenom i prezimenom glumca zajedno sa imenom uloge i "(glavna)" ako je uloga glavna..
+        /// </summary>
+        /// <returns>string sa imenom i prezimenom glumca zajedno sa imenom uloge i "(glavna)" ako je uloga glavna.</returns>
         public override string ToString()
         {
             if (JeGlavna == true) return $"{Glumac.Ime} {Glumac.Prezime} u ulozi {Ime}(glavna)";
             return $"{Glumac.Ime} {Glumac.Prezime} u ulozi {Ime}";
         }
+        /// <summary>
+        /// Metoda koja proverava da li je prosledjen objekat uloga i poziva equals metodu za film i glumca oba objekta.
+        /// </summary>
+        /// <param name="obj">objekat sa kojim se uporedjuje</param>
+        /// <returns>true - ako je prosledjen objekat uloga i equals metoda za film i glumca su true. false - u suprotnom.</returns>
         public override bool Equals(object obj)
         {
             return obj is Uloga uloga &&
                    EqualityComparer<Film>.Default.Equals(Film, uloga.Film) &&
                    EqualityComparer<Glumac>.Default.Equals(Glumac, uloga.Glumac);
         }
+/// <inheritdoc/>
 
+        public string TableName => "Uloga";
         public string InsertValues => $"{Film.Id}, {Glumac.Id}, '{Ime}', {Help.Instance.boolToNumber(JeGlavna)}";
 
         public string PrimarniKljuc => $"FilmID = {Film.Id} AND GlumacID = {Glumac.Id}";

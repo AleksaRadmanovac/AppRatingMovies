@@ -7,14 +7,36 @@ using System.Threading.Tasks;
 
 namespace Domen
 {
+    /// <summary>
+    /// Zahtev za glumca koji predstavlja zahtev korisnika administratoru za unos glumca u prikazane glumce,
+    /// sadrzi id, boolean o tome da li je odobren, boolean o tome da li je obradjen,
+    /// administratora koji obradjuje zahtev, glumca koji je predmet zahteva.
+    /// </summary>
     [Serializable]
     public class ZahtevZaGlumca : IDomenObjekat
     {
+        /// <summary>
+        /// Get i set metoda za id koji predstavlja primarni kljuc.
+        /// </summary>
         public int Id { get; set; }
+        /// <summary>
+        /// Get i set metoda za boolean koji predstavlja da li je zahtev za unos glumca u prikazane glumce odobren
+        /// ili odbijen.
+        /// </summary>
         public bool Odobren { get; set; } = false;
+        /// <summary>
+        /// Get i set metoda za boolean koji predstavlja da li je zahtev obradjen od strane administratora.
+        /// </summary>
         public bool Obradjen { get; set; } = false;
+        /// <summary>
+        /// Get i set metoda za administratora koji obradjuje zahtev.
+        /// </summary>
         public Administrator Administrator { get; set; }
+        /// <summary>
+        /// Get i set metoda za film koji je predmet zahteva.
+        /// </summary>
         public Glumac Glumac { get; set; }
+/// <inheritdoc/>
 
         public string TableName => "ZahtevZaGlumca";
 
