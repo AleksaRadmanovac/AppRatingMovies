@@ -29,8 +29,7 @@ namespace SistemskeOperacije
 
         /// <summary>
         /// metoda koja izvrsava sistemsku operaciju i commit-uje rad nad bazom.
-        /// Ako dodje do exception-a
-        /// 
+        /// Ako dodje do exception-a izvrsava se rollback, i baca se taj exception.
         /// </summary>
         public void Izvrsi() 
         {
@@ -50,6 +49,9 @@ namespace SistemskeOperacije
             } 
         }
 
+        /// <summary>
+        /// apstraktna metoda izvrsavanja sistemske operacije.
+        /// </summary>
         protected abstract void IzvrsiSistemskuOperaciju();
 
     }

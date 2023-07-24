@@ -1,0 +1,188 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/radma/source/repos/AleksaRadmanovac/AppRatingMovies/Server",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "COezcVP/VVCwShuMhuUw1lNQ2vN27tC+kG68Xo+YMjU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "a9TVpgMB+FT+zHMR/ZBCoSLr78NqhHzzKzId+1+HDmI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "BlPxk5mtl2kgfcZUgkEguqiSAR/EUyUTT4EdebwkQvs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "66pOtUCCJJFnXc2GqxlLC52qBtikre3BWc3NMeM+VsM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Server.ClientHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Server.ClientHandler.html",
+          "hash": "fE1aX+3gaP1mCGlHXN+8GhTbJhS6yQl+lf7VXneiN8M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Server.Controller.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Server.Controller.html",
+          "hash": "J3WaMZmfDhYhw5D3zBEU356PJWvVifdiwujzCxDvt+o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Server.Server.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Server.Server.html",
+          "hash": "GphzFmekBM0qwc1zKQAy9Y5xdT5sDVx4Ws3nqWb3+ck="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Server.ServerForm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Server.ServerForm.html",
+          "hash": "5bnuEGwfWu1Lq6l9sxm9ISgJFM8oHBCmOsO6XYGUrI8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Server.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Server.html",
+          "hash": "3ZQi6GpWcJQJrVszlOGIi8NiaPUWUDIpAW9GpNUXSlU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "obj/api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "lIeiFY8qt4e6kKfM0cqEkuv/LLcVo1JNVfa1Hh/6qVg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "Oa9PuD4E1hvZnCkVjUgzNBX6S00Zo5YilamTERTZo54="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Disable incremental build by force rebuild option.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "ForceRebuild"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 5,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: it's disabled.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

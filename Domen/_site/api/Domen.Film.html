@@ -1,0 +1,712 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Film
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Film
+   ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Domen.Film">
+  
+  
+  <h1 id="Domen_Film" data-uid="Domen.Film" class="text-break">Class Film
+  </h1>
+  <div class="markdown level0 summary"><p>Predstavlja film koji u sebi sadrzi id, naziv filma, zanr filma, da li je trenutno prikazan,
+listu uloga koje se prijavljuje u filmu, listu ocena koje je film dobio.
+Implementira interfejs IDomenObjekat.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">Film</span></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Domen.IDomenObjekat.html">IDomenObjekat</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Domen.html">Domen</a></h6>
+  <h6><strong>Assembly</strong>: Domen.dll</h6>
+  <h5 id="Domen_Film_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+public class Film : IDomenObjekat</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/new/dokumentacija/apiSpec/new?filename=Domen_Film_Id.md&amp;value=---%0Auid%3A%20Domen.Film.Id%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/blob/dokumentacija/Domen/Film.cs/#L24">View Source</a>
+  </span>
+  <a id="Domen_Film_Id_" data-uid="Domen.Film.Id*"></a>
+  <h4 id="Domen_Film_Id" data-uid="Domen.Film.Id">Id</h4>
+  <div class="markdown level1 summary"><p>Get i set metoda za id koji predstavlja primarni kljuc za film.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Id { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/new/dokumentacija/apiSpec/new?filename=Domen_Film_InsertValues.md&amp;value=---%0Auid%3A%20Domen.Film.InsertValues%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/blob/dokumentacija/Domen/Film.cs/#L67">View Source</a>
+  </span>
+  <a id="Domen_Film_InsertValues_" data-uid="Domen.Film.InsertValues*"></a>
+  <h4 id="Domen_Film_InsertValues" data-uid="Domen.Film.InsertValues">InsertValues</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string InsertValues { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/new/dokumentacija/apiSpec/new?filename=Domen_Film_Joins.md&amp;value=---%0Auid%3A%20Domen.Film.Joins%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/blob/dokumentacija/Domen/Film.cs/#L71">View Source</a>
+  </span>
+  <a id="Domen_Film_Joins_" data-uid="Domen.Film.Joins*"></a>
+  <h4 id="Domen_Film_Joins" data-uid="Domen.Film.Joins">Joins</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Joins { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/new/dokumentacija/apiSpec/new?filename=Domen_Film_Naziv.md&amp;value=---%0Auid%3A%20Domen.Film.Naziv%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/blob/dokumentacija/Domen/Film.cs/#L28">View Source</a>
+  </span>
+  <a id="Domen_Film_Naziv_" data-uid="Domen.Film.Naziv*"></a>
+  <h4 id="Domen_Film_Naziv" data-uid="Domen.Film.Naziv">Naziv</h4>
+  <div class="markdown level1 summary"><p>Get i set metoda za naziv filma.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Naziv { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/new/dokumentacija/apiSpec/new?filename=Domen_Film_Ocene.md&amp;value=---%0Auid%3A%20Domen.Film.Ocene%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/blob/dokumentacija/Domen/Film.cs/#L44">View Source</a>
+  </span>
+  <a id="Domen_Film_Ocene_" data-uid="Domen.Film.Ocene*"></a>
+  <h4 id="Domen_Film_Ocene" data-uid="Domen.Film.Ocene">Ocene</h4>
+  <div class="markdown level1 summary"><p>Get i set metoda za listu ocena za film.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;OcenaFilma&gt; Ocene { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Domen.OcenaFilma.html">OcenaFilma</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/new/dokumentacija/apiSpec/new?filename=Domen_Film_Output.md&amp;value=---%0Auid%3A%20Domen.Film.Output%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/blob/dokumentacija/Domen/Film.cs/#L75">View Source</a>
+  </span>
+  <a id="Domen_Film_Output_" data-uid="Domen.Film.Output*"></a>
+  <h4 id="Domen_Film_Output" data-uid="Domen.Film.Output">Output</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Output { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/new/dokumentacija/apiSpec/new?filename=Domen_Film_Prikazan.md&amp;value=---%0Auid%3A%20Domen.Film.Prikazan%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/blob/dokumentacija/Domen/Film.cs/#L36">View Source</a>
+  </span>
+  <a id="Domen_Film_Prikazan_" data-uid="Domen.Film.Prikazan*"></a>
+  <h4 id="Domen_Film_Prikazan" data-uid="Domen.Film.Prikazan">Prikazan</h4>
+  <div class="markdown level1 summary"><p>Get i set metoda za boolean koji pokazuje da li je film prikazan.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Prikazan { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/new/dokumentacija/apiSpec/new?filename=Domen_Film_PrimarniKljuc.md&amp;value=---%0Auid%3A%20Domen.Film.PrimarniKljuc%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/blob/dokumentacija/Domen/Film.cs/#L69">View Source</a>
+  </span>
+  <a id="Domen_Film_PrimarniKljuc_" data-uid="Domen.Film.PrimarniKljuc*"></a>
+  <h4 id="Domen_Film_PrimarniKljuc" data-uid="Domen.Film.PrimarniKljuc">PrimarniKljuc</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string PrimarniKljuc { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/new/dokumentacija/apiSpec/new?filename=Domen_Film_TableName.md&amp;value=---%0Auid%3A%20Domen.Film.TableName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/blob/dokumentacija/Domen/Film.cs/#L65">View Source</a>
+  </span>
+  <a id="Domen_Film_TableName_" data-uid="Domen.Film.TableName*"></a>
+  <h4 id="Domen_Film_TableName" data-uid="Domen.Film.TableName">TableName</h4>
+  <div class="markdown level1 summary"><p>Get metoda za string koji predstavlja ime tabele.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string TableName { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/new/dokumentacija/apiSpec/new?filename=Domen_Film_Uloge.md&amp;value=---%0Auid%3A%20Domen.Film.Uloge%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/blob/dokumentacija/Domen/Film.cs/#L40">View Source</a>
+  </span>
+  <a id="Domen_Film_Uloge_" data-uid="Domen.Film.Uloge*"></a>
+  <h4 id="Domen_Film_Uloge" data-uid="Domen.Film.Uloge">Uloge</h4>
+  <div class="markdown level1 summary"><p>Get i set metoda za listu uloga koje se pojavljuju u filmu.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Uloga&gt; Uloge { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Domen.Uloga.html">Uloga</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/new/dokumentacija/apiSpec/new?filename=Domen_Film_Update.md&amp;value=---%0Auid%3A%20Domen.Film.Update%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/blob/dokumentacija/Domen/Film.cs/#L73">View Source</a>
+  </span>
+  <a id="Domen_Film_Update_" data-uid="Domen.Film.Update*"></a>
+  <h4 id="Domen_Film_Update" data-uid="Domen.Film.Update">Update</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Update { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/new/dokumentacija/apiSpec/new?filename=Domen_Film_Zanr.md&amp;value=---%0Auid%3A%20Domen.Film.Zanr%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/blob/dokumentacija/Domen/Film.cs/#L32">View Source</a>
+  </span>
+  <a id="Domen_Film_Zanr_" data-uid="Domen.Film.Zanr*"></a>
+  <h4 id="Domen_Film_Zanr" data-uid="Domen.Film.Zanr">Zanr</h4>
+  <div class="markdown level1 summary"><p>Get i set metoda za zanr filma.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Zanr Zanr { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Domen.Zanr.html">Zanr</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/new/dokumentacija/apiSpec/new?filename=Domen_Film_Equals_System_Object_.md&amp;value=---%0Auid%3A%20Domen.Film.Equals(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/blob/dokumentacija/Domen/Film.cs/#L51">View Source</a>
+  </span>
+  <a id="Domen_Film_Equals_" data-uid="Domen.Film.Equals*"></a>
+  <h4 id="Domen_Film_Equals_System_Object_" data-uid="Domen.Film.Equals(System.Object)">Equals(Object)</h4>
+  <div class="markdown level1 summary"><p>Metoda koja proverava da li je prosledjen objekat film i da li ima isti id.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">obj</span></td>
+        <td><p>objekat sa kojim se uporedjuje</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>true - ako je prosledjen objekat film i da li ima isti id. false - ako nije.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Object.Equals(System.Object)</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/new/dokumentacija/apiSpec/new?filename=Domen_Film_GetObj_System_Data_SqlClient_SqlDataReader_.md&amp;value=---%0Auid%3A%20Domen.Film.GetObj(System.Data.SqlClient.SqlDataReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/blob/dokumentacija/Domen/Film.cs/#L83">View Source</a>
+  </span>
+  <a id="Domen_Film_GetObj_" data-uid="Domen.Film.GetObj*"></a>
+  <h4 id="Domen_Film_GetObj_System_Data_SqlClient_SqlDataReader_" data-uid="Domen.Film.GetObj(System.Data.SqlClient.SqlDataReader)">GetObj(SqlDataReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IDomenObjekat GetObj(SqlDataReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.SqlClient.SqlDataReader</span></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Domen.IDomenObjekat.html">IDomenObjekat</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/new/dokumentacija/apiSpec/new?filename=Domen_Film_Search_System_String_.md&amp;value=---%0Auid%3A%20Domen.Film.Search(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/blob/dokumentacija/Domen/Film.cs/#L77">View Source</a>
+  </span>
+  <a id="Domen_Film_Search_" data-uid="Domen.Film.Search*"></a>
+  <h4 id="Domen_Film_Search_System_String_" data-uid="Domen.Film.Search(System.String)">Search(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Search(string kriterijum)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">kriterijum</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/new/dokumentacija/apiSpec/new?filename=Domen_Film_ToString.md&amp;value=---%0Auid%3A%20Domen.Film.ToString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/blob/dokumentacija/Domen/Film.cs/#L60">View Source</a>
+  </span>
+  <a id="Domen_Film_ToString_" data-uid="Domen.Film.ToString*"></a>
+  <h4 id="Domen_Film_ToString" data-uid="Domen.Film.ToString">ToString()</h4>
+  <div class="markdown level1 summary"><p>Metoda koja vraca string sa nazivom filma i zanrom u zagradi.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>string sa nazivom filma i zanrom u zagradi.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Object.ToString()</span></div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Domen.IDomenObjekat.html">IDomenObjekat</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/new/dokumentacija/apiSpec/new?filename=Domen_Film.md&amp;value=---%0Auid%3A%20Domen.Film%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/blob/dokumentacija/Domen/Film.cs/#L18" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

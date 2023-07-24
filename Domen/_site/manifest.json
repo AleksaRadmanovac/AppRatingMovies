@@ -1,0 +1,500 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/radma/source/repos/AleksaRadmanovac/AppRatingMovies/Domen",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "G8K7ah/ZvnjrQkc+lE6Eb9L9ai8itCAJP/FulxTGVlI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "3wxTbtUK5/112Yh2cw7YGTt/9824Itp5GE/HEbMihhc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "BlPxk5mtl2kgfcZUgkEguqiSAR/EUyUTT4EdebwkQvs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "cgdhLgVJtgW3+zCDyd+cFOWFhT14c+J/rH+hgxJfElE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Domen.Administrator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Domen.Administrator.html",
+          "hash": "oD8PTsNwF4mZb5+M7aRCeqEvqGIBzX55gepz+qcmJ3o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Domen.Communication.CuvanjeOdlukeZahtev.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Domen.Communication.CuvanjeOdlukeZahtev.html",
+          "hash": "XvcxsdvjEBN/jcssqSG9LXq8gJtOGQkA6B7Vxfi1EB4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Domen.Communication.LoginOdgovor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Domen.Communication.LoginOdgovor.html",
+          "hash": "mIFquzdrTVvW86K6GLIpS0xInSLjz0a3slLVWRa8Tas="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Domen.Communication.LoginZahtev.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Domen.Communication.LoginZahtev.html",
+          "hash": "YY7dGOsob2rDQTfFpuwnATkAIWTciczHfy2Ql4GFt2Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Domen.Communication.OceneZahtev.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Domen.Communication.OceneZahtev.html",
+          "hash": "WrSyfDVQKcAXSJ9Q+UBfVizCbSvj9BPPVd/bpaFWJCM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Domen.Communication.Odgovor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Domen.Communication.Odgovor.html",
+          "hash": "DLNVwtOcE3hUA9LusmCMmI3CQzk1/cGpw5VLCgGdV/8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Domen.Communication.Operacija.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Domen.Communication.Operacija.html",
+          "hash": "pPnraLErOv5FiJurTnVxZHZ8iZECBc9HfqwDwAlEZx4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Domen.Communication.SlanjePrijem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Domen.Communication.SlanjePrijem.html",
+          "hash": "voCP9lvPElthjeYMJIkGccPNY0w7YwFllnZgn2P/kD4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Domen.Communication.VratiOceneOdgovor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Domen.Communication.VratiOceneOdgovor.html",
+          "hash": "HI5LFNe/Yg2GulSVjSr3sT2Lg7/A457P0/8lmfTs8kc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Domen.Communication.Zahtev.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Domen.Communication.Zahtev.html",
+          "hash": "Li2dN7+4JqHV4gWiViBUrJLT2myN468rpKa1rIcIGNk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Domen.Communication.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Domen.Communication.html",
+          "hash": "HQiX6+fc03uwBRPtjAeUoy/3QninGoVzRSj/sKGyWZ0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Domen.Exceptions.MissingFilmException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Domen.Exceptions.MissingFilmException.html",
+          "hash": "j13WnuhZK4JSKKQfn1Tuz6o9YANDn8IyO9578i5cess="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Domen.Exceptions.MissingGlumacException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Domen.Exceptions.MissingGlumacException.html",
+          "hash": "eRYME/Eg6aKHbPXJPclxfbBPdmT6JqjZ1CtUehEkmO4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Domen.Exceptions.MissingOcenaException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Domen.Exceptions.MissingOcenaException.html",
+          "hash": "9mXC2+3uIYbBUXbvKoIcF8VePMqvgrVAiOQxBOsoHXM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Domen.Exceptions.MissingZahtevException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Domen.Exceptions.MissingZahtevException.html",
+          "hash": "BjCBHtT9Fe0wf/0K+xhYCl8quuRB7eMQ2u/2wMM4dco="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Domen.Exceptions.UsernamePostojiException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Domen.Exceptions.UsernamePostojiException.html",
+          "hash": "wuZF70N5ZPI6xsLM5Y6/zjoMhSZ+rrte7yjIzeh0dXQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Domen.Exceptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Domen.Exceptions.html",
+          "hash": "qXcG/XgmWEN/6+Zl/9UM0FYilaQqKZiJNwiLR+hUUcw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Domen.Film.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Domen.Film.html",
+          "hash": "htaUySjeD2RoP7zipQTnTd8EaQ0T4owM0olz6XVuGbg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Domen.Glumac.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Domen.Glumac.html",
+          "hash": "sL8rq1r1vC2f+kdVZVf4aGp5OXxNSYIprVucDL8yPvI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Domen.Help.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Domen.Help.html",
+          "hash": "buiwN1voK2LMyOqQ6WzQ/RXAAoHFUAqPc8at1sG24hw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Domen.IDomenObjekat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Domen.IDomenObjekat.html",
+          "hash": "CGR2rzdG+LWyDBcFmvSJs5UMGUxHofjDQx2O6nitGN8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Domen.Korisnik.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Domen.Korisnik.html",
+          "hash": "JxkQKzgxfkdvM/VarYMeyNuvpJ008528Hv53hYjdNRY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Domen.OcenaFilma.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Domen.OcenaFilma.html",
+          "hash": "R+2LjtIYVMTCyf6wI/9yCz5djXAsckZcOEY0bAynAzU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Domen.OcenaGlumca.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Domen.OcenaGlumca.html",
+          "hash": "PYDjCtjP3B3dxW2piBPlA3DLSZlfTy1J71ZMJKGNLiI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Domen.OcenaUloge.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Domen.OcenaUloge.html",
+          "hash": "dva6FAWcrhaE/NHDY328jEKnT8TvgFBcK67fqTwGdm4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Domen.Pol.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Domen.Pol.html",
+          "hash": "XXc1RxJQyYjfiGwWi4JCjbTt3Enf4szS6NBFPeyEHyU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Domen.Uloga.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Domen.Uloga.html",
+          "hash": "Fi0uPxF90Q0mMqvtomfCMBG6BVh9cd9yZleTlbto5NU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Domen.ZahtevZaFilm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Domen.ZahtevZaFilm.html",
+          "hash": "y+u9t0dGCUa6hoxqdlAlUS03VXVztqY4i2ov+uIpot0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Domen.ZahtevZaGlumca.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Domen.ZahtevZaGlumca.html",
+          "hash": "9OrWgX9c4sYaJ2d8UNVWQfeaBAsh8HE6eTwbc+XgKLU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Domen.Zanr.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Domen.Zanr.html",
+          "hash": "x85cvqdKPT+S/+smLMZ7vrFlwt9qywr9vLZGXe1/irA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Domen.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Domen.html",
+          "hash": "9zc0b4urJHOquUEQZpEWsyqH5adtWm6DB6OAINOpaUo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "obj/api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "s3GnRUrK9+dQtv+18P3167qYtUIfdlcotI2FJhCdN4c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "Oa9PuD4E1hvZnCkVjUgzNBX6S00Zo5YilamTERTZo54="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Disable incremental build by force rebuild option.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "ForceRebuild"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 31,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: it's disabled.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

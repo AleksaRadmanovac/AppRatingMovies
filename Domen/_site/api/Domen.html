@@ -1,0 +1,177 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Namespace Domen
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Namespace Domen
+   ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Domen">
+  
+  <h1 id="Domen" data-uid="Domen" class="text-break">Namespace Domen
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="markdown level0 remarks"></div>
+    <h3 id="classes">Classes
+  </h3>
+      <h4><a class="xref" href="Domen.Administrator.html">Administrator</a></h4>
+      <section><p>Predstavlja nalog administratora koji u sebi sadrzi id, username, password i broj obradjenih zahteva tog administratora.
+Implementira interfejs IDomenObjekat.</p>
+</section>
+      <h4><a class="xref" href="Domen.Film.html">Film</a></h4>
+      <section><p>Predstavlja film koji u sebi sadrzi id, naziv filma, zanr filma, da li je trenutno prikazan,
+listu uloga koje se prijavljuje u filmu, listu ocena koje je film dobio.
+Implementira interfejs IDomenObjekat.</p>
+</section>
+      <h4><a class="xref" href="Domen.Glumac.html">Glumac</a></h4>
+      <section><p>Predstavlja glumca koji sadrzi id, ime glumca, prezime glumca, godiste glumca, pol glumca,
+da li je prikazan, lista ocena za tog glumca</p>
+</section>
+      <h4><a class="xref" href="Domen.Help.html">Help</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Domen.Korisnik.html">Korisnik</a></h4>
+      <section><p>Predstavlja nalog korisnika koji u sebi sadrzi id, username korisnika, password korisnika, pol korisnika.
+Implementira interfejs IDomenObjekat.</p>
+</section>
+      <h4><a class="xref" href="Domen.OcenaFilma.html">OcenaFilma</a></h4>
+      <section><p>Ocena filma koja sadrzi korisnika koji je ocenio film, film koji je ocenjen, ocenu i komentar.
+Implementira interfejs IDomenObjekat.</p>
+</section>
+      <h4><a class="xref" href="Domen.OcenaGlumca.html">OcenaGlumca</a></h4>
+      <section><p>Ocena glumca koja sadrzi korisnika koji je ocenio glumca, glumac koji je ocenjen, ocenu i komentar.
+Implementira interfejs IDomenObjekat.</p>
+</section>
+      <h4><a class="xref" href="Domen.OcenaUloge.html">OcenaUloge</a></h4>
+      <section><p>Ocena uloge koja sadrzi korisnika koji je ocenio ulogu, uloga koja je ocenjena, ocenu i komentar.
+Implementira interfejs IDomenObjekat.</p>
+</section>
+      <h4><a class="xref" href="Domen.Uloga.html">Uloga</a></h4>
+      <section><p>Uloga koja sadrzi film iz kog je uloga, glumac koji glumi u ulozi, ime uloge, da li je ona glavna
+i lista ocena te uloge.
+Implementira interfejs IDomenObjekat.</p>
+</section>
+      <h4><a class="xref" href="Domen.ZahtevZaFilm.html">ZahtevZaFilm</a></h4>
+      <section><p>Zahtev za film koji predstavlja zahtev korisnika administratoru za unos filma u prikazane filmove ili
+uloge koje trebaju da se pridruze postojecem filmu,
+sadrzi id, boolean o tome da li je odobren, boolean o tome da li je obradjen,
+administratora koji obradjuje zahtev, film koji je predmet zahteva, uloge koje postoje u filmu.</p>
+</section>
+      <h4><a class="xref" href="Domen.ZahtevZaGlumca.html">ZahtevZaGlumca</a></h4>
+      <section><p>Zahtev za glumca koji predstavlja zahtev korisnika administratoru za unos glumca u prikazane glumce,
+sadrzi id, boolean o tome da li je odobren, boolean o tome da li je obradjen,
+administratora koji obradjuje zahtev, glumca koji je predmet zahteva.</p>
+</section>
+    <h3 id="interfaces">Interfaces
+  </h3>
+      <h4><a class="xref" href="Domen.IDomenObjekat.html">IDomenObjekat</a></h4>
+      <section><p>Predstavlja interfejs koji implementiraju svi domenski objekti,
+u sebi sadrzi stringove potrebne za pozivanje sql upita.</p>
+</section>
+    <h3 id="enums">Enums
+  </h3>
+      <h4><a class="xref" href="Domen.Pol.html">Pol</a></h4>
+      <section><p>Enumerator koji predstavlja pol</p>
+</section>
+      <h4><a class="xref" href="Domen.Zanr.html">Zanr</a></h4>
+      <section><p>Enumerator koji predstavlja zanr filma</p>
+</section>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -8,10 +8,10 @@ using System.Threading.Tasks;
 namespace Domen
 {
     /// <summary>
-    /// Zahtev za film koji predstavlja zahtev korisnika administratoru za unos filma u prikazane filmove,
+    /// Zahtev za film koji predstavlja zahtev korisnika administratoru za unos filma u prikazane filmove ili
+    /// uloge koje trebaju da se pridruze postojecem filmu,
     /// sadrzi id, boolean o tome da li je odobren, boolean o tome da li je obradjen,
-    /// administratora koji obradjuje zahtev, film koji je predmet zahteva, uloge koje postoje u filmu ili trebaju
-    /// da mu se pridruze.
+    /// administratora koji obradjuje zahtev, film koji je predmet zahteva, uloge koje postoje u filmu.
     /// </summary>
     [Serializable]
     public class ZahtevZaFilm : IDomenObjekat

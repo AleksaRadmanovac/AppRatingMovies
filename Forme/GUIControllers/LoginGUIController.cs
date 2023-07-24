@@ -74,7 +74,7 @@ namespace Forme.GUIControllers
                 login.TxtBoxUsername.BorderStyle = BorderStyle.FixedSingle;
                 login.TxtBoxUsername.BackColor = Color.IndianRed;
                 login.LblError.Visible = true;
-                MessageBox.Show("Film već postoji na listi filmova, zahtev odbijen");
+                MessageBox.Show("Neuspesno logovanje");
             }
         }
 

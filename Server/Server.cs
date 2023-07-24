@@ -47,7 +47,7 @@ namespace Server
                     thread.IsBackground = true;
                     thread.Start();
                 }
-                catch (Exception ex) { }                
+                catch (Exception) { }                
             }
         }
         public void Close()

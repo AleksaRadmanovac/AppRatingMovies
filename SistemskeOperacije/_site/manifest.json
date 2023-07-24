@@ -1,0 +1,488 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/radma/source/repos/AleksaRadmanovac/AppRatingMovies/SistemskeOperacije",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "BxsYvGJ+IZkHEp0Tsac/+zIl4XvYr23Pc/8H4MuxZgg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "7E704dknw/3xPam9WtGvgadb87Ipavwx9Ng2ORgqUmM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "BlPxk5mtl2kgfcZUgkEguqiSAR/EUyUTT4EdebwkQvs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "uls2dw0p+oyZ6qllhlYa9fhH1wr1IT65O85DDI2kXqI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SistemskeOperacije.OsnovaSistemskihOperacija.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SistemskeOperacije.OsnovaSistemskihOperacija.html",
+          "hash": "uSbdUNgrBM1oHf9rK1Xy0TOIpjac/tkXUGhkweuR4gE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SistemskeOperacije.SOCuvanjeOdluke.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SistemskeOperacije.SOCuvanjeOdluke.html",
+          "hash": "iTDp2NCIup3QYwnrioNbA7oPZqzqYTSDN7pvNdcw+hA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SistemskeOperacije.SOCuvanjeOdlukeZaGlumca.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SistemskeOperacije.SOCuvanjeOdlukeZaGlumca.html",
+          "hash": "5or5PAG4RPAm0RXbAL7F0zGJn2DdXm9fksnuVjo4IYY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SistemskeOperacije.SODodajUlogu.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SistemskeOperacije.SODodajUlogu.html",
+          "hash": "Xc6sRqY5LQ1yie1LbxKElxSk52IMknPkrHK18ZXtyEo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SistemskeOperacije.SOLogin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SistemskeOperacije.SOLogin.html",
+          "hash": "KbEU3emXedkTrF3N3VZwWvatEiQxgi2eqeFBvmQSpTk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SistemskeOperacije.SOPrikaziFilm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SistemskeOperacije.SOPrikaziFilm.html",
+          "hash": "XXMmF2LNkzpgnijFsDbjLMHsmiDkonhT/4jMy7XAeBM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SistemskeOperacije.SOPrikaziGlumca.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SistemskeOperacije.SOPrikaziGlumca.html",
+          "hash": "oPb8Zis391KjvcbAAIVLifk+xTT7FplWP9VnXXIWHC8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SistemskeOperacije.SOPromeniOcene.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SistemskeOperacije.SOPromeniOcene.html",
+          "hash": "ktxZAqXKn7tO4lt53phQKMD1JCo1J//QLIkXHQ5/2EU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SistemskeOperacije.SOPromeniOcenuGlumca.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SistemskeOperacije.SOPromeniOcenuGlumca.html",
+          "hash": "bPy0PlkgboDWA4WtOUCM672BobFQWerRNJbdhk4QwXM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SistemskeOperacije.SOPronadjiFilmove.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SistemskeOperacije.SOPronadjiFilmove.html",
+          "hash": "TqrzXkdFPtLJDAIL9NLP3Y8xkJXzPQ96kVIhfYMQtxg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SistemskeOperacije.SOPronadjiFilmovePoGlumcu.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SistemskeOperacije.SOPronadjiFilmovePoGlumcu.html",
+          "hash": "pC8rRg9wk8pl8G3sz6BjerzIH5WfD0xPiTa2t0H6Pic="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SistemskeOperacije.SOPronadjiGlumce.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SistemskeOperacije.SOPronadjiGlumce.html",
+          "hash": "6rQAX8S/yddP9x9p51EW8q8EmFbmNhc4sUVEfO4JwX4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SistemskeOperacije.SORegistracija.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SistemskeOperacije.SORegistracija.html",
+          "hash": "K6tUD/cxExZ5HcbuoeR81RTOSjCxep4e1JTkgHvqB3g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SistemskeOperacije.SORegistracijaAdministratora.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SistemskeOperacije.SORegistracijaAdministratora.html",
+          "hash": "dR00O+VZzUAf9eV+rshAN24WGhrqPrtXLrB4is3scv8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SistemskeOperacije.SOSacuvajOcene.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SistemskeOperacije.SOSacuvajOcene.html",
+          "hash": "khLTtFOa2QNmgfJPo99OxnidEenZ1UkIbzBaJ9R7+pQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SistemskeOperacije.SOSacuvajOcenuGlumca.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SistemskeOperacije.SOSacuvajOcenuGlumca.html",
+          "hash": "f6Q9yzq+/pC/lyvZzo3ur1kIXyAdMvc5s7YDGXSIHKg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SistemskeOperacije.SOSacuvajZahtev.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SistemskeOperacije.SOSacuvajZahtev.html",
+          "hash": "2NArDS1tQl1fvjA1C/YHPR9HXz6fj1CAByAwvapLUmA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SistemskeOperacije.SOSacuvajZahtevZaGlumca.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SistemskeOperacije.SOSacuvajZahtevZaGlumca.html",
+          "hash": "nvFLWfz6RwNLlpLPgdqI+pfyr5KaG3jfdi65xyKsu28="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SistemskeOperacije.SOUcitajListuFilmova.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SistemskeOperacije.SOUcitajListuFilmova.html",
+          "hash": "1z8buNcD3nHP7J2SxToU37Chz2koyAhym+YBKGUmGvg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SistemskeOperacije.SOUcitajListuGlumaca.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SistemskeOperacije.SOUcitajListuGlumaca.html",
+          "hash": "2wGAp4x6KQjg1N3X7pRkN8c1s+p2QWS5ELiZdJU/oRY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SistemskeOperacije.SOUcitajListuUlogaZaFilm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SistemskeOperacije.SOUcitajListuUlogaZaFilm.html",
+          "hash": "WhUQxxpTaKjavqdLSTaK3gZaAjRN+P24qbSNA8SO+BE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SistemskeOperacije.SOUcitajListuZahteva.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SistemskeOperacije.SOUcitajListuZahteva.html",
+          "hash": "8bW641CkpVeJJ2Anj2Iv1uwD3xz2ImWFfxmZpk7kHKw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SistemskeOperacije.SOUcitajListuZahtevaZaGlumca.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SistemskeOperacije.SOUcitajListuZahtevaZaGlumca.html",
+          "hash": "uWBjrpTOdALpXOTVegI7MzHJysukJUojUIFnu7Sl4nc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SistemskeOperacije.SOUcitavanjeZahteva.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SistemskeOperacije.SOUcitavanjeZahteva.html",
+          "hash": "4u7ECMXHGG6B8Tv3fFBtReLJgiGnd90DlBtnm+HTD1g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SistemskeOperacije.SOUcitavanjeZahtevaZaGlumca.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SistemskeOperacije.SOUcitavanjeZahtevaZaGlumca.html",
+          "hash": "AivnNAbkRoSFJmzFsbIfJjYHZZHUMbCfR8RjRrxOShE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SistemskeOperacije.SOVratiOceneFilma.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SistemskeOperacije.SOVratiOceneFilma.html",
+          "hash": "5+4er/AizZ216NNCMcjBdS8lWSJuxbRDXSqr9TGiVU8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SistemskeOperacije.SOVratiOcenuGlumca.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SistemskeOperacije.SOVratiOcenuGlumca.html",
+          "hash": "EQw5qBMVLbAOEdXFyDsheprghzamHCUAjqhGhDSm1sw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SistemskeOperacije.SOVratiSveOceneZaFilm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SistemskeOperacije.SOVratiSveOceneZaFilm.html",
+          "hash": "eiWFYkWdxNM+U3HxpNKRUi9MDF0Gjb8+0s6HlTh0bRc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SistemskeOperacije.SOVratiSveOceneZaGlumca.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SistemskeOperacije.SOVratiSveOceneZaGlumca.html",
+          "hash": "zveUbQd7mRcIyGp7Yi6uxnesvneNGhqx7bvq5W+Qjak="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SistemskeOperacije.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SistemskeOperacije.html",
+          "hash": "BpxRlyVlchq24UhpnJugxoAaADeo3fyFh9bjYxkYlpM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "obj/api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "EaDZdwciiQveiRGPDCXswXLSAID27ManvB6p/6YTIwY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "Oa9PuD4E1hvZnCkVjUgzNBX6S00Zo5YilamTERTZo54="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Disable incremental build by force rebuild option.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "ForceRebuild"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 30,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: it's disabled.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

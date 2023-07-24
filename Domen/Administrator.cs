@@ -34,17 +34,17 @@ namespace Domen
 /// <inheritdoc/>
 
         public string TableName => "Administrator";
-
+        /// <inheritdoc/>
         public string InsertValues => $"'{Username}', '{Password}', {BrojObradjenihZahteva}";
-
+        /// <inheritdoc/>
         public string PrimarniKljuc => $"id = {Id}";
-
+        /// <inheritdoc/>
         public string Joins => "";
-
+        /// <inheritdoc/>
         public string Update => $"Username='{Username}', Password = '{Password}', BrojObradjenihZahteva = {BrojObradjenihZahteva}";
-
+        /// <inheritdoc/>
         public string Output => "";
-
+        /// <inheritdoc/>
         public IDomenObjekat GetObj(SqlDataReader reader)
         {
             Administrator rez = new Administrator();
@@ -54,7 +54,7 @@ namespace Domen
             rez.BrojObradjenihZahteva = (int)reader["BrojObradjenihZahteva"];
             return rez;
         }
-
+        /// <inheritdoc/>
         public string Search(string kriterijum)
         {
             throw new NotImplementedException();
