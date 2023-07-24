@@ -18,21 +18,25 @@ namespace Domen
         /// <summary>
         /// Get i set metoda za id koji predstavlja primarni kljuc za administratora.
         /// </summary>
+        /// <value>Id koji predstavlja primarni kljuc za administratora.</value>
         public int Id { get; set; }
         /// <summary>
         /// Get i set metoda za username naloga administratora.
         /// </summary>
+        /// <value>Username naloga administratora.</value>
         public string Username { get; set; }
         /// <summary>
         /// Get i set metoda za passworda naloga administratora.
         /// </summary>
+        /// <value>Password naloga administratora.</value>
         public string Password { get; set; }
         /// <summary>
         /// Get i set metoda za broj zahteva koje je administrator obradio.
         /// </summary>
+        /// <value>Broj zahteva koje je administrator obradio.</value>
         public int BrojObradjenihZahteva { get; set; }
-/// <inheritdoc/>
-
+        
+        /// <inheritdoc/>
         public string TableName => "Administrator";
         /// <inheritdoc/>
         public string InsertValues => $"'{Username}', '{Password}', {BrojObradjenihZahteva}";

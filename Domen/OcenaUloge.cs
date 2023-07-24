@@ -17,33 +17,37 @@ namespace Domen
         /// <summary>
         /// Get i set metoda za korisnika koji je dao ocenu.
         /// </summary>
+        /// <value>Korisnik koje je dao ocenu.</value>
         public Korisnik Korisnik { get; set; }
         /// <summary>
         /// Get i set metoda za ulogu koja je ocenjena.
         /// </summary>
+        /// <value>Uloga koja je ocenjena.</value>
         public Uloga Uloga { get; set; } = new Uloga();
         /// <summary>
-        /// Get i set metoda za broj koji predstavlja ocenu uloge.
+        /// Get i set metoda za broj koji predstavlja ocenu uloge, u rasponu od 1 do 5, gde je 1 najlosija ocena, a 5 najbolja.
         /// </summary>
+        /// <value>Broj koji predstavlja ocenu uloge, u rasponu od 1 do 5, gde je 1 najlosija ocena, a 5 najbolja.</value>
         public int Ocena { get; set; }
         /// <summary>
         /// Get i set metoda za komentar.
         /// </summary>
+        /// <value>Komentar.</value>
         public string Komentar { get; set; }
-/// <inheritdoc/>
+        /// <inheritdoc/>
 
         public string TableName => "OcenaUloge";
-
+        /// <inheritdoc/>
         public string InsertValues => $"{Korisnik.Id}, {Uloga.Film.Id}, {Uloga.Glumac.Id}, {Ocena}, '{Komentar}'";
-
+        /// <inheritdoc/>
         public string PrimarniKljuc => $"OcenaUloge.KorisnikID = {Korisnik.Id} AND OcenaUloge.FilmID = {Uloga.Film.Id} AND OcenaUloge.GlumacID = {Uloga.Glumac.Id}";
-
+        /// <inheritdoc/>
         public string Joins => $"INNER JOIN Korisnik ON OcenaUloge.KorisnikID = Korisnik.ID INNER JOIN Uloga ON OcenaUloge.FilmID = Uloga.FilmID and OcenaUloge.GlumacID = Uloga.GlumacID {Uloga.Joins}";
-
+        /// <inheritdoc/>
         public string Update => $"KorisnikID={Korisnik.Id}, FilmID = {Uloga.Film.Id}, GlumacID = {Uloga.Glumac.Id}, Ocena = {Ocena}, Komentar = '{Komentar}'";
-
+        /// <inheritdoc/>
         public string Output => "";
-
+        /// <inheritdoc/>
         public IDomenObjekat GetObj(SqlDataReader reader)
         {
             OcenaUloge rez = new OcenaUloge();
@@ -71,7 +75,7 @@ namespace Domen
             rez.Komentar = (string)reader["Komentar"];
             return rez;
         }
-
+        /// <inheritdoc/>
         public string Search(string kriterijum)
         {
             throw new NotImplementedException();

@@ -17,10 +17,12 @@ namespace Domen
         /// <summary>
         /// Get i set metoda za id koji predstavlja primarni kljuc za glumca.
         /// </summary>
+        /// <value>Id koji predstavlja primarni kljuc za glumca.</value>
         public int Id { get; set; }
         /// <summary>
         /// Get i set metoda za ime glumca.
         /// </summary>
+        /// <value>Ime glumca.</value>
         public string Ime { get; set; }
         /// <summary>
         /// Get i set metoda za prezime glumca.
@@ -29,18 +31,22 @@ namespace Domen
         /// <summary>
         /// Get i set metoda za godiste glumca.
         /// </summary>
+        /// <value>Godiste glumca.</value>
         public int Godiste { get; set; }
         /// <summary>
         /// Get i set metoda za pol glumca.
         /// </summary>
+        /// <value>Pol glumca.</value>
         public Pol Pol { get; set; }
         /// <summary>
         /// Get i set metoda za boolean koji pokazuje da li je glumac prikazan.
         /// </summary>
+        /// <value>Boolean koji pokazuje da li je glumac prikazan.</value>
         public bool Prikazan { get; set; } = false;
         /// <summary>
-        /// Get i set metoda za listu ocena za ovog glumca.
+        /// Get i set metoda za listu ocena glumca.
         /// </summary>
+        /// <value>Lista ocena glumca.</value>
         public List<OcenaGlumca> Ocene { get; set; } = new List<OcenaGlumca>();
         /// <summary>
         /// Metoda koja proverava da li je prosledjen objekat glumac i da li ima isti id.
@@ -60,24 +66,27 @@ namespace Domen
         {
             return $"{Ime} {Prezime}";
         }
-/// <inheritdoc/>
+        /// <inheritdoc/>
 
         public string TableName => "Glumac";
-
+        /// <inheritdoc/>
         public string InsertValues => $"'{Ime}', '{Prezime}', {Godiste}, {(int)Pol}, {Help.Instance.boolToNumber(Prikazan)}";
-
+        /// <inheritdoc/>
         public string PrimarniKljuc => $"id = {Id}";
+        /// <inheritdoc/>
         public string Joins => "";
+        /// <inheritdoc/>
         public string Update => $"Ime='{Ime}', Prezime = '{Prezime}', Godine = {Godiste}, Pol = {(int)Pol}, Prikazan = {Help.Instance.boolToNumber(Prikazan)}";
+        /// <inheritdoc/>
         public string Search(string kriterijum)
         {
             return $"LEFT JOIN Uloga ON Glumac.ID = Uloga.GlumacID LEFT JOIN Film ON Uloga.FilmID = Film.ID WHERE Glumac.Prikazan = 1 AND " +
                 $" (Film.Naziv LIKE '{kriterijum}%' OR Uloga.Ime LIKE '{kriterijum}%' OR CONCAT(Glumac.Ime,' ',Glumac.Prezime) LIKE '{kriterijum}%')";
         }
+        /// <inheritdoc/>
         public string Output => "output inserted.id";
 
-
-
+        /// <inheritdoc/>
         public IDomenObjekat GetObj(SqlDataReader reader)
         {
             Glumac rez = new Glumac();

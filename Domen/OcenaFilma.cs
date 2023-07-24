@@ -18,33 +18,37 @@ namespace Domen
         /// <summary>
         /// Get i set metoda za korisnika koji je dao ocenu.
         /// </summary>
+        /// <value>Korisnik koji je dao ocenu.</value>
         public Korisnik Korisnik { get; set; }
         /// <summary>
         /// Get i set metoda za film koji je ocenjen.
         /// </summary>
+        /// <value>Film koji je ocenjen.</value>
         public Film Film { get; set; }
         /// <summary>
-        /// Get i set metoda za broj koji predstavlja ocenu filma.
+        /// Get i set metoda za broj koji predstavlja ocenu filma, u rasponu od 1 do 5, gde je 1 najlosija ocena, a 5 najbolja.
         /// </summary>
+        /// <value>Broj koji predstavlja ocenu filma, u rasponu od 1 do 5, gde je 1 najlosija ocena, a 5 najbolja.</value>
         public int Ocena { get; set; }
         /// <summary>
         /// Get i set metoda za komentar.
         /// </summary>
+        /// <value>Komentar.</value>
         public string Komentar { get; set; }
-/// <inheritdoc/>
+        /// <inheritdoc/>
 
         public string TableName => "OcenaFilma";
-
+        /// <inheritdoc/>
         public string InsertValues => $"{Korisnik.Id}, {Film.Id}, {Ocena}, '{Komentar}'";
-
+        /// <inheritdoc/>
         public string PrimarniKljuc => $"KorisnikID = {Korisnik.Id} AND FilmID = {Film.Id}";
-
+        /// <inheritdoc/>
         public string Joins => "INNER JOIN Korisnik ON OcenaFilma.KorisnikID = Korisnik.ID INNER JOIN Film ON OcenaFilma.FilmID = Film.ID";
-
+        /// <inheritdoc/>
         public string Update => $"KorisnikID={Korisnik.Id}, FilmID = {Film.Id}, Ocena = {Ocena}, Komentar = '{Komentar}'";
-
+        /// <inheritdoc/>
         public string Output => "";
-
+        /// <inheritdoc/>
         public IDomenObjekat GetObj(SqlDataReader reader)
         {
             OcenaFilma rez = new OcenaFilma();
@@ -62,7 +66,7 @@ namespace Domen
             rez.Komentar = (string)reader["Komentar"];
             return rez;
         }
-
+        /// <inheritdoc/>
         public string Search(string kriterijum)
         {
             throw new NotImplementedException();

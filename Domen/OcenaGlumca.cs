@@ -17,33 +17,37 @@ namespace Domen
         /// <summary>
         /// Get i set metoda za korisnika koji je dao ocenu.
         /// </summary>
+        /// <value>Korisnik koji je dao ocenu</value>
         public Korisnik Korisnik { get; set; }
         /// <summary>
         /// Get i set metoda za glumca koji je ocenjen.
         /// </summary>
+        /// <value>Glumac koji je ocenjen.</value>
         public Glumac Glumac { get; set; }
         /// <summary>
-        /// Get i set metoda za broj koji predstavlja ocenu glumca.
+        /// Get i set metoda za broj koji predstavlja ocenu glumca, u rasponu od 1 do 5, gde je 1 najlosija ocena, a 5 najbolja..
         /// </summary>
+        /// <value>Broj koji predstavlja ocenu glumca, u rasponu od 1 do 5, gde je 1 najlosija ocena, a 5 najbolja.</value>
         public int Ocena { get; set; }
         /// <summary>
         /// Get i set metoda za komentar.
         /// </summary>
+        /// <value>Komentar.</value>
         public string Komentar { get; set; }
-/// <inheritdoc/>
+        /// <inheritdoc/>
 
         public string TableName => "OcenaGlumca";
-
+        /// <inheritdoc/>
         public string InsertValues => $"{Korisnik.Id}, {Glumac.Id}, {Ocena}, '{Komentar}'";
-
+        /// <inheritdoc/>
         public string PrimarniKljuc => $"KorisnikID = {Korisnik.Id} AND GlumacID = {Glumac.Id}";
-
+        /// <inheritdoc/>
         public string Joins => "INNER JOIN Korisnik ON OcenaGlumca.KorisnikID = Korisnik.ID INNER JOIN Glumac ON OcenaGlumca.GlumacID = Glumac.ID";
-
+        /// <inheritdoc/>
         public string Update => $"KorisnikID={Korisnik.Id}, GlumacID = {Glumac.Id}, Ocena = {Ocena}, Komentar = '{Komentar}'";
-
+        /// <inheritdoc/>
         public string Output => "";
-
+        /// <inheritdoc/>
         public IDomenObjekat GetObj(SqlDataReader reader)
         {
             OcenaGlumca rez = new OcenaGlumca();
@@ -64,7 +68,7 @@ namespace Domen
             rez.Glumac.Ocene = new List<OcenaGlumca>();
             return rez;
         }
-
+        /// <inheritdoc/>
         public string Search(string kriterijum)
         {
             throw new NotImplementedException();

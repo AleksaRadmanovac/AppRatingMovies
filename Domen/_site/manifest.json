@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Domen.Administrator.html",
-          "hash": "oD8PTsNwF4mZb5+M7aRCeqEvqGIBzX55gepz+qcmJ3o="
+          "hash": "HqhWFXq5MXDHIVBtJUwfHdRlh08nptVvt4k3A68J7Qs="
         }
       },
       "is_incremental": false,
@@ -261,7 +261,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Domen.Film.html",
-          "hash": "htaUySjeD2RoP7zipQTnTd8EaQ0T4owM0olz6XVuGbg="
+          "hash": "SsSL+LEVwegfzQD0p4umBr3ogCM7rA48JqUeAbp35ao="
         }
       },
       "is_incremental": false,
@@ -273,7 +273,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Domen.Glumac.html",
-          "hash": "sL8rq1r1vC2f+kdVZVf4aGp5OXxNSYIprVucDL8yPvI="
+          "hash": "tnA1cP2zkZPLvVC01GI9J16HgYK6pqgBd4Dx53hz8YE="
         }
       },
       "is_incremental": false,
@@ -297,7 +297,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Domen.IDomenObjekat.html",
-          "hash": "CGR2rzdG+LWyDBcFmvSJs5UMGUxHofjDQx2O6nitGN8="
+          "hash": "iLxUmkIZYSV0YDTS6oAp/mlHyQZOrEITYzo88Rh4FUk="
         }
       },
       "is_incremental": false,
@@ -309,7 +309,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Domen.Korisnik.html",
-          "hash": "JxkQKzgxfkdvM/VarYMeyNuvpJ008528Hv53hYjdNRY="
+          "hash": "KKcxH4HkORT8BOsPAspwZT1ghB3dHrOLePNflp+hDh0="
         }
       },
       "is_incremental": false,
@@ -321,7 +321,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Domen.OcenaFilma.html",
-          "hash": "R+2LjtIYVMTCyf6wI/9yCz5djXAsckZcOEY0bAynAzU="
+          "hash": "dF8WhSz0lfHERvNlNrGDOU8ryF3zjDZE+VZhUZemoJk="
         }
       },
       "is_incremental": false,
@@ -333,7 +333,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Domen.OcenaGlumca.html",
-          "hash": "PYDjCtjP3B3dxW2piBPlA3DLSZlfTy1J71ZMJKGNLiI="
+          "hash": "VH9QRrMdeaKPrs78pyLo9svKZG73TozT32CTP19RnV0="
         }
       },
       "is_incremental": false,
@@ -345,7 +345,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Domen.OcenaUloge.html",
-          "hash": "dva6FAWcrhaE/NHDY328jEKnT8TvgFBcK67fqTwGdm4="
+          "hash": "MMcFsq3SNNcGuGu8ufXonV8dRHySCEiSsPVEkaM1/gg="
         }
       },
       "is_incremental": false,
@@ -369,7 +369,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Domen.Uloga.html",
-          "hash": "Fi0uPxF90Q0mMqvtomfCMBG6BVh9cd9yZleTlbto5NU="
+          "hash": "zhpRYTOP4h+eccqvX84JdFyFj29nkRg0oanaMsXFwYo="
         }
       },
       "is_incremental": false,
@@ -381,7 +381,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Domen.ZahtevZaFilm.html",
-          "hash": "y+u9t0dGCUa6hoxqdlAlUS03VXVztqY4i2ov+uIpot0="
+          "hash": "MMjw9FLdxmLPYvCSnMH6j9bQDUmura663G8MnD1MkIc="
         }
       },
       "is_incremental": false,
@@ -393,7 +393,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Domen.ZahtevZaGlumca.html",
-          "hash": "9OrWgX9c4sYaJ2d8UNVWQfeaBAsh8HE6eTwbc+XgKLU="
+          "hash": "2DbbIdhNUqvsV4/1Sm3bhIXlZN3q37kCAzYzpEvxCa8="
         }
       },
       "is_incremental": false,
