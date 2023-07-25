@@ -82,63 +82,150 @@
 </section>
       <h4><a class="xref" href="SistemskeOperacije.SOCuvanjeOdluke.html">SOCuvanjeOdluke</a></h4>
       <section><p>Sistemska operacija cuvanja odluke koju je administrator doneo povodom unosa filma iz zahteva u prikazane filmove
-ili dodavanje uloga postojecem filmu.
+ili dodavanje uloga postojecem filmu. U sebi sadrzi atribute ZahtevZaFilm, DodavanjeUloga i override metode IzvrsiSistemskuOperaciju.
 Nasledjuje apstraktnu klasu OsnovaSistemskihOperacija.</p>
 </section>
       <h4><a class="xref" href="SistemskeOperacije.SOCuvanjeOdlukeZaGlumca.html">SOCuvanjeOdlukeZaGlumca</a></h4>
-      <section></section>
+      <section><p>Sistemska operacija cuvanja odluke za glumca. Azurira podatke u bazi podataka o broju obradjenih zahteva kod administratora,
+prikazanost glumca, kao i podatke o samom zahtevu. U sebi sadrzi atribut ZahtevZaGlumca i override metode IzvrsiSistemskuOperaciju.
+Nasledjuje apstraktnu klasu OsnovaSistemskihOperacija.</p>
+</section>
       <h4><a class="xref" href="SistemskeOperacije.SODodajUlogu.html">SODodajUlogu</a></h4>
-      <section></section>
+      <section><p>Sistemska operacija dodavanja uloge. Dodaje ulogu u bazu podataka.
+U sebi sadrzi atribut Uloga i override metode IzvrsiSistemskuOperaciju.
+Nasledjuje apstraktnu klasu OsnovaSistemskihOperacija.</p>
+</section>
       <h4><a class="xref" href="SistemskeOperacije.SOLogin.html">SOLogin</a></h4>
-      <section></section>
+      <section><p>Sistemska operacija login. Proverava da li se radi o logovanju administratora ili obicnog korisnika.
+Proverava da li se username i password poklapaju sa nekim nalogom u bazi.
+Sastoji se od atributa Uspesan, Nalog, loginZahtev i override metode IzvrsiSistemskuOperaciju.
+Nasledjuje apstraktnu klasu OsnovaSistemskihOperacija.</p>
+</section>
       <h4><a class="xref" href="SistemskeOperacije.SOPrikaziFilm.html">SOPrikaziFilm</a></h4>
-      <section></section>
+      <section><p>Sistemska operacija prikazi film. Nalazi film sa id-jem FilmID u bazi.
+Sastoji se od atributa FilmID, Rez i override metode IzvrsiSistemskuOperaciju.
+Nasledjuje apstraktnu klasu OsnovaSistemskihOperacija.</p>
+</section>
       <h4><a class="xref" href="SistemskeOperacije.SOPrikaziGlumca.html">SOPrikaziGlumca</a></h4>
-      <section></section>
+      <section><p>Sistemska operacija prikazi glumca. Nalazi glumca sa id-jem GlumacID u bazi.
+Sastoji se od atributa GlumacID, Rez i override metode IzvrsiSistemskuOperaciju.
+Nasledjuje apstraktnu klasu OsnovaSistemskihOperacija.</p>
+</section>
       <h4><a class="xref" href="SistemskeOperacije.SOPromeniOcene.html">SOPromeniOcene</a></h4>
-      <section></section>
+      <section><p>Sistemska operacija promeni ocene filma. Menja ocenu filma u bazi, kao i ocene svih uloga iz tog filma u bazi.
+Sastoji se od atributa OcenaFilma, ListaOcenaUloga i override metode IzvrsiSistemskuOperaciju.
+Nasledjuje apstraktnu klasu OsnovaSistemskihOperacija.</p>
+</section>
       <h4><a class="xref" href="SistemskeOperacije.SOPromeniOcenuGlumca.html">SOPromeniOcenuGlumca</a></h4>
-      <section></section>
+      <section><p>Sistemska operacija promeni ocenu glumca. Menja ocenu glumca u bazi.
+Sastoji se od atributa OcenaGlumca i override metode IzvrsiSistemskuOperaciju.</p>
+</section>
       <h4><a class="xref" href="SistemskeOperacije.SOPronadjiFilmove.html">SOPronadjiFilmove</a></h4>
-      <section></section>
+      <section><p>Sistemska operacija pronadji filmove. Pronalazi filmove iz baze po zadatom 
+kriterijumu.
+Sadrzi atribute ListaFilmova, Kriterijum i override metode IzvrsiSistemskuOperaciju.
+Nasledjuje apstraktnu klasu OsnovaSistemskihOperacija.</p>
+</section>
       <h4><a class="xref" href="SistemskeOperacije.SOPronadjiFilmovePoGlumcu.html">SOPronadjiFilmovePoGlumcu</a></h4>
-      <section></section>
+      <section><p>Sistemska operacija pronadji filmove po glumcu. Izvlaci sve filmove iz baze u kojima
+glumi odredjen glumac.
+Sastoji se od atributa ListaFilmova, GlumacID i override metode IzvrsavanjeSistemskihOperacija.
+Nasledjuje apstraktnu klasu OsnovaSistemskihOperacija.</p>
+</section>
       <h4><a class="xref" href="SistemskeOperacije.SOPronadjiGlumce.html">SOPronadjiGlumce</a></h4>
-      <section></section>
+      <section><p>Sistemska operacija pronadji glumce. Pronalazi glumce iz baze po zadatom 
+kriterijumu.
+Sadrzi u sebi atribute ListaGlumaca, Kriterijum i override metode IzvrsiSistemskuOperaciju.
+Nasledjuje apstraktnu klasu OsnovaSistemskihOperacija.</p>
+</section>
       <h4><a class="xref" href="SistemskeOperacije.SORegistracija.html">SORegistracija</a></h4>
-      <section></section>
+      <section><p>Sistemska operacija registracija. Proverava da li vec postoji korisnik sa istim username-om, ako ne postoji
+dodaje novog korisnika u bazu.
+Sadrzi u sebi atribut Korisnik i override metode IzvrsioSistemskuOperaciju.
+Nasledjuje apstraktnu klasu OsnovaSistemskihOperacija.</p>
+</section>
       <h4><a class="xref" href="SistemskeOperacije.SORegistracijaAdministratora.html">SORegistracijaAdministratora</a></h4>
-      <section></section>
+      <section><p>Sistemska operacija registracija adminstratora. Proverava da li vec postoji administrator sa istim username-om, ako ne postoji
+dodaje novog administratora u bazu.
+Sadrzi u sebi atribut Administrator i override metode IzvrsioSistemskuOperaciju.
+Nasledjuje apstraktnu klasu OsnovaSistemskihOperacija.</p>
+</section>
       <h4><a class="xref" href="SistemskeOperacije.SOSacuvajOcene.html">SOSacuvajOcene</a></h4>
-      <section></section>
+      <section><p>Sistemska operacija sacuvaj ocene. Dodaje ocenu filma u bazu i dodaje ocene uloga u tom filmu.
+Sadrzi u sebi atribute OcenaFilma, ListaOcenaUloga i override metode IzvrsiSistemskuOperaciju.
+Nasledjuje apstraktnu klasu OsnovaSistemskiOperacija.</p>
+</section>
       <h4><a class="xref" href="SistemskeOperacije.SOSacuvajOcenuGlumca.html">SOSacuvajOcenuGlumca</a></h4>
-      <section></section>
+      <section><p>Sistemska operacija sacuvaj ocenu glumca. Dodaje ocenu glumca u bazu.
+Sadrzi u sebi atribut OcenaGlumca i override metode IzvrsiSistemskuOperaciju.
+Nasledjuje apstraktnu klasu OsnovaSistemskihOperacija.</p>
+</section>
       <h4><a class="xref" href="SistemskeOperacije.SOSacuvajZahtev.html">SOSacuvajZahtev</a></h4>
-      <section></section>
+      <section><p>Sistemska operacija sacuvaj zahtev. Dodaje film iz zahteva u bazu, dodaje zahtev u bazu i dodaje uloge iz filma u bazu.
+Sadrzi u sebi atribute Zahtev, FilmId i override metode IzvrsiSistemskuOperaciju.
+Nasledjuje apstraktnu klasu OsnovaSistemskihOperacija.</p>
+</section>
       <h4><a class="xref" href="SistemskeOperacije.SOSacuvajZahtevZaGlumca.html">SOSacuvajZahtevZaGlumca</a></h4>
-      <section></section>
+      <section><p>Sistemska operacija zahtev za glumca. Dodaje glumca iz zahteva u bazu i dodaje sam zahtev u bazu.
+Sadrzi u sebi atribut Zahtev i override metode IzvrsiSistemskuOperaciju.
+Nasledjuje apstraktnu klasu OsnovaSistemskihOperacija.</p>
+</section>
       <h4><a class="xref" href="SistemskeOperacije.SOUcitajListuFilmova.html">SOUcitajListuFilmova</a></h4>
-      <section></section>
+      <section><p>Sistemska operacija ucitaj listu filmova. Vraca iz baze sve filmove koji su oznaceni kao prikazani.
+Sadrzi u sebi atribut UcitanaLista i override metode IzvrsiSistemskuOperaciju.
+Nasledjuje apstraktnu klasu OsnovaSistemskihOperacija.</p>
+</section>
       <h4><a class="xref" href="SistemskeOperacije.SOUcitajListuGlumaca.html">SOUcitajListuGlumaca</a></h4>
-      <section></section>
+      <section><p>Sistemska operacija ucitaj listu glumaca. Vraca iz baze sve glumce koji su oznaceni kao prikazani.
+Sadrzi u sebi atribut UcitanaLista i override metoda IzvrsiSistemskuOperaciju.
+Nasledjuje apstraktnu klasu OsnovaSistemskihOperacija.</p>
+</section>
       <h4><a class="xref" href="SistemskeOperacije.SOUcitajListuUlogaZaFilm.html">SOUcitajListuUlogaZaFilm</a></h4>
-      <section></section>
+      <section><p>Sistemska operacija ucitaj listu uloga za film. Vraca iz baze sve uloge koje se nalaze u odredjenom filmu.
+Sadrzi u sebi atribute FilmID, ListaUloga i override metode IzvrsiSistemskuOperaciju.
+Nasledjuje apstraktnu klasu OsnovaSistemskihOperacija.</p>
+</section>
       <h4><a class="xref" href="SistemskeOperacije.SOUcitajListuZahteva.html">SOUcitajListuZahteva</a></h4>
-      <section></section>
+      <section><p>Sistemska operacija ucitaj listu zahteva. Vraca sve neobradjane zahteve za unos filma iz baze.
+Sadrzi u sebi atribut ListaZahteva i override metode IzvrsiSistemskuOperaciju.
+Nasledjuje apstraktnu klasu OsnovaSistemskihOperacija.</p>
+</section>
       <h4><a class="xref" href="SistemskeOperacije.SOUcitajListuZahtevaZaGlumca.html">SOUcitajListuZahtevaZaGlumca</a></h4>
-      <section></section>
+      <section><p>Sistemska operacija ucitaj listu zahteva za glumca. Vraca sve neobradjane zahteve za unos glumca iz baze.
+Sadrzi u sebi atribut ListaZahtevaZaGlumca i override metode IzvrsiSistemskuOperaciju.
+Nasledjuje apstraktnu klasu OsnovaSistemskihOperacija.</p>
+</section>
       <h4><a class="xref" href="SistemskeOperacije.SOUcitavanjeZahteva.html">SOUcitavanjeZahteva</a></h4>
-      <section></section>
+      <section><p>Sistemska operacija ucitavanje zahteva. Vraca odredjen zahtev iz baze.
+Sadrzi u sebi atribute ZahtevZaFilm, Id i override metode IzvrsiSistemskuOperaciju.
+Nasledjuje apstraktnu klasu OsnovaSistemskihOperacija.</p>
+</section>
       <h4><a class="xref" href="SistemskeOperacije.SOUcitavanjeZahtevaZaGlumca.html">SOUcitavanjeZahtevaZaGlumca</a></h4>
-      <section></section>
+      <section><p>Sistemska operacija ucitavanje zahteva za glumca. Vraca odredjen zahtev iz baze.
+Sadrzi u sebi atribute ZahtevZaGlumca, Id i override metode IzvrsiSistemskuOperaciju.
+Nasledjuje apstraktnu klasu OsnovaSistemskihOperacija.</p>
+</section>
       <h4><a class="xref" href="SistemskeOperacije.SOVratiOceneFilma.html">SOVratiOceneFilma</a></h4>
-      <section></section>
+      <section><p>Sistemska operacija vrati ocene filma. Vraca iz baze ocenu odredjenog korisnika za odredjeni film i njegove ocene uloga za taj film.
+Sadrzi u sebi atribute Odgovor, OcenaFilma, listaOcenaUloga i override metode IzvrsiSistemskuOperaciju.
+Nasledjuje apstraktnu klasu OsnovaSistemskihOperacija.</p>
+</section>
       <h4><a class="xref" href="SistemskeOperacije.SOVratiOcenuGlumca.html">SOVratiOcenuGlumca</a></h4>
-      <section></section>
+      <section><p>Sistemska operacija vrati ocenu glumca. Vraca iz baze ocenu odredjenog korisnika za odredjenog glumca.
+Sadrzi u sebi atribut OcenaGlumca i override metode IzvrsiSistemskuOperaciju.
+Nasledjuje apstraktnu klasu OsnovaSistemskihOperacija.</p>
+</section>
       <h4><a class="xref" href="SistemskeOperacije.SOVratiSveOceneZaFilm.html">SOVratiSveOceneZaFilm</a></h4>
-      <section></section>
+      <section><p>Sistemska operacija vrati sve ocene za film. Vraca iz baze sve ocene svih korisnika za odredjeni film i za
+sve uloge u tom filmu.
+Sadrzi u sebi atribut Film i override metode IzvrsiSistemskuOperaciju.
+Nasledjuje apstraktnu klasu OsnovaSistemskihOperacija.</p>
+</section>
       <h4><a class="xref" href="SistemskeOperacije.SOVratiSveOceneZaGlumca.html">SOVratiSveOceneZaGlumca</a></h4>
-      <section></section>
+      <section><p>Sistemska operacije vrati sve ocene za glumca. Vraca iz baze sve ocene svih korisnika za odredjenog glumca.
+Sadrzi u sebi atribut Glumac i override metode IzvrsiSistemskuOperaciju.
+Nasledjuje apstraktnu klasu OsnovaSistemskihOperacija.</p>
+</section>
 </article>
           </div>
           

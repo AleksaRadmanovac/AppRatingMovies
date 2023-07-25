@@ -7,11 +7,28 @@ using System.Threading.Tasks;
 
 namespace SistemskeOperacije
 {
+    /// <summary>
+    /// Sistemska operacija pronadji glumce. Pronalazi glumce iz baze po zadatom 
+    /// kriterijumu.
+    /// Sadrzi u sebi atribute ListaGlumaca, Kriterijum i override metode IzvrsiSistemskuOperaciju.
+    /// Nasledjuje apstraktnu klasu OsnovaSistemskihOperacija.
+    /// </summary>
     public class SOPronadjiGlumce : OsnovaSistemskihOperacija
     {
+        /// <summary>
+        /// Get i set metoda za listu glumaca koji su pronadjeni.
+        /// </summary>
+        /// <value>Lista glumaca koji su pronadjeni.</value>
         public List<Glumac> ListaGlumaca { get; set; }
+        /// <summary>
+        /// Get i set metoda za kriterijum po kojem se pretrazuje.
+        /// </summary>
+        /// <value>Kriterijum po kojem se pretrazuje.</value>
         public string Kriterijum { get; set; }
-
+        /// <summary>
+        /// Sistemska operacija pronadji glumce. Pronalazi glumce iz baze po zadatom 
+        /// kriterijumu i smesta ih u ListaGlumaca.
+        /// </summary>
         protected override void IzvrsiSistemskuOperaciju()
         {
             ListaGlumaca = new List<Glumac>();

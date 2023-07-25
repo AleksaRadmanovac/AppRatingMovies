@@ -10,12 +10,34 @@ using System.Threading.Tasks;
 
 namespace SistemskeOperacije
 {
+    /// <summary>
+    /// Sistemska operacija vrati ocene filma. Vraca iz baze ocenu odredjenog korisnika za odredjeni film i njegove ocene uloga za taj film.
+    /// Sadrzi u sebi atribute Odgovor, OcenaFilma, listaOcenaUloga i override metode IzvrsiSistemskuOperaciju.
+    /// Nasledjuje apstraktnu klasu OsnovaSistemskihOperacija.
+    /// </summary>
     public class SOVratiOceneFilma : OsnovaSistemskihOperacija
     {
+        /// <summary>
+        /// Get i set metoda za odgovor koji sadrzi ocenu filma i listu ocena za sve uloge u filmu.
+        /// </summary>
+        /// <value>Odgovor koji sadrzi ocenu filma i listu ocena za sve uloge u filmu.</value>
         public VratiOceneOdgovor Odgovor { get; set; }
+        /// <summary>
+        /// Get i set metoda za objekat ocena filma koji sadrzi film za koji se vracaju ocene i korisnika cije se ocene traze.
+        /// </summary>
+        /// <value>Objekat ocena filma koji sadrzi film za koji se vracaju ocene i korisnika cije se ocene traze.</value>
         public OcenaFilma OcenaFilma { get; set; }
+        /// <summary>
+        /// Get i set metoda za listu objekata ocena uloga koje se nalaze u filmu za koji se vracaju ocene.
+        /// </summary>
+        /// <value>Lista objekata ocena uloga koje se nalaze u filmu za koji se vracaju ocene.</value>
         public List<OcenaUloge> listaOcenaUloga { get; set; }
-
+        /// <summary>
+        /// Metoda za izvrsavanje sistemske operacije vrati ocene filma. 
+        /// Vraca iz baze ocenu odredjenog filma od strane odredjenog korisnika, zatim tom filmu pridruzuje uloge iz tog filma
+        /// i vraca ocene korisnika za te uloge, smesta sve ocene u Odgovor. Ako u bazi ne postoji ocena filma od strane korisnika dolazi do exceptiona.
+        /// </summary>
+        /// <exception cref="MissingOcenaException">Ako u bazi ne postoji ocena filma od strane korisnika.</exception>
         protected override void IzvrsiSistemskuOperaciju()
         {
              

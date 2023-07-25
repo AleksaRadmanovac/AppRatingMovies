@@ -31,6 +31,7 @@ namespace SistemskeOperacije
         /// metoda koja izvrsava sistemsku operaciju i commit-uje rad nad bazom.
         /// Ako dodje do exception-a izvrsava se rollback, i baca se taj exception.
         /// </summary>
+        /// <exception cref="Exception">Bilo koji exception koji se javi pri izvrsavanju sistemske operacije.</exception>
         public void Izvrsi() 
         {
             try

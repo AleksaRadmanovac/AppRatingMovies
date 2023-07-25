@@ -74,7 +74,7 @@
   <h1 id="SistemskeOperacije_SOCuvanjeOdluke" data-uid="SistemskeOperacije.SOCuvanjeOdluke" class="text-break">Class SOCuvanjeOdluke
   </h1>
   <div class="markdown level0 summary"><p>Sistemska operacija cuvanja odluke koju je administrator doneo povodom unosa filma iz zahteva u prikazane filmove
-ili dodavanje uloga postojecem filmu.
+ili dodavanje uloga postojecem filmu. U sebi sadrzi atribute ZahtevZaFilm, DodavanjeUloga i override metode IzvrsiSistemskuOperaciju.
 Nasledjuje apstraktnu klasu OsnovaSistemskihOperacija.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
@@ -127,12 +127,11 @@ Nasledjuje apstraktnu klasu OsnovaSistemskihOperacija.</p>
     <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/new/dokumentacija/apiSpec/new?filename=SistemskeOperacije_SOCuvanjeOdluke_DodavanjeUloga.md&amp;value=---%0Auid%3A%20SistemskeOperacije.SOCuvanjeOdluke.DodavanjeUloga%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/blob/dokumentacija/SistemskeOperacije/SOCuvanjeOdluke.cs/#L27">View Source</a>
+    <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/blob/dokumentacija/SistemskeOperacije/SOCuvanjeOdluke.cs/#L30">View Source</a>
   </span>
   <a id="SistemskeOperacije_SOCuvanjeOdluke_DodavanjeUloga_" data-uid="SistemskeOperacije.SOCuvanjeOdluke.DodavanjeUloga*"></a>
   <h4 id="SistemskeOperacije_SOCuvanjeOdluke_DodavanjeUloga" data-uid="SistemskeOperacije.SOCuvanjeOdluke.DodavanjeUloga">DodavanjeUloga</h4>
-  <div class="markdown level1 summary"><p>Boolean koji pokazuje da li se radi o unosu filma u prikazane filmove ili dodavanju uloga postojecem filmu.
-True se dodaju uloge u postojeci film, false ako se unosi film u prikazane filmove.</p>
+  <div class="markdown level1 summary"><p>Get i set metoda za boolean koji pokazuje da li se radi o unosu filma u prikazane filmove ili dodavanju uloga postojecem filmu.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -150,7 +149,9 @@ True se dodaju uloge u postojeci film, false ako se unosi film u prikazane filmo
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p>Boolean koji pokazuje da li se radi o unosu filma u prikazane filmove ili dodavanju uloga postojecem filmu.
+True - dodaju se uloge u postojeci film, False - Film se unosi u prikazane filmove.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -159,11 +160,11 @@ True se dodaju uloge u postojeci film, false ako se unosi film u prikazane filmo
     <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/new/dokumentacija/apiSpec/new?filename=SistemskeOperacije_SOCuvanjeOdluke_ZahtevZaFilm.md&amp;value=---%0Auid%3A%20SistemskeOperacije.SOCuvanjeOdluke.ZahtevZaFilm%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/blob/dokumentacija/SistemskeOperacije/SOCuvanjeOdluke.cs/#L21">View Source</a>
+    <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/blob/dokumentacija/SistemskeOperacije/SOCuvanjeOdluke.cs/#L22">View Source</a>
   </span>
   <a id="SistemskeOperacije_SOCuvanjeOdluke_ZahtevZaFilm_" data-uid="SistemskeOperacije.SOCuvanjeOdluke.ZahtevZaFilm*"></a>
   <h4 id="SistemskeOperacije_SOCuvanjeOdluke_ZahtevZaFilm" data-uid="SistemskeOperacije.SOCuvanjeOdluke.ZahtevZaFilm">ZahtevZaFilm</h4>
-  <div class="markdown level1 summary"><p>Zahtev za unos filma u prikazane filmove ili dodavanje uloga postojecem filmu.</p>
+  <div class="markdown level1 summary"><p>Get i set metoda za zahtev za unos filma u prikazane filmove ili dodavanje uloga postojecem filmu.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -181,7 +182,8 @@ True se dodaju uloge u postojeci film, false ako se unosi film u prikazane filmo
     <tbody>
       <tr>
         <td><span class="xref">Domen.ZahtevZaFilm</span></td>
-        <td></td>
+        <td><p>Zahtev za unos filma u prikazane filmove ili dodavanje uloga postojecem filmu.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -192,11 +194,14 @@ True se dodaju uloge u postojeci film, false ako se unosi film u prikazane filmo
     <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/new/dokumentacija/apiSpec/new?filename=SistemskeOperacije_SOCuvanjeOdluke_IzvrsiSistemskuOperaciju.md&amp;value=---%0Auid%3A%20SistemskeOperacije.SOCuvanjeOdluke.IzvrsiSistemskuOperaciju%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/blob/dokumentacija/SistemskeOperacije/SOCuvanjeOdluke.cs/#L28">View Source</a>
+    <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/blob/dokumentacija/SistemskeOperacije/SOCuvanjeOdluke.cs/#L36">View Source</a>
   </span>
   <a id="SistemskeOperacije_SOCuvanjeOdluke_IzvrsiSistemskuOperaciju_" data-uid="SistemskeOperacije.SOCuvanjeOdluke.IzvrsiSistemskuOperaciju*"></a>
   <h4 id="SistemskeOperacije_SOCuvanjeOdluke_IzvrsiSistemskuOperaciju" data-uid="SistemskeOperacije.SOCuvanjeOdluke.IzvrsiSistemskuOperaciju">IzvrsiSistemskuOperaciju()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Metoda koja izvrsava sistemsku operaciju cuvanja odluke za film. Azurira zahtev za film u bazi podataka, kao i broj obradjenih zahteva administratoru.
+Zatim u zavisnosti od DodavanjeUloga, dodaje nove uloge postojecem filmu ili u zavisnosti od toga da li je film odobren,
+azurira ga i unosi u prikazane filmove ili brise uloge vezane za taj film.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">

@@ -73,7 +73,10 @@
   
   <h1 id="SistemskeOperacije_SOVratiOcenuGlumca" data-uid="SistemskeOperacije.SOVratiOcenuGlumca" class="text-break">Class SOVratiOcenuGlumca
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Sistemska operacija vrati ocenu glumca. Vraca iz baze ocenu odredjenog korisnika za odredjenog glumca.
+Sadrzi u sebi atribut OcenaGlumca i override metode IzvrsiSistemskuOperaciju.
+Nasledjuje apstraktnu klasu OsnovaSistemskihOperacija.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -124,11 +127,12 @@
     <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/new/dokumentacija/apiSpec/new?filename=SistemskeOperacije_SOVratiOcenuGlumca_OcenaGlumca.md&amp;value=---%0Auid%3A%20SistemskeOperacije.SOVratiOcenuGlumca.OcenaGlumca%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/blob/dokumentacija/SistemskeOperacije/SOVratiOcenuGlumca.cs/#L13">View Source</a>
+    <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/blob/dokumentacija/SistemskeOperacije/SOVratiOcenuGlumca.cs/#L22">View Source</a>
   </span>
   <a id="SistemskeOperacije_SOVratiOcenuGlumca_OcenaGlumca_" data-uid="SistemskeOperacije.SOVratiOcenuGlumca.OcenaGlumca*"></a>
   <h4 id="SistemskeOperacije_SOVratiOcenuGlumca_OcenaGlumca" data-uid="SistemskeOperacije.SOVratiOcenuGlumca.OcenaGlumca">OcenaGlumca</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Get i set metoda za objekat ocene glumca za odredjenog glumca od strane odredjenog korisnika.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -145,7 +149,8 @@
     <tbody>
       <tr>
         <td><span class="xref">Domen.OcenaGlumca</span></td>
-        <td></td>
+        <td><p>Objekat ocene glumca za odredjenog glumca od strane odredjenog korisnika.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -156,11 +161,14 @@
     <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/new/dokumentacija/apiSpec/new?filename=SistemskeOperacije_SOVratiOcenuGlumca_IzvrsiSistemskuOperaciju.md&amp;value=---%0Auid%3A%20SistemskeOperacije.SOVratiOcenuGlumca.IzvrsiSistemskuOperaciju%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/blob/dokumentacija/SistemskeOperacije/SOVratiOcenuGlumca.cs/#L15">View Source</a>
+    <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/blob/dokumentacija/SistemskeOperacije/SOVratiOcenuGlumca.cs/#L29">View Source</a>
   </span>
   <a id="SistemskeOperacije_SOVratiOcenuGlumca_IzvrsiSistemskuOperaciju_" data-uid="SistemskeOperacije.SOVratiOcenuGlumca.IzvrsiSistemskuOperaciju*"></a>
   <h4 id="SistemskeOperacije_SOVratiOcenuGlumca_IzvrsiSistemskuOperaciju" data-uid="SistemskeOperacije.SOVratiOcenuGlumca.IzvrsiSistemskuOperaciju">IzvrsiSistemskuOperaciju()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Metoda za izvrsvanje sistemske operacije vrati ocenu glumca.
+Vraca iz baze ocenu glumca iz atributa OcenaGlumca od strane korisnika iz atributa OcenaGlumca.
+Ako ne postoji OcenaGlumca u bazi dolazi do exceptiona.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -168,6 +176,22 @@
   </div>
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="SistemskeOperacije.OsnovaSistemskihOperacija.html#SistemskeOperacije_OsnovaSistemskihOperacija_IzvrsiSistemskuOperaciju">OsnovaSistemskihOperacija.IzvrsiSistemskuOperaciju()</a></div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Domen.Exceptions.MissingOcenaException</span></td>
+        <td><p>Ako ne postoji OcenaGlumca u bazi.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           
@@ -179,7 +203,7 @@
                     <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/new/dokumentacija/apiSpec/new?filename=SistemskeOperacije_SOVratiOcenuGlumca.md&amp;value=---%0Auid%3A%20SistemskeOperacije.SOVratiOcenuGlumca%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/blob/dokumentacija/SistemskeOperacije/SOVratiOcenuGlumca.cs/#L11" class="contribution-link">View Source</a>
+                    <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/blob/dokumentacija/SistemskeOperacije/SOVratiOcenuGlumca.cs/#L16" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

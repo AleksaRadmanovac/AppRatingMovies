@@ -73,7 +73,11 @@
   
   <h1 id="SistemskeOperacije_SOLogin" data-uid="SistemskeOperacije.SOLogin" class="text-break">Class SOLogin
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Sistemska operacija login. Proverava da li se radi o logovanju administratora ili obicnog korisnika.
+Proverava da li se username i password poklapaju sa nekim nalogom u bazi.
+Sastoji se od atributa Uspesan, Nalog, loginZahtev i override metode IzvrsiSistemskuOperaciju.
+Nasledjuje apstraktnu klasu OsnovaSistemskihOperacija.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -124,11 +128,13 @@
     <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/new/dokumentacija/apiSpec/new?filename=SistemskeOperacije_SOLogin_loginZahtev.md&amp;value=---%0Auid%3A%20SistemskeOperacije.SOLogin.loginZahtev%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/blob/dokumentacija/SistemskeOperacije/SOLogin.cs/#L15">View Source</a>
+    <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/blob/dokumentacija/SistemskeOperacije/SOLogin.cs/#L35">View Source</a>
   </span>
   <a id="SistemskeOperacije_SOLogin_loginZahtev_" data-uid="SistemskeOperacije.SOLogin.loginZahtev*"></a>
   <h4 id="SistemskeOperacije_SOLogin_loginZahtev" data-uid="SistemskeOperacije.SOLogin.loginZahtev">loginZahtev</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Get i set metoda za loginZahtev koji u sebi sadrzi username, password i boolean administrator koji pokazuje
+da li se radi o administratoru.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -145,7 +151,9 @@
     <tbody>
       <tr>
         <td><span class="xref">Domen.Communication.LoginZahtev</span></td>
-        <td></td>
+        <td><p>loginZahtev koji u sebi sadrzi username, password i boolean administrator koji pokazuje
+da li se radi o administratoru.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -154,11 +162,12 @@
     <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/new/dokumentacija/apiSpec/new?filename=SistemskeOperacije_SOLogin_Nalog.md&amp;value=---%0Auid%3A%20SistemskeOperacije.SOLogin.Nalog%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/blob/dokumentacija/SistemskeOperacije/SOLogin.cs/#L14">View Source</a>
+    <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/blob/dokumentacija/SistemskeOperacije/SOLogin.cs/#L28">View Source</a>
   </span>
   <a id="SistemskeOperacije_SOLogin_Nalog_" data-uid="SistemskeOperacije.SOLogin.Nalog*"></a>
   <h4 id="SistemskeOperacije_SOLogin_Nalog" data-uid="SistemskeOperacije.SOLogin.Nalog">Nalog</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Get i set metoda koja predstavlja nalog koji pokusava login.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -175,7 +184,8 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Object</span></td>
-        <td></td>
+        <td><p>Nalog koji pokusava login.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -184,11 +194,12 @@
     <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/new/dokumentacija/apiSpec/new?filename=SistemskeOperacije_SOLogin_Uspesan.md&amp;value=---%0Auid%3A%20SistemskeOperacije.SOLogin.Uspesan%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/blob/dokumentacija/SistemskeOperacije/SOLogin.cs/#L13">View Source</a>
+    <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/blob/dokumentacija/SistemskeOperacije/SOLogin.cs/#L23">View Source</a>
   </span>
   <a id="SistemskeOperacije_SOLogin_Uspesan_" data-uid="SistemskeOperacije.SOLogin.Uspesan*"></a>
   <h4 id="SistemskeOperacije_SOLogin_Uspesan" data-uid="SistemskeOperacije.SOLogin.Uspesan">Uspesan</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Get i set metoda za boolean koji predstavlja da li je login bio uspesan ili ne.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -205,7 +216,8 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p>Da li je login bio uspesan. True - da, False - ne.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -216,11 +228,14 @@
     <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/new/dokumentacija/apiSpec/new?filename=SistemskeOperacije_SOLogin_IzvrsiSistemskuOperaciju.md&amp;value=---%0Auid%3A%20SistemskeOperacije.SOLogin.IzvrsiSistemskuOperaciju%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/blob/dokumentacija/SistemskeOperacije/SOLogin.cs/#L16">View Source</a>
+    <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/blob/dokumentacija/SistemskeOperacije/SOLogin.cs/#L41">View Source</a>
   </span>
   <a id="SistemskeOperacije_SOLogin_IzvrsiSistemskuOperaciju_" data-uid="SistemskeOperacije.SOLogin.IzvrsiSistemskuOperaciju*"></a>
   <h4 id="SistemskeOperacije_SOLogin_IzvrsiSistemskuOperaciju" data-uid="SistemskeOperacije.SOLogin.IzvrsiSistemskuOperaciju">IzvrsiSistemskuOperaciju()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Metoda koja izvrsava sistemsku operaciju login. Proverava da li se radi o logovanju administratora ili obicnog korisnika.
+Proverava da li se username i password poklapaju sa nekim nalogom u bazi, ako je pronadjena, postavlja atribut Nalog na tu vrednost i boolean Uspesan na True,
+u suprotnom boolean Uspesan postavlja na False.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -239,7 +254,7 @@
                     <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/new/dokumentacija/apiSpec/new?filename=SistemskeOperacije_SOLogin.md&amp;value=---%0Auid%3A%20SistemskeOperacije.SOLogin%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/blob/dokumentacija/SistemskeOperacije/SOLogin.cs/#L11" class="contribution-link">View Source</a>
+                    <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/blob/dokumentacija/SistemskeOperacije/SOLogin.cs/#L17" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
