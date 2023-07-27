@@ -47,7 +47,7 @@ namespace Domen
         /// <inheritdoc/>
         public string InsertValues => $"{Help.Instance.boolToNumber(Odobren)}, {Help.Instance.boolToNumber(Obradjen)}, null, {Glumac.Id}";
         /// <inheritdoc/>
-        public string PrimarniKljuc => $"id = '{Id}'";
+        public string PrimarniKljuc => $"ZahtevZaGlumca.Id = {Id}";
         /// <inheritdoc/>
         public string Joins => "LEFT JOIN Administrator ON ZahtevZaGlumca.AdministratorID = Administrator.Id INNER JOIN Glumac ON ZahtevZaGlumca.GlumacID = Glumac.Id";
         /// <inheritdoc/>

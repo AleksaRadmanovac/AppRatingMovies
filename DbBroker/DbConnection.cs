@@ -13,10 +13,12 @@ namespace DbBroker
     {
         private SqlConnection connection;
         private SqlTransaction transaction;
+        public static bool test = false;
 
         public void NovaKonekcija()
         {
-            connection = new SqlConnection(ConfigurationManager.ConnectionStrings["psdb"].ConnectionString);
+            if (test) connection = new SqlConnection("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=seminarskiTest;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+            else connection = new SqlConnection(ConfigurationManager.ConnectionStrings["psdb"].ConnectionString);
 
         }
 

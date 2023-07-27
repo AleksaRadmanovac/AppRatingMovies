@@ -53,7 +53,7 @@ namespace Domen
         /// <inheritdoc/>
         public string InsertValues => $"{Help.Instance.boolToNumber(Odobren)}, {Help.Instance.boolToNumber(Obradjen)}, null, {Film.Id}";
         /// <inheritdoc/>
-        public string PrimarniKljuc => $"id = '{Id}'";
+        public string PrimarniKljuc => $"ZahtevZaFilm.Id = {Id}";
         /// <inheritdoc/>
         public string Joins => "LEFT JOIN Administrator ON ZahtevZaFilm.AdministratorID = Administrator.Id LEFT JOIN Film ON ZahtevZaFilm.FilmID = Film.Id";
         /// <inheritdoc/>
@@ -77,7 +77,7 @@ namespace Domen
             }
             rez.Film = new Film();
             rez.Film.Id = (int)reader[9];
-            if (!reader.IsDBNull(10))
+           if (!reader.IsDBNull(10))
             {
                 rez.Film.Naziv = (string)reader[10];
                 rez.Film.Zanr = (Zanr)reader[11];

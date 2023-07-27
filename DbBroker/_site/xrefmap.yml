@@ -104,6 +104,12 @@ references:
   isSpec: "True"
   fullName: DbBroker.DbConnection.Rollback
   nameWithType: DbConnection.Rollback
+- uid: DbBroker.DbConnection.test
+  name: test
+  href: api/DbBroker.DbConnection.html#DbBroker_DbConnection_test
+  commentId: F:DbBroker.DbConnection.test
+  fullName: DbBroker.DbConnection.test
+  nameWithType: DbConnection.test
 - uid: DbBroker.DbConnectionFactory
   name: DbConnectionFactory
   href: api/DbBroker.DbConnectionFactory.html

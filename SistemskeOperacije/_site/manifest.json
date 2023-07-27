@@ -12,7 +12,7 @@
           "hash": "BxsYvGJ+IZkHEp0Tsac/+zIl4XvYr23Pc/8H4MuxZgg="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -24,7 +24,7 @@
           "hash": "7E704dknw/3xPam9WtGvgadb87Ipavwx9Ng2ORgqUmM="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -48,7 +48,7 @@
           "hash": "uls2dw0p+oyZ6qllhlYa9fhH1wr1IT65O85DDI2kXqI="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -57,10 +57,10 @@
       "output": {
         ".html": {
           "relative_path": "api/SistemskeOperacije.OsnovaSistemskihOperacija.html",
-          "hash": "d9u5lr8Kn2FLnwNq+SNROwvfdfZj4b4xY1HkOhKc8AE="
+          "hash": "XeonpBIChq/36rdyxWDjtjjbKs5btvMD2Mtj7rtAzNI="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -69,10 +69,10 @@
       "output": {
         ".html": {
           "relative_path": "api/SistemskeOperacije.SOCuvanjeOdluke.html",
-          "hash": "Zb4zElI8nfgaUtsKkWDiW7CdK8DF6zKzk2RMVVgnKBY="
+          "hash": "PGYNTPchAQyB7J7AqoPn2I3gmjBO4JII3rIu+Ih9SoU="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -81,10 +81,10 @@
       "output": {
         ".html": {
           "relative_path": "api/SistemskeOperacije.SOCuvanjeOdlukeZaGlumca.html",
-          "hash": "ygIbtB9FDXFBSON2Le/DLwIdFFvZm5V9WaV1tYQbfSA="
+          "hash": "Q2ZzakPoD4Jj+kdPxiPOgmCKZz0sy5Q1FFG4Hb49hjM="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -93,10 +93,10 @@
       "output": {
         ".html": {
           "relative_path": "api/SistemskeOperacije.SODodajUlogu.html",
-          "hash": "sFZadFzK6LlmuqvwkUjw9fxWoNAktvVOmD7dr+rs4KM="
+          "hash": "SRPImauze2uJ0bQ/Kj3IQV88eWxyWGvpNubEYo8UWtw="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -105,10 +105,10 @@
       "output": {
         ".html": {
           "relative_path": "api/SistemskeOperacije.SOLogin.html",
-          "hash": "EK5+dBRpIjkPIW19UqIBJggr4kjHLjl6uv/MaydiCTM="
+          "hash": "vNWw10vvYuCilm+QYlH7GX+HSAAyvBPi/Gg7eDXrirk="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -117,10 +117,10 @@
       "output": {
         ".html": {
           "relative_path": "api/SistemskeOperacije.SOPrikaziFilm.html",
-          "hash": "9mZUAlMp/0GzTYPn4vz+uJx+pYkZkVJ7ZAzT45TVvbc="
+          "hash": "EqemT0wAyyVaNhESnS6QkxGojsebxPg2PjwxqjlwPew="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -129,10 +129,10 @@
       "output": {
         ".html": {
           "relative_path": "api/SistemskeOperacije.SOPrikaziGlumca.html",
-          "hash": "71ZtD7lhJE8+mUTlwgG6P82H9DMP24VhFtYc2jSqJgI="
+          "hash": "tHyXKd6DQxhvHOQ4HNf48FDGEF2eVm892Fv8p2trfHk="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -141,10 +141,10 @@
       "output": {
         ".html": {
           "relative_path": "api/SistemskeOperacije.SOPromeniOcene.html",
-          "hash": "i2lpBuveuoX3UQPKphTn0G7ppa9BDNpuElwCoFOLzEk="
+          "hash": "WgODjT8LLRrmTJMSUyehkQY68ONe/Xxzrg9p1bDHQz8="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -153,10 +153,10 @@
       "output": {
         ".html": {
           "relative_path": "api/SistemskeOperacije.SOPromeniOcenuGlumca.html",
-          "hash": "RXW3mQwgs8BjjLFRRWiINMUWGMoj1iZLNh9zkiUeGbg="
+          "hash": "LMi6uctFkuX0DI8uW8CJW2P3Wx9X6Wp7q21YzZaOSqo="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -165,10 +165,10 @@
       "output": {
         ".html": {
           "relative_path": "api/SistemskeOperacije.SOPronadjiFilmove.html",
-          "hash": "BX/7lkHhe75itAUSlPsNqeWYP+P8WaJoF+kds/gA4lI="
+          "hash": "K+i8lRA/504OleTUXFgCQ1CWOwPkRbe1YydYzVZLcro="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -177,10 +177,10 @@
       "output": {
         ".html": {
           "relative_path": "api/SistemskeOperacije.SOPronadjiFilmovePoGlumcu.html",
-          "hash": "QiLh5KdRHnLdhZyyxbUqbViC7MfaaPFhsXB3IMxkn9U="
+          "hash": "2uVB3Q48AZIoQ1Yi9b6fHzMdhD7deq1n9xVkKO7t4ss="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -189,10 +189,10 @@
       "output": {
         ".html": {
           "relative_path": "api/SistemskeOperacije.SOPronadjiGlumce.html",
-          "hash": "sZi9QkzT8FkTpl6aGtvU6gcxxohdA6HpfI7zfhFXCXI="
+          "hash": "YSz1AuScVcUqGnEBEL/ygF4SvvFqmogk+n5pJLV8BE8="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -201,10 +201,10 @@
       "output": {
         ".html": {
           "relative_path": "api/SistemskeOperacije.SORegistracija.html",
-          "hash": "/gNT00PO1wy71GL2oAyllN4BEQgvv9WcVM5LHN4MMzk="
+          "hash": "ZKJ9vryMz+93VvJu1zwBl1/fLQPCPkdAxOPBa1fYW80="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -213,10 +213,10 @@
       "output": {
         ".html": {
           "relative_path": "api/SistemskeOperacije.SORegistracijaAdministratora.html",
-          "hash": "ELlONXSBT7KSH3kJDNDm4XNBdVx8gsBvjNFGxyNqMX0="
+          "hash": "7MutN3KscOT3o2Jjc8RIFz/t52OEnIncLAa9OqKo39Y="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -225,10 +225,10 @@
       "output": {
         ".html": {
           "relative_path": "api/SistemskeOperacije.SOSacuvajOcene.html",
-          "hash": "2wFKhPVcE8hZDvBQRARHxX/FAYICwAm9OMwvMt4B+4U="
+          "hash": "A83XiS6wSdOTYaKGxOdi4pt9sfPjLGk2USNPXCTbsF4="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -237,10 +237,10 @@
       "output": {
         ".html": {
           "relative_path": "api/SistemskeOperacije.SOSacuvajOcenuGlumca.html",
-          "hash": "kZ7BdfYg01fpL87zIW5ZjXOX16VMXROkEtPuScde+nA="
+          "hash": "89TzGt5cYd25usd154Ki8Z6mI7D0YL5VGN1GljQ+Z8A="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -249,10 +249,10 @@
       "output": {
         ".html": {
           "relative_path": "api/SistemskeOperacije.SOSacuvajZahtev.html",
-          "hash": "91WZfe6O84MMa2BthlIiCE7QpM2u0/GiobmsCbQNaQw="
+          "hash": "wtgiJkGBATuZUm353qT84cyKcazM6dyJG63fqxv+NFU="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -261,10 +261,10 @@
       "output": {
         ".html": {
           "relative_path": "api/SistemskeOperacije.SOSacuvajZahtevZaGlumca.html",
-          "hash": "qU0RK7OH56Sq+ZRN0nob2goPYkna+mYFkvwKlp12g58="
+          "hash": "74ZiACf7pjMWJIlnKToPPZLLW00bGz2vIncI37m5IOU="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -273,10 +273,10 @@
       "output": {
         ".html": {
           "relative_path": "api/SistemskeOperacije.SOUcitajListuFilmova.html",
-          "hash": "Q+eZ6w35FdmR8JfuCb5ftQr0OEkbgvUhJHreJnIHfLY="
+          "hash": "8IjGB8hm+hujxejG1rmnoGMcYite20quExkfLPn7UNY="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -285,10 +285,10 @@
       "output": {
         ".html": {
           "relative_path": "api/SistemskeOperacije.SOUcitajListuGlumaca.html",
-          "hash": "zLLO0pavRVXYG8O7axr9CEMFSkY/R3v9F5Hga/gdIo8="
+          "hash": "EiU/FsISg+P6gdip26vR6dVZBfvSPfud54s8+FdgoSk="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -297,10 +297,10 @@
       "output": {
         ".html": {
           "relative_path": "api/SistemskeOperacije.SOUcitajListuUlogaZaFilm.html",
-          "hash": "hEKd6znQLHQMnos/PU6TzH8MkaEhkHHfg5L0wbpQBU4="
+          "hash": "KK693Ii0YKqqWb9flFYR+bPivuCQlrU5IpYMaK48dDg="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -309,10 +309,10 @@
       "output": {
         ".html": {
           "relative_path": "api/SistemskeOperacije.SOUcitajListuZahteva.html",
-          "hash": "NlEvOAyqzqeDz+zyFmUon+AJ9qA5N71aVKW3DdHSoqA="
+          "hash": "4xjOdO7wAKwhm0Yf0+28OvtmWfkFvqRLv7B6eVT7c7g="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -321,10 +321,10 @@
       "output": {
         ".html": {
           "relative_path": "api/SistemskeOperacije.SOUcitajListuZahtevaZaGlumca.html",
-          "hash": "S5BcO6SywAnGZJfvz2M12qMDvo+N9nngWbZImyllAOU="
+          "hash": "4uz9ayGgU99rSqN0re6+EgXvVxM4gzx/bcA6fpq5z/I="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -333,10 +333,10 @@
       "output": {
         ".html": {
           "relative_path": "api/SistemskeOperacije.SOUcitavanjeZahteva.html",
-          "hash": "vk4YHfKyoMsRUn37S/ZvhWLJdZNBSWFJ/B6r4D1x/bc="
+          "hash": "rLkGRI/fyhfuvDprbW0NxK1EtuZBdsR8kSmchRuOW+o="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -345,10 +345,10 @@
       "output": {
         ".html": {
           "relative_path": "api/SistemskeOperacije.SOUcitavanjeZahtevaZaGlumca.html",
-          "hash": "zD6eI8LuMZ4iWEIPbdPVK53/O5/b4MczJ0WA35BUVo8="
+          "hash": "u2Z+zirM21z221ocxuHHmgrS8Io5EovIVEBZDnE2EQM="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -357,10 +357,10 @@
       "output": {
         ".html": {
           "relative_path": "api/SistemskeOperacije.SOVratiOceneFilma.html",
-          "hash": "lTIkpp8ihkQm92G4OK9uvN1H+vDkb4w8BSmXEea7q4w="
+          "hash": "CZfl7wpTyDY944MOwkvGAChElzXgsjt8O51Ir+dB/pU="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -369,10 +369,10 @@
       "output": {
         ".html": {
           "relative_path": "api/SistemskeOperacije.SOVratiOcenuGlumca.html",
-          "hash": "8dNUaA7ffCbeauMcUHvaDuaSTQXbWV5PFCcQxyHO0mM="
+          "hash": "WgzeKqd5s+ZneexyoaoCAK0IVsO0GubbxxPNLhgzcs0="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -381,10 +381,10 @@
       "output": {
         ".html": {
           "relative_path": "api/SistemskeOperacije.SOVratiSveOceneZaFilm.html",
-          "hash": "Ol3NIdfdt95v3eLgriGLaQmyfrL4pObXRgOVcoI7wP8="
+          "hash": "ItcGaT5n45N2dC5o+fm0j0Hi2L3lJMZP30ZX1ODpY8g="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -393,10 +393,10 @@
       "output": {
         ".html": {
           "relative_path": "api/SistemskeOperacije.SOVratiSveOceneZaGlumca.html",
-          "hash": "4RCvJJu65fYWNeLtnG8Sf9hQK/n5vVk8LdUNmJNTLhM="
+          "hash": "ciBLJaIgTiVK2c7I3hBdV0adN+MCFKPS8eW7TQ79CS8="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -408,7 +408,7 @@
           "hash": "ARfcFm0k4BXd14XfoUwRQPiDZLkDglbfPVSmysJ/gl4="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -439,25 +439,23 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": false,
-        "details": "Disable incremental build by force rebuild option.",
+        "can_incremental": true,
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0,
-        "full_build_reason_code": "ForceRebuild"
+        "skipped_file_count": 0
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 3,
-          "skipped_file_count": 0
+          "skipped_file_count": 3
         },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 30,
-          "skipped_file_count": 0
+          "skipped_file_count": 30
         },
         "TocDocumentProcessor": {
           "can_incremental": false,
@@ -470,8 +468,8 @@
     },
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot support incremental post processing, the reason is: it's disabled.",
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
         "incrementalPhase": "postProcessing",
         "total_file_count": 0,
         "skipped_file_count": 0
