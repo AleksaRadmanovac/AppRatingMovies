@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DbBroker.DbConnection.html",
-          "hash": "MDB8GhdtWDyb6DrjUkD9Aj4SSufQ53ffkyY4shpPInQ="
+          "hash": "CjPWG4oErzYz/+ipw25lQob4JOKoqQ0aD7+C8Z3pLj8="
         }
       },
       "is_incremental": true,
@@ -69,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DbBroker.DbConnectionFactory.html",
-          "hash": "Ovgra3ivmdeO7guGY1QuuWd9c4eN2NDCg9pjJu4a1Bo="
+          "hash": "/impSqR4PJ1gBNinRvoY5rI7qllreX34m4pNuR4IeNE="
         }
       },
       "is_incremental": true,
@@ -81,10 +81,10 @@
       "output": {
         ".html": {
           "relative_path": "api/DbBroker.GenericRepository.html",
-          "hash": "Yux+fr39NsXNqor8Z6CAr9I8F6yE1qNvcsCaNxKoKBE="
+          "hash": "yGwyxCDagnB5myEBP+J3kvC4kh6DfD2W4La/fq4DHJk="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -93,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DbBroker.IDbRepository-1.html",
-          "hash": "WbEpXWAHIX0lleZStmtARpVM8atC7yoUPBLVn7reu04="
+          "hash": "zHN7ZlkwIBOUCWkg6aRhfxkmHK74lVfXV4uaZjknlBw="
         }
       },
       "is_incremental": true,
@@ -105,7 +105,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DbBroker.IRepository-1.html",
-          "hash": "YcwbVWQpSps/62QbdFkdbWsrcPQef2vbivGmhYTzUaw="
+          "hash": "wgzBgCJNZayygtAYfc7Sm5AZRuUvkV9hCm7WdoRMyag="
         }
       },
       "is_incremental": true,
@@ -120,7 +120,7 @@
           "hash": "er5yNprO4Lrab+fcQhl2AjqkvMRRgWbhizuMyaAOfm4="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -167,7 +167,7 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 6,
-          "skipped_file_count": 5
+          "skipped_file_count": 6
         },
         "TocDocumentProcessor": {
           "can_incremental": false,

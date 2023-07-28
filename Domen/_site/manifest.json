@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Domen.Administrator.html",
-          "hash": "pjPv1FHBtAhXRMMsoLOgmFF5BzrtbqRARrtQmuTZPtI="
+          "hash": "kPlIh5Ce8TmLNFoqxXbOMJm1WRG5p1pwVT4qQWwILng="
         }
       },
       "is_incremental": true,
@@ -69,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Domen.Communication.CuvanjeOdlukeZahtev.html",
-          "hash": "BF9R0uPC1nm6UmYe42XWEomvuw0uDSdHoA3aKLa/jb8="
+          "hash": "SjEyB1VhACC1wokeCQpYwzFPh4n3hv+HLM8rK3JpBJA="
         }
       },
       "is_incremental": true,
@@ -81,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Domen.Communication.LoginOdgovor.html",
-          "hash": "of43A+5lDFGP/AoI7kJ1K/LlUA34lbgARO9nd9jBzCk="
+          "hash": "rtAfQJhVYirrXPJTQBwdaSNJNjxtwIOKP9dmCo5vEx0="
         }
       },
       "is_incremental": true,
@@ -93,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Domen.Communication.LoginZahtev.html",
-          "hash": "6JxcBc6lN4B2Ye8x1eigjfoQUuLwHmFrKm9HqJ4LorM="
+          "hash": "yfW3oMa43n+Qqo2HK4Uq1EUFYRnhG8EABoBIO2UjdAU="
         }
       },
       "is_incremental": true,
@@ -105,7 +105,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Domen.Communication.OceneZahtev.html",
-          "hash": "+VtDZGe+o+s3EA60yV5kdLsSIfDoBMt5N2chySrnM/k="
+          "hash": "ZlYZTMj7QYkyIjJa6zgwpbnQCuFOoXAtxIIxhvnoRpA="
         }
       },
       "is_incremental": true,
@@ -117,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Domen.Communication.Odgovor.html",
-          "hash": "Fm4bT0eihDcX8xZdTStJpQDwIIm02OBYLQGIqsD9JWs="
+          "hash": "HK4F5LE7sm14zKXAqGMvLYT3xdEQll/edirV5BSI8y4="
         }
       },
       "is_incremental": true,
@@ -129,7 +129,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Domen.Communication.Operacija.html",
-          "hash": "JiOaGSKPLBRKFPqJ02vf2+elBECvR4bZPnZqfsKvPLQ="
+          "hash": "jLglGndIs66spjs7lqR2dFTESXyK2/tde9dpBCz1wk8="
         }
       },
       "is_incremental": true,
@@ -141,7 +141,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Domen.Communication.SlanjePrijem.html",
-          "hash": "rft5d960qea+xxdhfsGQc6zZevGdGgC+ycu+jWx3Rr8="
+          "hash": "jEDv3uxRPL9zbjB4xA2/jNWqHYp92w3q0muCr4YfTLc="
         }
       },
       "is_incremental": true,
@@ -153,7 +153,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Domen.Communication.VratiOceneOdgovor.html",
-          "hash": "eYyn3SV/IaOyMfg63q7yk9u3PfEpPz6LVvOGF3jFayA="
+          "hash": "LtuiG70k0tSEqMkLeEbTPe1f/DgDziUEarAqI286dkM="
         }
       },
       "is_incremental": true,
@@ -165,7 +165,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Domen.Communication.Zahtev.html",
-          "hash": "osNPDDWuRc3LgJEQuYgT7wU+g24fMMDG2Zge6dQwJ2U="
+          "hash": "gERTmQ76K18WfJ17MzIZY5Od+rMVAlJ7fBaK+zpMVo8="
         }
       },
       "is_incremental": true,
@@ -189,7 +189,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Domen.Exceptions.MissingFilmException.html",
-          "hash": "NrPuzY6BBzxWX6iOOq8mmgZ/bVyLXLSLD2TXsnnevbA="
+          "hash": "vp7V8hzgufxRqM+x0GPxBgp9nzpa0QZ9wAndGs84ynM="
         }
       },
       "is_incremental": true,
@@ -201,7 +201,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Domen.Exceptions.MissingGlumacException.html",
-          "hash": "IICWXUinJx79re+E0etlPLukBI4LmLlRrKi2hsUqnK8="
+          "hash": "5HTikBTpT3L5uUP7uqRFlfqiwhgOJ+v5wxsfmVxUjrM="
         }
       },
       "is_incremental": true,
@@ -213,7 +213,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Domen.Exceptions.MissingOcenaException.html",
-          "hash": "3nxsoQomyI2s9MDtoqmjPp6jWMpW7ids4kIDWsLHQ28="
+          "hash": "ASElHnpnaCKtnxOFgVeOxu5ovd61aOhBsZUtocGvYq4="
         }
       },
       "is_incremental": true,
@@ -225,7 +225,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Domen.Exceptions.MissingZahtevException.html",
-          "hash": "zAtUVj//0oAfKPQriDd11+4DvNLpJ6OVUzYHoEP44d4="
+          "hash": "5HOHoBgJykL+HUHNpaCR6NDpb7+INm4HO6fhC6KhexA="
         }
       },
       "is_incremental": true,
@@ -237,7 +237,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Domen.Exceptions.UsernamePostojiException.html",
-          "hash": "t1XY1m56HiNHX7wbYvrrLn+5sOyxkfzPA4b9/oyb6BA="
+          "hash": "yLTNlSo4URXeS6jthno3A4eXbsvUETfmlZMau7+mSdI="
         }
       },
       "is_incremental": true,
@@ -261,7 +261,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Domen.Film.html",
-          "hash": "taJ664EE6XnHD+F02z8s9s17grbLny6PiQRbXF2Pokk="
+          "hash": "eF1gsf9Q2EjiixrvjgKmZ13Mtx7ZqI6GuwMe3OMBWio="
         }
       },
       "is_incremental": true,
@@ -273,7 +273,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Domen.Glumac.html",
-          "hash": "ke1PKwKewXD5DkNRFLxrzzDns3kHf8QVv81n4yyVtmk="
+          "hash": "fY7BNRKj5o4Tb15VG6BcIYAfNqNJq7e1N4c7NvRW7+Y="
         }
       },
       "is_incremental": true,
@@ -285,7 +285,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Domen.Help.html",
-          "hash": "lxJEY+PArJayDctWOb4gCmPYW2PeTNEONqDnxHgm8JQ="
+          "hash": "vHrFtamBVVey1mltMQ5r9EJ7m7v75q4qPlDjIZWHQOE="
         }
       },
       "is_incremental": true,
@@ -297,7 +297,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Domen.IDomenObjekat.html",
-          "hash": "t+5ivQ9f2Nrqe1OxK2gflVLcwdfa3CFY2DwgzpmckDg="
+          "hash": "M5CGAbClo3QdYzMKiMSn0VSESTJvBtsiR9Pf0tH5B5w="
         }
       },
       "is_incremental": true,
@@ -309,7 +309,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Domen.Korisnik.html",
-          "hash": "rqEVsq/tJax0wwcKAE1cK0ARWB2NmsDhgxOqfE3S6/0="
+          "hash": "IOaHvkZO2SGZPhVvMgVXugDm3vu5CSSmy0ZKN05ai5w="
         }
       },
       "is_incremental": true,
@@ -321,7 +321,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Domen.OcenaFilma.html",
-          "hash": "vfFWDpCCRzHf0wZosUl8vOLlWPWkC5ugfHxW7f4wKOs="
+          "hash": "lSRzLxhi9Rvng8VjIf10d7c3JNYCTjZhKmSQLsZZC+g="
         }
       },
       "is_incremental": true,
@@ -333,7 +333,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Domen.OcenaGlumca.html",
-          "hash": "U75dC8emWBGnjlFPt/ac8P425FmjWFLQ10U0VYvEbfk="
+          "hash": "EmGJxkTODMKC6ObLFcY7uAl2ysdbZk0CeLrxhdbxliY="
         }
       },
       "is_incremental": true,
@@ -345,7 +345,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Domen.OcenaUloge.html",
-          "hash": "PgicEwgVCxyunG4PrrjOAa9DBvFgcUzjx/VS9KlkTYI="
+          "hash": "tIAmyhXBk/rcyUAWLHWwL//4s5V+2IJYXzJgoPHxNtM="
         }
       },
       "is_incremental": true,
@@ -357,7 +357,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Domen.Pol.html",
-          "hash": "eFN5YGrslGTWfvJMAVCURvJq4zjLLo65j8oB3qqL5pg="
+          "hash": "QgUu4s2/X7ZIZmIU3qAHXTYypMRzeglppd7pBHSj6yI="
         }
       },
       "is_incremental": true,
@@ -369,7 +369,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Domen.Uloga.html",
-          "hash": "HxenCf4VrpV1ctsw7JXdneCzfZugS8IfaVC0UpfBTr4="
+          "hash": "9GsRKQb2YI+gK9Ywi7PdgH3yUcfJW93h0GIy0A3pmNU="
         }
       },
       "is_incremental": true,
@@ -381,7 +381,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Domen.ZahtevZaFilm.html",
-          "hash": "p+3jJvrlgpZqZQDxw1XTEH7yJoV3oNhMwvR+bM8Y49w="
+          "hash": "vaSZ8qwkKhYAysM44+Z1URp7O5h+unWJDJs9ukYHSBg="
         }
       },
       "is_incremental": true,
@@ -393,10 +393,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Domen.ZahtevZaGlumca.html",
-          "hash": "ECLiGjGzWq3ajc7qMXUv09BN3mj3lm6qV9/BG43ZAOo="
+          "hash": "65bosi/tSg3h73twbsZXcVSpu5A2NZ3DzfPgDTDWeLs="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -405,7 +405,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Domen.Zanr.html",
-          "hash": "yvidJ87GUTpgrnPaQ7PqVSbpQ+pKK/OiA8YAR0EQD4A="
+          "hash": "mqD6gZuOsMLWUQL5XjyFnegxQ01cfNZELjzNFrEGRfE="
         }
       },
       "is_incremental": true,
@@ -420,7 +420,7 @@
           "hash": "9zc0b4urJHOquUEQZpEWsyqH5adtWm6DB6OAINOpaUo="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -467,7 +467,7 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 31,
-          "skipped_file_count": 31
+          "skipped_file_count": 30
         },
         "TocDocumentProcessor": {
           "can_incremental": false,

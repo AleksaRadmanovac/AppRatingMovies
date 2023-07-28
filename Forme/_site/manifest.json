@@ -57,10 +57,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Forme.AdministratorCoordinator.html",
-          "hash": "K4+4p6LEYVVIAaW5VoGaF7ye8WXHJG98JD8zMWez0KA="
+          "hash": "9M0C3dAZ0G73UcwFh6hqYxVvucLcSNsnU5KNQ9kIf84="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -69,10 +69,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Forme.Communication.html",
-          "hash": "JEWROq3J+HmA4rulxhfCaoU107Ufte8CwD0Bjne+8Z0="
+          "hash": "DsbFRSLIxmv7Xmp7vMqXrJ4EdpbnJdpMHaonG/hh6+8="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -81,10 +81,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Forme.FormMain.html",
-          "hash": "xvxZdUGuMx69A9hKj6Laz2bk5iNf3/txPm9CDnIWv5U="
+          "hash": "takT3mj+5NF4NRKQl8UIPSezPik/Te3L9BWvAw5uXeo="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -93,10 +93,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Forme.Forme.FormAdministrator.html",
-          "hash": "ydhbyrz6+g8il5v8VzcEo7rL/UKhk9/4QlHUKFj0JQ4="
+          "hash": "EECmY11OlDM7AsFxw2YqU4kbKrBMO4Mp9m3Si9Tgrdg="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -105,10 +105,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Forme.Forme.FormKorisnik.html",
-          "hash": "NhpVoGdrpQvB3eWylxf/b0/ejOd8GzRWH4XttFHq2ks="
+          "hash": "YiLcTuu4zJ/AQn9AnBExDTdbFzj0lFkU4tZpWgnIfp4="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -120,7 +120,7 @@
           "hash": "gVPFwDHAGNUYJMVNkYw3tpKnMSjo4mlJ2unT0XH3TY4="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -129,10 +129,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Forme.GUIControllers.Admin.AdministratorPocetnaGUIController.html",
-          "hash": "pNlvf0OntBy+H5nK7mnU1iJuKulwj7miead+siW0Xnk="
+          "hash": "fCiyx16LePlt+ywH6IZPEpruWh33Czkz+GCOXXUunT4="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -141,10 +141,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Forme.GUIControllers.Admin.ObradaZahtevaZaFilmGUIController.html",
-          "hash": "x20NAVuwibD5C5D+lQBw9ONvkBtWo7ikm/o4hCWoVl8="
+          "hash": "zmUIY0MXb/+GiZNO2cITSK/+/5f5zqeIsiR6f/NJbfo="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -153,10 +153,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Forme.GUIControllers.Admin.ObradaZahtevaZaGlumcaGUIController.html",
-          "hash": "QC2XQn68OxmlF2AnOcotdBstZ5RUEbmFUpBfzzT1/x0="
+          "hash": "GcEWfT7Xyv9BEhPvgEqRN1QkQg0gNYnJRtmzcgPbhWI="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -168,7 +168,7 @@
           "hash": "zck84Sz4DJcWDSTKFQrhUMDuvzfSr6sTEsLc9EPbciw="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -177,10 +177,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Forme.GUIControllers.DodajFilmGUIController.html",
-          "hash": "OsU5Rud8MYQMy4iw3i0dAO4B3fYy82Ls18daw9HnngI="
+          "hash": "U21oZ1EdPDBV9ZaUqrjd4kSJ1emnTzJXfHiaQQM8tUc="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -189,10 +189,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Forme.GUIControllers.DodajGlumcaGUIController.html",
-          "hash": "Q1Eg56Dp7eHQl9o4MOwa/aXv1typ+feUlpdmk/iKMHs="
+          "hash": "I36G0NplpUZypnMVfgbizKutZX4DguibrdTLVuyOvS8="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -201,10 +201,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Forme.GUIControllers.KorisnikPocetnaGUIController.html",
-          "hash": "X0xfyEjcwjVI+QmW7SwdQJQVXvEns7qVdf4DAWXEsIw="
+          "hash": "YPYAqu5Nmwq84vdpiXyfr3SPAZSNdY03jt7Q7cBkEX8="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -213,10 +213,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Forme.GUIControllers.LoginGUIController.html",
-          "hash": "BSYLqrd+UlxNWvUuHCJkL1MZV3cVcE6SyGQ/1qILw0U="
+          "hash": "l4+Y/cLyooLu2PjDmlcqhWvm5xqEJT00KgABlXktrec="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -225,10 +225,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Forme.GUIControllers.OcenaFilmaGUIController.html",
-          "hash": "ofixX+CDDZa64hwn9zC8Zz7sNfy48BJ1gvmxNZz6Wc8="
+          "hash": "Oo1aGu5AaPdBHLG3iNKX1eploSNK1HhA7D23DmVFxGI="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -237,10 +237,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Forme.GUIControllers.OcenaGlumcaGUIController.html",
-          "hash": "ONA7b9qVTG4q5V+1EYnjWOCasDtP05wZzvIZfsHq2ks="
+          "hash": "yoshTNKHWO52x00Rs69GDvhtfPFcI/BQtDYzoFN1kC4="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -249,10 +249,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Forme.GUIControllers.RegistracijaGUIController.html",
-          "hash": "cxgBQRz/DFSmEwVZEyJhNGK5C++kdhAAbGjx1LEvsBg="
+          "hash": "P6+EuZuzOrRKF71abJlpnU8zYi3OD/vLh/98a/OoJ68="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -264,7 +264,7 @@
           "hash": "rdpJahW8Qh307+aurVv6Kt5wdhL2TTGrFtvFz/bap/I="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -273,10 +273,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Forme.KorisnikCoordinator.html",
-          "hash": "kJO6mAMa8mLRjFyPqA/IvYL6Xw6+A72mqMUbCJvdjis="
+          "hash": "bl9b2gfd4rMOzC6N5J2gb/CLLj/trWdRFcII+lKyVC4="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -285,10 +285,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Forme.MainCoordinator.html",
-          "hash": "TH8Yy2EhZb7xsl2sSWRXbVXctz6RfAszdx4V0qO8WqE="
+          "hash": "x+hryv0Nxl+ZsKZNIbv/f5UI9//yu3/D3yxPWTfXrC0="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -297,10 +297,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Forme.UserControls.Admin.UCAdministratorPocetna.html",
-          "hash": "PJ9VPtJYHCSMUIcJTSsitHpeAdJF8bVXQZDl27j8/Aw="
+          "hash": "XgJuJjoeRcxuwpHv8oBaKvGpIM60gmhvLuAre+unX5E="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -309,10 +309,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Forme.UserControls.Admin.UCObradaZahtevaZaFilm.html",
-          "hash": "5b0nr4+fhtPCd8hVw8vGU8tjvY8IW+9nx2UVitJ75lA="
+          "hash": "GhYLuQDFilPqVVtV5JqcvU2h7dEYOeLP9SxufZ+6QQo="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -321,10 +321,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Forme.UserControls.Admin.UCObradaZahtevaZaGlumca.html",
-          "hash": "6Om+IG2Fz5Q/8JSbaupLrw8IUSt9cpbvcA8irIU4Pqc="
+          "hash": "x6fcYuH7X7M2kYdK7hJK+9hooGjosoZIzioVj6MZtnk="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -336,7 +336,7 @@
           "hash": "XptB6uVJ+hkiQFgZnLcjN3UmKEgGlXDyzfG7OXgmiJE="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -345,10 +345,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Forme.UserControls.UCDodajFilm.html",
-          "hash": "HFBNFTiet2F2Rba4bgf7u9mRtV/sbV7t8/n6uaHjx18="
+          "hash": "poWqq1lIfGgzC89mCmEiTbyzfkPpvfhGxY6Ebu14K0Q="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -357,10 +357,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Forme.UserControls.UCDodajGlumca.html",
-          "hash": "LAnyHeQqg9FD/mYxaeakfkjE/UNqDZPhYtq4lcdJ2h8="
+          "hash": "rXuxMdnvxXP/KCRZTRcArcIenjhFgn9phiDN212nTPs="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -369,10 +369,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Forme.UserControls.UCKorisnikPocetna.html",
-          "hash": "HTHz4T4Zcg3MIeEmCCJwfB60NCXi6U+ropXHojXx/9c="
+          "hash": "5oEl5kYSlAxNPNVOgBnrw6pUB7qfazjX2kK1bHdloOY="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -381,10 +381,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Forme.UserControls.UCLogin.html",
-          "hash": "tPBbRiHrrtzCRCDsCMNKaCywZsqYMt88kESRoPqdXug="
+          "hash": "1VCVu8sHjrmyUb23NCYxvDXcmZvQalcUe4S4sq9qkhw="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -393,10 +393,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Forme.UserControls.UCOcenaFilma.html",
-          "hash": "apXL3auGb4euGXrHg0U/V9dX2AB84OiR4F4/u2K1pAg="
+          "hash": "xCh05sqbqXGjaJOWn2O0zn9CMBhtXixm5HJzi5HOPnE="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -405,10 +405,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Forme.UserControls.UCOcenaGlumca.html",
-          "hash": "aniGxez0dhdUT2NY/iNP2Azo7fZ0aV5Lwi3Qcj0vVyw="
+          "hash": "X12JQbQPTIk8OJo6pjy8AlHJ2Y2k53XoHJl9iyODFe4="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -417,10 +417,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Forme.UserControls.UCRegistracija.html",
-          "hash": "0BTi9hx8AFTQmKQQRPmbWd5MTKXRWNM+AcgtTmECjzs="
+          "hash": "1ROfmnG2EkM67U/EsHgCsTxhc2xrtJXEicg5c1ksl5o="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -432,7 +432,7 @@
           "hash": "O+Bz8Do40yN/L/n1CnRf+hKuWs0K7ZN/mH4JX7IO1cc="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -444,7 +444,7 @@
           "hash": "L8bYyAeThYjWbv8qbpU9eNac/1BHjN7D21prDIDqiQE="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -491,7 +491,7 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 33,
-          "skipped_file_count": 33
+          "skipped_file_count": 6
         },
         "TocDocumentProcessor": {
           "can_incremental": false,

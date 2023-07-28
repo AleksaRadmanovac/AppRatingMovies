@@ -61,20 +61,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AdministratorTest.cs" />
-    <Compile Include="FilmTest.cs" />
-    <Compile Include="GlumacTest.cs" />
-    <Compile Include="KorisnikTest.cs" />
-    <Compile Include="OcenaFilmaTest.cs" />
-    <Compile Include="OcenaGlumcaTest.cs" />
-    <Compile Include="OcenaUlogeTest.cs" />
+    <Compile Include="Testiranje domenskih klasa\AdministratorTest.cs" />
+    <Compile Include="Testiranje domenskih klasa\FilmTest.cs" />
+    <Compile Include="Testiranje domenskih klasa\GlumacTest.cs" />
+    <Compile Include="Testiranje domenskih klasa\KorisnikTest.cs" />
+    <Compile Include="Testiranje domenskih klasa\OcenaFilmaTest.cs" />
+    <Compile Include="Testiranje domenskih klasa\OcenaGlumcaTest.cs" />
+    <Compile Include="Testiranje domenskih klasa\OcenaUlogeTest.cs" />
+    <Compile Include="PomocnaTestKlasa.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UlogaTest.cs" />
-    <Compile Include="ZahtevZaFilmTest.cs" />
-    <Compile Include="ZahtevZaGlumcaTest.cs" />
+    <Compile Include="Testiranje domenskih klasa\UlogaTest.cs" />
+    <Compile Include="Testiranje domenskih klasa\ZahtevZaFilmTest.cs" />
+    <Compile Include="Testiranje domenskih klasa\ZahtevZaGlumcaTest.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
+    <None Include="Testiranje domenskih klasa\packages.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DbBroker\Repository.csproj">

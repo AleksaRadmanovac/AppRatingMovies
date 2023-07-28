@@ -54,16 +54,7 @@ namespace Domen
         public string Update => $"Odobren={Help.Instance.boolToNumber(Odobren)}, Obradjen = {Help.Instance.boolToNumber(Obradjen)}, AdministratorID = {Administrator.Id}, GlumacID = {Glumac.Id}";
         /// <inheritdoc/>
         public string Output => "";
-        /// <summary>
-        /// Metoda koja konvertuje boolean u integer vrednosti 0 ili 1 u zavisnosti od njegove vrednosti.
-        /// </summary>
-        /// <param name="b">boolean koji se konvertuje</param>
-        /// <returns>integer 0 ili 1. 0 u slucaju da je prosledjeni boolean bio False. 1 u slucaju da je prosledjeni boolean bio True.</returns>
-        public int boolToNumber(bool b)
-        {
-            if (b) return 1;
-            return 0;
-        }
+
         /// <inheritdoc/>
         public IDomenObjekat GetObj(SqlDataReader reader)
         {

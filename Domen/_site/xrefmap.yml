@@ -2372,19 +2372,6 @@ references:
   isSpec: "True"
   fullName: Domen.ZahtevZaGlumca.Administrator
   nameWithType: ZahtevZaGlumca.Administrator
-- uid: Domen.ZahtevZaGlumca.boolToNumber(System.Boolean)
-  name: boolToNumber(Boolean)
-  href: api/Domen.ZahtevZaGlumca.html#Domen_ZahtevZaGlumca_boolToNumber_System_Boolean_
-  commentId: M:Domen.ZahtevZaGlumca.boolToNumber(System.Boolean)
-  fullName: Domen.ZahtevZaGlumca.boolToNumber(System.Boolean)
-  nameWithType: ZahtevZaGlumca.boolToNumber(Boolean)
-- uid: Domen.ZahtevZaGlumca.boolToNumber*
-  name: boolToNumber
-  href: api/Domen.ZahtevZaGlumca.html#Domen_ZahtevZaGlumca_boolToNumber_
-  commentId: Overload:Domen.ZahtevZaGlumca.boolToNumber
-  isSpec: "True"
-  fullName: Domen.ZahtevZaGlumca.boolToNumber
-  nameWithType: ZahtevZaGlumca.boolToNumber
 - uid: Domen.ZahtevZaGlumca.GetObj(System.Data.SqlClient.SqlDataReader)
   name: GetObj(SqlDataReader)
   href: api/Domen.ZahtevZaGlumca.html#Domen_ZahtevZaGlumca_GetObj_System_Data_SqlClient_SqlDataReader_
