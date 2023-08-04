@@ -22,7 +22,7 @@ namespace SistemskeOperacije
         /// <summary>
         /// Metoda za izvrsavanje sistemske operacije sacuvaj ocenu glumca. 
         /// </summary>
-        protected override void IzvrsiSistemskuOperaciju()
+        internal override void IzvrsiSistemskuOperaciju()
         {
             repository.Add(OcenaGlumca);
         }

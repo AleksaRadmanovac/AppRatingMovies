@@ -23,7 +23,7 @@ namespace SistemskeOperacije
         /// Metoda za izvrsavanje sistemske operacije ucitaj listu zahteva. Vraca sve zahteve za unos filma iz baze,
         /// proverava koji su neobradjeni i dodaje ih u ListaZahteva.
         /// </summary>
-        protected override void IzvrsiSistemskuOperaciju()
+        internal override void IzvrsiSistemskuOperaciju()
         {
             ListaZahteva = new List<ZahtevZaFilm>();
             List<IDomenObjekat> lista = repository.GetAll(new ZahtevZaFilm());

@@ -21,7 +21,7 @@ namespace SistemskeOperacije
         /// <summary>
         /// Metoda za izvrsavanje sistemske operacije promene ocene glumca. Menja ocenu glumca u bazi.
         /// </summary>
-        protected override void IzvrsiSistemskuOperaciju()
+        internal override void IzvrsiSistemskuOperaciju()
         {
             repository.Update(OcenaGlumca);
         }

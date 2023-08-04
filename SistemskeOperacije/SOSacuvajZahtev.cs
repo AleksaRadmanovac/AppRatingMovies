@@ -28,7 +28,7 @@ namespace SistemskeOperacije
         /// Metoda za izvrsavanje sistemske operacije sacuvaj zahtev.
         /// Dodaje film iz zahteva u bazu i generisani id iz baze dodeljuje FilmId-u, dodaje zahtev u bazu i dodaje uloge iz filma u bazu.
         /// </summary>
-        protected override void IzvrsiSistemskuOperaciju()
+        internal override void IzvrsiSistemskuOperaciju()
         {
             FilmId = repository.AddOutput(Zahtev.Film);
             Zahtev.Film.Id = FilmId;

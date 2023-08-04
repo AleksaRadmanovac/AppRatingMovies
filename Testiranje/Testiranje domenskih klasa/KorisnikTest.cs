@@ -13,9 +13,11 @@ namespace Testiranje
     {
         Korisnik a;
         public IDbRepository<IDomenObjekat> repository;
-        [SetUp] public void SetUp() { a = new Korisnik(); DbBroker.DbConnection.test = true; }
+        [SetUp] public void SetUp() { a = new Korisnik(); DbBroker.DbConnection.test = true;
+            repository = new GenericRepository();
+        }
 
-        [TearDown] public void TearDown() { a = null; DbBroker.DbConnection.test = false; }
+        [TearDown] public void TearDown() { a = null; DbBroker.DbConnection.test = false; repository.Close(); }
 
         [Test]
         public void TestGetObj()
@@ -24,9 +26,6 @@ namespace Testiranje
             a.Username = "KorisnikTest";
             a.Password = "KorisnikTest";
             a.Pol = (Pol)1;
-
-
-            repository = new GenericRepository();
             Korisnik rez = (Korisnik)repository.Get(a);
 
             Assert.NotNull(rez);

@@ -106,6 +106,8 @@ namespace DbBroker
         {
             List<IDomenObjekat> lista = new List<IDomenObjekat>();
             SqlCommand cmd = DbConnectionFactory.Instance.GetBroker().CreateCommand($"Select * from {objekat.TableName} {objekat.Search(kriterijum)}");
+            string s = $"Select * from {objekat.TableName} {objekat.Search(kriterijum)}";
+            //distinct {objekat.TableName}.
             SqlDataReader reader = cmd.ExecuteReader();
             try
             {

@@ -23,7 +23,7 @@ namespace SistemskeOperacije
         /// <summary>
         /// Metoda za izvrsavanje sistemske operacije ucitaj listu glumaca. Vraca iz baze sve glumce koji su oznaceni kao prikazani i dodaje ih u UcitanaLista.
         /// </summary>
-        protected override void IzvrsiSistemskuOperaciju()
+        internal override void IzvrsiSistemskuOperaciju()
         {
             UcitanaLista = new List<Glumac>();
             List<IDomenObjekat> lista = repository.GetAllWhere(new Glumac(), $"WHERE Prikazan = 1");

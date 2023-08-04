@@ -29,7 +29,7 @@ namespace SistemskeOperacije
         /// Sistemska operacija pronadji glumce. Pronalazi glumce iz baze po zadatom 
         /// kriterijumu i smesta ih u ListaGlumaca.
         /// </summary>
-        protected override void IzvrsiSistemskuOperaciju()
+        internal override void IzvrsiSistemskuOperaciju()
         {
             ListaGlumaca = new List<Glumac>();
             List<IDomenObjekat> lista = repository.Search(Kriterijum, new Glumac());

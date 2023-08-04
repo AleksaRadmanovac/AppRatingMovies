@@ -29,11 +29,15 @@ namespace SistemskeOperacije
         /// Metoda za sistemsku operaciju ucitavanje zahteva za glumca. Vraca iz baze zahtev za glumca po Id-u, ako je dati zahtev obradjen, dolazi do exceptiona.
         /// </summary>
         /// <exception cref="MissingZahtevException">Ako je zahtev vec obradjen.</exception>
-        protected override void IzvrsiSistemskuOperaciju()
+        internal override void IzvrsiSistemskuOperaciju()
         {
             ZahtevZaGlumca zahtev = (ZahtevZaGlumca)repository.Get(new ZahtevZaGlumca() { Id = this.Id });
-            if (!zahtev.Obradjen) ZahtevZaGlumca = zahtev;
-            else { throw new MissingZahtevException(); }
+            if(zahtev != null) 
+            {
+                if (!zahtev.Obradjen)
+                { ZahtevZaGlumca = zahtev; return; }
+            }
+            throw new MissingZahtevException();
         }
     }
 }

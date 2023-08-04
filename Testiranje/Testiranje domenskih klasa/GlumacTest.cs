@@ -13,9 +13,9 @@ namespace Testiranje
     {
         Glumac a;
         public IDbRepository<IDomenObjekat> repository;
-        [SetUp] public void SetUp() { a = new Glumac(); DbBroker.DbConnection.test = true; }
+        [SetUp] public void SetUp() { a = new Glumac(); DbBroker.DbConnection.test = true; repository = new GenericRepository(); }
 
-        [TearDown] public void TearDown() { a = null; DbBroker.DbConnection.test = false; }
+        [TearDown] public void TearDown() { a = null; DbBroker.DbConnection.test = false; repository.Close(); }
 
         [Test]
         public void TestGetObj()
@@ -27,7 +27,6 @@ namespace Testiranje
             a.Pol = (Pol)1;
             a.Prikazan = true;
 
-            repository = new GenericRepository();
             Glumac rez = (Glumac)repository.Get(a);
 
             Assert.NotNull(rez);

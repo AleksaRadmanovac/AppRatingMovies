@@ -19,6 +19,15 @@ references:
   commentId: M:SistemskeOperacije.OsnovaSistemskihOperacija.#ctor
   fullName: SistemskeOperacije.OsnovaSistemskihOperacija.OsnovaSistemskihOperacija()
   nameWithType: OsnovaSistemskihOperacija.OsnovaSistemskihOperacija()
+- uid: SistemskeOperacije.OsnovaSistemskihOperacija.#ctor(DbBroker.IDbRepository{Domen.IDomenObjekat})
+  name: OsnovaSistemskihOperacija(IDbRepository<IDomenObjekat>)
+  href: api/SistemskeOperacije.OsnovaSistemskihOperacija.html#SistemskeOperacije_OsnovaSistemskihOperacija__ctor_DbBroker_IDbRepository_Domen_IDomenObjekat__
+  commentId: M:SistemskeOperacije.OsnovaSistemskihOperacija.#ctor(DbBroker.IDbRepository{Domen.IDomenObjekat})
+  name.vb: OsnovaSistemskihOperacija(IDbRepository(Of IDomenObjekat))
+  fullName: SistemskeOperacije.OsnovaSistemskihOperacija.OsnovaSistemskihOperacija(DbBroker.IDbRepository<Domen.IDomenObjekat>)
+  fullName.vb: SistemskeOperacije.OsnovaSistemskihOperacija.OsnovaSistemskihOperacija(DbBroker.IDbRepository(Of Domen.IDomenObjekat))
+  nameWithType: OsnovaSistemskihOperacija.OsnovaSistemskihOperacija(IDbRepository<IDomenObjekat>)
+  nameWithType.vb: OsnovaSistemskihOperacija.OsnovaSistemskihOperacija(IDbRepository(Of IDomenObjekat))
 - uid: SistemskeOperacije.OsnovaSistemskihOperacija.#ctor*
   name: OsnovaSistemskihOperacija
   href: api/SistemskeOperacije.OsnovaSistemskihOperacija.html#SistemskeOperacije_OsnovaSistemskihOperacija__ctor_
@@ -39,19 +48,6 @@ references:
   isSpec: "True"
   fullName: SistemskeOperacije.OsnovaSistemskihOperacija.Izvrsi
   nameWithType: OsnovaSistemskihOperacija.Izvrsi
-- uid: SistemskeOperacije.OsnovaSistemskihOperacija.IzvrsiSistemskuOperaciju
-  name: IzvrsiSistemskuOperaciju()
-  href: api/SistemskeOperacije.OsnovaSistemskihOperacija.html#SistemskeOperacije_OsnovaSistemskihOperacija_IzvrsiSistemskuOperaciju
-  commentId: M:SistemskeOperacije.OsnovaSistemskihOperacija.IzvrsiSistemskuOperaciju
-  fullName: SistemskeOperacije.OsnovaSistemskihOperacija.IzvrsiSistemskuOperaciju()
-  nameWithType: OsnovaSistemskihOperacija.IzvrsiSistemskuOperaciju()
-- uid: SistemskeOperacije.OsnovaSistemskihOperacija.IzvrsiSistemskuOperaciju*
-  name: IzvrsiSistemskuOperaciju
-  href: api/SistemskeOperacije.OsnovaSistemskihOperacija.html#SistemskeOperacije_OsnovaSistemskihOperacija_IzvrsiSistemskuOperaciju_
-  commentId: Overload:SistemskeOperacije.OsnovaSistemskihOperacija.IzvrsiSistemskuOperaciju
-  isSpec: "True"
-  fullName: SistemskeOperacije.OsnovaSistemskihOperacija.IzvrsiSistemskuOperaciju
-  nameWithType: OsnovaSistemskihOperacija.IzvrsiSistemskuOperaciju
 - uid: SistemskeOperacije.OsnovaSistemskihOperacija.repository
   name: repository
   href: api/SistemskeOperacije.OsnovaSistemskihOperacija.html#SistemskeOperacije_OsnovaSistemskihOperacija_repository
@@ -77,19 +73,6 @@ references:
   isSpec: "True"
   fullName: SistemskeOperacije.SOCuvanjeOdluke.DodavanjeUloga
   nameWithType: SOCuvanjeOdluke.DodavanjeUloga
-- uid: SistemskeOperacije.SOCuvanjeOdluke.IzvrsiSistemskuOperaciju
-  name: IzvrsiSistemskuOperaciju()
-  href: api/SistemskeOperacije.SOCuvanjeOdluke.html#SistemskeOperacije_SOCuvanjeOdluke_IzvrsiSistemskuOperaciju
-  commentId: M:SistemskeOperacije.SOCuvanjeOdluke.IzvrsiSistemskuOperaciju
-  fullName: SistemskeOperacije.SOCuvanjeOdluke.IzvrsiSistemskuOperaciju()
-  nameWithType: SOCuvanjeOdluke.IzvrsiSistemskuOperaciju()
-- uid: SistemskeOperacije.SOCuvanjeOdluke.IzvrsiSistemskuOperaciju*
-  name: IzvrsiSistemskuOperaciju
-  href: api/SistemskeOperacije.SOCuvanjeOdluke.html#SistemskeOperacije_SOCuvanjeOdluke_IzvrsiSistemskuOperaciju_
-  commentId: Overload:SistemskeOperacije.SOCuvanjeOdluke.IzvrsiSistemskuOperaciju
-  isSpec: "True"
-  fullName: SistemskeOperacije.SOCuvanjeOdluke.IzvrsiSistemskuOperaciju
-  nameWithType: SOCuvanjeOdluke.IzvrsiSistemskuOperaciju
 - uid: SistemskeOperacije.SOCuvanjeOdluke.ZahtevZaFilm
   name: ZahtevZaFilm
   href: api/SistemskeOperacije.SOCuvanjeOdluke.html#SistemskeOperacije_SOCuvanjeOdluke_ZahtevZaFilm
@@ -109,19 +92,6 @@ references:
   commentId: T:SistemskeOperacije.SOCuvanjeOdlukeZaGlumca
   fullName: SistemskeOperacije.SOCuvanjeOdlukeZaGlumca
   nameWithType: SOCuvanjeOdlukeZaGlumca
-- uid: SistemskeOperacije.SOCuvanjeOdlukeZaGlumca.IzvrsiSistemskuOperaciju
-  name: IzvrsiSistemskuOperaciju()
-  href: api/SistemskeOperacije.SOCuvanjeOdlukeZaGlumca.html#SistemskeOperacije_SOCuvanjeOdlukeZaGlumca_IzvrsiSistemskuOperaciju
-  commentId: M:SistemskeOperacije.SOCuvanjeOdlukeZaGlumca.IzvrsiSistemskuOperaciju
-  fullName: SistemskeOperacije.SOCuvanjeOdlukeZaGlumca.IzvrsiSistemskuOperaciju()
-  nameWithType: SOCuvanjeOdlukeZaGlumca.IzvrsiSistemskuOperaciju()
-- uid: SistemskeOperacije.SOCuvanjeOdlukeZaGlumca.IzvrsiSistemskuOperaciju*
-  name: IzvrsiSistemskuOperaciju
-  href: api/SistemskeOperacije.SOCuvanjeOdlukeZaGlumca.html#SistemskeOperacije_SOCuvanjeOdlukeZaGlumca_IzvrsiSistemskuOperaciju_
-  commentId: Overload:SistemskeOperacije.SOCuvanjeOdlukeZaGlumca.IzvrsiSistemskuOperaciju
-  isSpec: "True"
-  fullName: SistemskeOperacije.SOCuvanjeOdlukeZaGlumca.IzvrsiSistemskuOperaciju
-  nameWithType: SOCuvanjeOdlukeZaGlumca.IzvrsiSistemskuOperaciju
 - uid: SistemskeOperacije.SOCuvanjeOdlukeZaGlumca.ZahtevZaGlumca
   name: ZahtevZaGlumca
   href: api/SistemskeOperacije.SOCuvanjeOdlukeZaGlumca.html#SistemskeOperacije_SOCuvanjeOdlukeZaGlumca_ZahtevZaGlumca
@@ -141,19 +111,6 @@ references:
   commentId: T:SistemskeOperacije.SODodajUlogu
   fullName: SistemskeOperacije.SODodajUlogu
   nameWithType: SODodajUlogu
-- uid: SistemskeOperacije.SODodajUlogu.IzvrsiSistemskuOperaciju
-  name: IzvrsiSistemskuOperaciju()
-  href: api/SistemskeOperacije.SODodajUlogu.html#SistemskeOperacije_SODodajUlogu_IzvrsiSistemskuOperaciju
-  commentId: M:SistemskeOperacije.SODodajUlogu.IzvrsiSistemskuOperaciju
-  fullName: SistemskeOperacije.SODodajUlogu.IzvrsiSistemskuOperaciju()
-  nameWithType: SODodajUlogu.IzvrsiSistemskuOperaciju()
-- uid: SistemskeOperacije.SODodajUlogu.IzvrsiSistemskuOperaciju*
-  name: IzvrsiSistemskuOperaciju
-  href: api/SistemskeOperacije.SODodajUlogu.html#SistemskeOperacije_SODodajUlogu_IzvrsiSistemskuOperaciju_
-  commentId: Overload:SistemskeOperacije.SODodajUlogu.IzvrsiSistemskuOperaciju
-  isSpec: "True"
-  fullName: SistemskeOperacije.SODodajUlogu.IzvrsiSistemskuOperaciju
-  nameWithType: SODodajUlogu.IzvrsiSistemskuOperaciju
 - uid: SistemskeOperacije.SODodajUlogu.Uloga
   name: Uloga
   href: api/SistemskeOperacije.SODodajUlogu.html#SistemskeOperacije_SODodajUlogu_Uloga
@@ -173,19 +130,6 @@ references:
   commentId: T:SistemskeOperacije.SOLogin
   fullName: SistemskeOperacije.SOLogin
   nameWithType: SOLogin
-- uid: SistemskeOperacije.SOLogin.IzvrsiSistemskuOperaciju
-  name: IzvrsiSistemskuOperaciju()
-  href: api/SistemskeOperacije.SOLogin.html#SistemskeOperacije_SOLogin_IzvrsiSistemskuOperaciju
-  commentId: M:SistemskeOperacije.SOLogin.IzvrsiSistemskuOperaciju
-  fullName: SistemskeOperacije.SOLogin.IzvrsiSistemskuOperaciju()
-  nameWithType: SOLogin.IzvrsiSistemskuOperaciju()
-- uid: SistemskeOperacije.SOLogin.IzvrsiSistemskuOperaciju*
-  name: IzvrsiSistemskuOperaciju
-  href: api/SistemskeOperacije.SOLogin.html#SistemskeOperacije_SOLogin_IzvrsiSistemskuOperaciju_
-  commentId: Overload:SistemskeOperacije.SOLogin.IzvrsiSistemskuOperaciju
-  isSpec: "True"
-  fullName: SistemskeOperacije.SOLogin.IzvrsiSistemskuOperaciju
-  nameWithType: SOLogin.IzvrsiSistemskuOperaciju
 - uid: SistemskeOperacije.SOLogin.loginZahtev
   name: loginZahtev
   href: api/SistemskeOperacije.SOLogin.html#SistemskeOperacije_SOLogin_loginZahtev
@@ -244,19 +188,6 @@ references:
   isSpec: "True"
   fullName: SistemskeOperacije.SOPrikaziFilm.FilmID
   nameWithType: SOPrikaziFilm.FilmID
-- uid: SistemskeOperacije.SOPrikaziFilm.IzvrsiSistemskuOperaciju
-  name: IzvrsiSistemskuOperaciju()
-  href: api/SistemskeOperacije.SOPrikaziFilm.html#SistemskeOperacije_SOPrikaziFilm_IzvrsiSistemskuOperaciju
-  commentId: M:SistemskeOperacije.SOPrikaziFilm.IzvrsiSistemskuOperaciju
-  fullName: SistemskeOperacije.SOPrikaziFilm.IzvrsiSistemskuOperaciju()
-  nameWithType: SOPrikaziFilm.IzvrsiSistemskuOperaciju()
-- uid: SistemskeOperacije.SOPrikaziFilm.IzvrsiSistemskuOperaciju*
-  name: IzvrsiSistemskuOperaciju
-  href: api/SistemskeOperacije.SOPrikaziFilm.html#SistemskeOperacije_SOPrikaziFilm_IzvrsiSistemskuOperaciju_
-  commentId: Overload:SistemskeOperacije.SOPrikaziFilm.IzvrsiSistemskuOperaciju
-  isSpec: "True"
-  fullName: SistemskeOperacije.SOPrikaziFilm.IzvrsiSistemskuOperaciju
-  nameWithType: SOPrikaziFilm.IzvrsiSistemskuOperaciju
 - uid: SistemskeOperacije.SOPrikaziFilm.Rez
   name: Rez
   href: api/SistemskeOperacije.SOPrikaziFilm.html#SistemskeOperacije_SOPrikaziFilm_Rez
@@ -289,19 +220,6 @@ references:
   isSpec: "True"
   fullName: SistemskeOperacije.SOPrikaziGlumca.GlumacID
   nameWithType: SOPrikaziGlumca.GlumacID
-- uid: SistemskeOperacije.SOPrikaziGlumca.IzvrsiSistemskuOperaciju
-  name: IzvrsiSistemskuOperaciju()
-  href: api/SistemskeOperacije.SOPrikaziGlumca.html#SistemskeOperacije_SOPrikaziGlumca_IzvrsiSistemskuOperaciju
-  commentId: M:SistemskeOperacije.SOPrikaziGlumca.IzvrsiSistemskuOperaciju
-  fullName: SistemskeOperacije.SOPrikaziGlumca.IzvrsiSistemskuOperaciju()
-  nameWithType: SOPrikaziGlumca.IzvrsiSistemskuOperaciju()
-- uid: SistemskeOperacije.SOPrikaziGlumca.IzvrsiSistemskuOperaciju*
-  name: IzvrsiSistemskuOperaciju
-  href: api/SistemskeOperacije.SOPrikaziGlumca.html#SistemskeOperacije_SOPrikaziGlumca_IzvrsiSistemskuOperaciju_
-  commentId: Overload:SistemskeOperacije.SOPrikaziGlumca.IzvrsiSistemskuOperaciju
-  isSpec: "True"
-  fullName: SistemskeOperacije.SOPrikaziGlumca.IzvrsiSistemskuOperaciju
-  nameWithType: SOPrikaziGlumca.IzvrsiSistemskuOperaciju
 - uid: SistemskeOperacije.SOPrikaziGlumca.Rez
   name: Rez
   href: api/SistemskeOperacije.SOPrikaziGlumca.html#SistemskeOperacije_SOPrikaziGlumca_Rez
@@ -321,19 +239,6 @@ references:
   commentId: T:SistemskeOperacije.SOPromeniOcene
   fullName: SistemskeOperacije.SOPromeniOcene
   nameWithType: SOPromeniOcene
-- uid: SistemskeOperacije.SOPromeniOcene.IzvrsiSistemskuOperaciju
-  name: IzvrsiSistemskuOperaciju()
-  href: api/SistemskeOperacije.SOPromeniOcene.html#SistemskeOperacije_SOPromeniOcene_IzvrsiSistemskuOperaciju
-  commentId: M:SistemskeOperacije.SOPromeniOcene.IzvrsiSistemskuOperaciju
-  fullName: SistemskeOperacije.SOPromeniOcene.IzvrsiSistemskuOperaciju()
-  nameWithType: SOPromeniOcene.IzvrsiSistemskuOperaciju()
-- uid: SistemskeOperacije.SOPromeniOcene.IzvrsiSistemskuOperaciju*
-  name: IzvrsiSistemskuOperaciju
-  href: api/SistemskeOperacije.SOPromeniOcene.html#SistemskeOperacije_SOPromeniOcene_IzvrsiSistemskuOperaciju_
-  commentId: Overload:SistemskeOperacije.SOPromeniOcene.IzvrsiSistemskuOperaciju
-  isSpec: "True"
-  fullName: SistemskeOperacije.SOPromeniOcene.IzvrsiSistemskuOperaciju
-  nameWithType: SOPromeniOcene.IzvrsiSistemskuOperaciju
 - uid: SistemskeOperacije.SOPromeniOcene.ListaOcenaUloga
   name: ListaOcenaUloga
   href: api/SistemskeOperacije.SOPromeniOcene.html#SistemskeOperacije_SOPromeniOcene_ListaOcenaUloga
@@ -366,19 +271,6 @@ references:
   commentId: T:SistemskeOperacije.SOPromeniOcenuGlumca
   fullName: SistemskeOperacije.SOPromeniOcenuGlumca
   nameWithType: SOPromeniOcenuGlumca
-- uid: SistemskeOperacije.SOPromeniOcenuGlumca.IzvrsiSistemskuOperaciju
-  name: IzvrsiSistemskuOperaciju()
-  href: api/SistemskeOperacije.SOPromeniOcenuGlumca.html#SistemskeOperacije_SOPromeniOcenuGlumca_IzvrsiSistemskuOperaciju
-  commentId: M:SistemskeOperacije.SOPromeniOcenuGlumca.IzvrsiSistemskuOperaciju
-  fullName: SistemskeOperacije.SOPromeniOcenuGlumca.IzvrsiSistemskuOperaciju()
-  nameWithType: SOPromeniOcenuGlumca.IzvrsiSistemskuOperaciju()
-- uid: SistemskeOperacije.SOPromeniOcenuGlumca.IzvrsiSistemskuOperaciju*
-  name: IzvrsiSistemskuOperaciju
-  href: api/SistemskeOperacije.SOPromeniOcenuGlumca.html#SistemskeOperacije_SOPromeniOcenuGlumca_IzvrsiSistemskuOperaciju_
-  commentId: Overload:SistemskeOperacije.SOPromeniOcenuGlumca.IzvrsiSistemskuOperaciju
-  isSpec: "True"
-  fullName: SistemskeOperacije.SOPromeniOcenuGlumca.IzvrsiSistemskuOperaciju
-  nameWithType: SOPromeniOcenuGlumca.IzvrsiSistemskuOperaciju
 - uid: SistemskeOperacije.SOPromeniOcenuGlumca.OcenaGlumca
   name: OcenaGlumca
   href: api/SistemskeOperacije.SOPromeniOcenuGlumca.html#SistemskeOperacije_SOPromeniOcenuGlumca_OcenaGlumca
@@ -398,19 +290,6 @@ references:
   commentId: T:SistemskeOperacije.SOPronadjiFilmove
   fullName: SistemskeOperacije.SOPronadjiFilmove
   nameWithType: SOPronadjiFilmove
-- uid: SistemskeOperacije.SOPronadjiFilmove.IzvrsiSistemskuOperaciju
-  name: IzvrsiSistemskuOperaciju()
-  href: api/SistemskeOperacije.SOPronadjiFilmove.html#SistemskeOperacije_SOPronadjiFilmove_IzvrsiSistemskuOperaciju
-  commentId: M:SistemskeOperacije.SOPronadjiFilmove.IzvrsiSistemskuOperaciju
-  fullName: SistemskeOperacije.SOPronadjiFilmove.IzvrsiSistemskuOperaciju()
-  nameWithType: SOPronadjiFilmove.IzvrsiSistemskuOperaciju()
-- uid: SistemskeOperacije.SOPronadjiFilmove.IzvrsiSistemskuOperaciju*
-  name: IzvrsiSistemskuOperaciju
-  href: api/SistemskeOperacije.SOPronadjiFilmove.html#SistemskeOperacije_SOPronadjiFilmove_IzvrsiSistemskuOperaciju_
-  commentId: Overload:SistemskeOperacije.SOPronadjiFilmove.IzvrsiSistemskuOperaciju
-  isSpec: "True"
-  fullName: SistemskeOperacije.SOPronadjiFilmove.IzvrsiSistemskuOperaciju
-  nameWithType: SOPronadjiFilmove.IzvrsiSistemskuOperaciju
 - uid: SistemskeOperacije.SOPronadjiFilmove.Kriterijum
   name: Kriterijum
   href: api/SistemskeOperacije.SOPronadjiFilmove.html#SistemskeOperacije_SOPronadjiFilmove_Kriterijum
@@ -456,19 +335,6 @@ references:
   isSpec: "True"
   fullName: SistemskeOperacije.SOPronadjiFilmovePoGlumcu.GlumacID
   nameWithType: SOPronadjiFilmovePoGlumcu.GlumacID
-- uid: SistemskeOperacije.SOPronadjiFilmovePoGlumcu.IzvrsiSistemskuOperaciju
-  name: IzvrsiSistemskuOperaciju()
-  href: api/SistemskeOperacije.SOPronadjiFilmovePoGlumcu.html#SistemskeOperacije_SOPronadjiFilmovePoGlumcu_IzvrsiSistemskuOperaciju
-  commentId: M:SistemskeOperacije.SOPronadjiFilmovePoGlumcu.IzvrsiSistemskuOperaciju
-  fullName: SistemskeOperacije.SOPronadjiFilmovePoGlumcu.IzvrsiSistemskuOperaciju()
-  nameWithType: SOPronadjiFilmovePoGlumcu.IzvrsiSistemskuOperaciju()
-- uid: SistemskeOperacije.SOPronadjiFilmovePoGlumcu.IzvrsiSistemskuOperaciju*
-  name: IzvrsiSistemskuOperaciju
-  href: api/SistemskeOperacije.SOPronadjiFilmovePoGlumcu.html#SistemskeOperacije_SOPronadjiFilmovePoGlumcu_IzvrsiSistemskuOperaciju_
-  commentId: Overload:SistemskeOperacije.SOPronadjiFilmovePoGlumcu.IzvrsiSistemskuOperaciju
-  isSpec: "True"
-  fullName: SistemskeOperacije.SOPronadjiFilmovePoGlumcu.IzvrsiSistemskuOperaciju
-  nameWithType: SOPronadjiFilmovePoGlumcu.IzvrsiSistemskuOperaciju
 - uid: SistemskeOperacije.SOPronadjiFilmovePoGlumcu.ListaFilmova
   name: ListaFilmova
   href: api/SistemskeOperacije.SOPronadjiFilmovePoGlumcu.html#SistemskeOperacije_SOPronadjiFilmovePoGlumcu_ListaFilmova
@@ -488,19 +354,6 @@ references:
   commentId: T:SistemskeOperacije.SOPronadjiGlumce
   fullName: SistemskeOperacije.SOPronadjiGlumce
   nameWithType: SOPronadjiGlumce
-- uid: SistemskeOperacije.SOPronadjiGlumce.IzvrsiSistemskuOperaciju
-  name: IzvrsiSistemskuOperaciju()
-  href: api/SistemskeOperacije.SOPronadjiGlumce.html#SistemskeOperacije_SOPronadjiGlumce_IzvrsiSistemskuOperaciju
-  commentId: M:SistemskeOperacije.SOPronadjiGlumce.IzvrsiSistemskuOperaciju
-  fullName: SistemskeOperacije.SOPronadjiGlumce.IzvrsiSistemskuOperaciju()
-  nameWithType: SOPronadjiGlumce.IzvrsiSistemskuOperaciju()
-- uid: SistemskeOperacije.SOPronadjiGlumce.IzvrsiSistemskuOperaciju*
-  name: IzvrsiSistemskuOperaciju
-  href: api/SistemskeOperacije.SOPronadjiGlumce.html#SistemskeOperacije_SOPronadjiGlumce_IzvrsiSistemskuOperaciju_
-  commentId: Overload:SistemskeOperacije.SOPronadjiGlumce.IzvrsiSistemskuOperaciju
-  isSpec: "True"
-  fullName: SistemskeOperacije.SOPronadjiGlumce.IzvrsiSistemskuOperaciju
-  nameWithType: SOPronadjiGlumce.IzvrsiSistemskuOperaciju
 - uid: SistemskeOperacije.SOPronadjiGlumce.Kriterijum
   name: Kriterijum
   href: api/SistemskeOperacije.SOPronadjiGlumce.html#SistemskeOperacije_SOPronadjiGlumce_Kriterijum
@@ -533,19 +386,6 @@ references:
   commentId: T:SistemskeOperacije.SORegistracija
   fullName: SistemskeOperacije.SORegistracija
   nameWithType: SORegistracija
-- uid: SistemskeOperacije.SORegistracija.IzvrsiSistemskuOperaciju
-  name: IzvrsiSistemskuOperaciju()
-  href: api/SistemskeOperacije.SORegistracija.html#SistemskeOperacije_SORegistracija_IzvrsiSistemskuOperaciju
-  commentId: M:SistemskeOperacije.SORegistracija.IzvrsiSistemskuOperaciju
-  fullName: SistemskeOperacije.SORegistracija.IzvrsiSistemskuOperaciju()
-  nameWithType: SORegistracija.IzvrsiSistemskuOperaciju()
-- uid: SistemskeOperacije.SORegistracija.IzvrsiSistemskuOperaciju*
-  name: IzvrsiSistemskuOperaciju
-  href: api/SistemskeOperacije.SORegistracija.html#SistemskeOperacije_SORegistracija_IzvrsiSistemskuOperaciju_
-  commentId: Overload:SistemskeOperacije.SORegistracija.IzvrsiSistemskuOperaciju
-  isSpec: "True"
-  fullName: SistemskeOperacije.SORegistracija.IzvrsiSistemskuOperaciju
-  nameWithType: SORegistracija.IzvrsiSistemskuOperaciju
 - uid: SistemskeOperacije.SORegistracija.Korisnik
   name: Korisnik
   href: api/SistemskeOperacije.SORegistracija.html#SistemskeOperacije_SORegistracija_Korisnik
@@ -578,38 +418,12 @@ references:
   isSpec: "True"
   fullName: SistemskeOperacije.SORegistracijaAdministratora.Administrator
   nameWithType: SORegistracijaAdministratora.Administrator
-- uid: SistemskeOperacije.SORegistracijaAdministratora.IzvrsiSistemskuOperaciju
-  name: IzvrsiSistemskuOperaciju()
-  href: api/SistemskeOperacije.SORegistracijaAdministratora.html#SistemskeOperacije_SORegistracijaAdministratora_IzvrsiSistemskuOperaciju
-  commentId: M:SistemskeOperacije.SORegistracijaAdministratora.IzvrsiSistemskuOperaciju
-  fullName: SistemskeOperacije.SORegistracijaAdministratora.IzvrsiSistemskuOperaciju()
-  nameWithType: SORegistracijaAdministratora.IzvrsiSistemskuOperaciju()
-- uid: SistemskeOperacije.SORegistracijaAdministratora.IzvrsiSistemskuOperaciju*
-  name: IzvrsiSistemskuOperaciju
-  href: api/SistemskeOperacije.SORegistracijaAdministratora.html#SistemskeOperacije_SORegistracijaAdministratora_IzvrsiSistemskuOperaciju_
-  commentId: Overload:SistemskeOperacije.SORegistracijaAdministratora.IzvrsiSistemskuOperaciju
-  isSpec: "True"
-  fullName: SistemskeOperacije.SORegistracijaAdministratora.IzvrsiSistemskuOperaciju
-  nameWithType: SORegistracijaAdministratora.IzvrsiSistemskuOperaciju
 - uid: SistemskeOperacije.SOSacuvajOcene
   name: SOSacuvajOcene
   href: api/SistemskeOperacije.SOSacuvajOcene.html
   commentId: T:SistemskeOperacije.SOSacuvajOcene
   fullName: SistemskeOperacije.SOSacuvajOcene
   nameWithType: SOSacuvajOcene
-- uid: SistemskeOperacije.SOSacuvajOcene.IzvrsiSistemskuOperaciju
-  name: IzvrsiSistemskuOperaciju()
-  href: api/SistemskeOperacije.SOSacuvajOcene.html#SistemskeOperacije_SOSacuvajOcene_IzvrsiSistemskuOperaciju
-  commentId: M:SistemskeOperacije.SOSacuvajOcene.IzvrsiSistemskuOperaciju
-  fullName: SistemskeOperacije.SOSacuvajOcene.IzvrsiSistemskuOperaciju()
-  nameWithType: SOSacuvajOcene.IzvrsiSistemskuOperaciju()
-- uid: SistemskeOperacije.SOSacuvajOcene.IzvrsiSistemskuOperaciju*
-  name: IzvrsiSistemskuOperaciju
-  href: api/SistemskeOperacije.SOSacuvajOcene.html#SistemskeOperacije_SOSacuvajOcene_IzvrsiSistemskuOperaciju_
-  commentId: Overload:SistemskeOperacije.SOSacuvajOcene.IzvrsiSistemskuOperaciju
-  isSpec: "True"
-  fullName: SistemskeOperacije.SOSacuvajOcene.IzvrsiSistemskuOperaciju
-  nameWithType: SOSacuvajOcene.IzvrsiSistemskuOperaciju
 - uid: SistemskeOperacije.SOSacuvajOcene.ListaOcenaUloga
   name: ListaOcenaUloga
   href: api/SistemskeOperacije.SOSacuvajOcene.html#SistemskeOperacije_SOSacuvajOcene_ListaOcenaUloga
@@ -642,19 +456,6 @@ references:
   commentId: T:SistemskeOperacije.SOSacuvajOcenuGlumca
   fullName: SistemskeOperacije.SOSacuvajOcenuGlumca
   nameWithType: SOSacuvajOcenuGlumca
-- uid: SistemskeOperacije.SOSacuvajOcenuGlumca.IzvrsiSistemskuOperaciju
-  name: IzvrsiSistemskuOperaciju()
-  href: api/SistemskeOperacije.SOSacuvajOcenuGlumca.html#SistemskeOperacije_SOSacuvajOcenuGlumca_IzvrsiSistemskuOperaciju
-  commentId: M:SistemskeOperacije.SOSacuvajOcenuGlumca.IzvrsiSistemskuOperaciju
-  fullName: SistemskeOperacije.SOSacuvajOcenuGlumca.IzvrsiSistemskuOperaciju()
-  nameWithType: SOSacuvajOcenuGlumca.IzvrsiSistemskuOperaciju()
-- uid: SistemskeOperacije.SOSacuvajOcenuGlumca.IzvrsiSistemskuOperaciju*
-  name: IzvrsiSistemskuOperaciju
-  href: api/SistemskeOperacije.SOSacuvajOcenuGlumca.html#SistemskeOperacije_SOSacuvajOcenuGlumca_IzvrsiSistemskuOperaciju_
-  commentId: Overload:SistemskeOperacije.SOSacuvajOcenuGlumca.IzvrsiSistemskuOperaciju
-  isSpec: "True"
-  fullName: SistemskeOperacije.SOSacuvajOcenuGlumca.IzvrsiSistemskuOperaciju
-  nameWithType: SOSacuvajOcenuGlumca.IzvrsiSistemskuOperaciju
 - uid: SistemskeOperacije.SOSacuvajOcenuGlumca.OcenaGlumca
   name: OcenaGlumca
   href: api/SistemskeOperacije.SOSacuvajOcenuGlumca.html#SistemskeOperacije_SOSacuvajOcenuGlumca_OcenaGlumca
@@ -687,19 +488,6 @@ references:
   isSpec: "True"
   fullName: SistemskeOperacije.SOSacuvajZahtev.FilmId
   nameWithType: SOSacuvajZahtev.FilmId
-- uid: SistemskeOperacije.SOSacuvajZahtev.IzvrsiSistemskuOperaciju
-  name: IzvrsiSistemskuOperaciju()
-  href: api/SistemskeOperacije.SOSacuvajZahtev.html#SistemskeOperacije_SOSacuvajZahtev_IzvrsiSistemskuOperaciju
-  commentId: M:SistemskeOperacije.SOSacuvajZahtev.IzvrsiSistemskuOperaciju
-  fullName: SistemskeOperacije.SOSacuvajZahtev.IzvrsiSistemskuOperaciju()
-  nameWithType: SOSacuvajZahtev.IzvrsiSistemskuOperaciju()
-- uid: SistemskeOperacije.SOSacuvajZahtev.IzvrsiSistemskuOperaciju*
-  name: IzvrsiSistemskuOperaciju
-  href: api/SistemskeOperacije.SOSacuvajZahtev.html#SistemskeOperacije_SOSacuvajZahtev_IzvrsiSistemskuOperaciju_
-  commentId: Overload:SistemskeOperacije.SOSacuvajZahtev.IzvrsiSistemskuOperaciju
-  isSpec: "True"
-  fullName: SistemskeOperacije.SOSacuvajZahtev.IzvrsiSistemskuOperaciju
-  nameWithType: SOSacuvajZahtev.IzvrsiSistemskuOperaciju
 - uid: SistemskeOperacije.SOSacuvajZahtev.Zahtev
   name: Zahtev
   href: api/SistemskeOperacije.SOSacuvajZahtev.html#SistemskeOperacije_SOSacuvajZahtev_Zahtev
@@ -719,19 +507,6 @@ references:
   commentId: T:SistemskeOperacije.SOSacuvajZahtevZaGlumca
   fullName: SistemskeOperacije.SOSacuvajZahtevZaGlumca
   nameWithType: SOSacuvajZahtevZaGlumca
-- uid: SistemskeOperacije.SOSacuvajZahtevZaGlumca.IzvrsiSistemskuOperaciju
-  name: IzvrsiSistemskuOperaciju()
-  href: api/SistemskeOperacije.SOSacuvajZahtevZaGlumca.html#SistemskeOperacije_SOSacuvajZahtevZaGlumca_IzvrsiSistemskuOperaciju
-  commentId: M:SistemskeOperacije.SOSacuvajZahtevZaGlumca.IzvrsiSistemskuOperaciju
-  fullName: SistemskeOperacije.SOSacuvajZahtevZaGlumca.IzvrsiSistemskuOperaciju()
-  nameWithType: SOSacuvajZahtevZaGlumca.IzvrsiSistemskuOperaciju()
-- uid: SistemskeOperacije.SOSacuvajZahtevZaGlumca.IzvrsiSistemskuOperaciju*
-  name: IzvrsiSistemskuOperaciju
-  href: api/SistemskeOperacije.SOSacuvajZahtevZaGlumca.html#SistemskeOperacije_SOSacuvajZahtevZaGlumca_IzvrsiSistemskuOperaciju_
-  commentId: Overload:SistemskeOperacije.SOSacuvajZahtevZaGlumca.IzvrsiSistemskuOperaciju
-  isSpec: "True"
-  fullName: SistemskeOperacije.SOSacuvajZahtevZaGlumca.IzvrsiSistemskuOperaciju
-  nameWithType: SOSacuvajZahtevZaGlumca.IzvrsiSistemskuOperaciju
 - uid: SistemskeOperacije.SOSacuvajZahtevZaGlumca.Zahtev
   name: Zahtev
   href: api/SistemskeOperacije.SOSacuvajZahtevZaGlumca.html#SistemskeOperacije_SOSacuvajZahtevZaGlumca_Zahtev
@@ -751,19 +526,6 @@ references:
   commentId: T:SistemskeOperacije.SOUcitajListuFilmova
   fullName: SistemskeOperacije.SOUcitajListuFilmova
   nameWithType: SOUcitajListuFilmova
-- uid: SistemskeOperacije.SOUcitajListuFilmova.IzvrsiSistemskuOperaciju
-  name: IzvrsiSistemskuOperaciju()
-  href: api/SistemskeOperacije.SOUcitajListuFilmova.html#SistemskeOperacije_SOUcitajListuFilmova_IzvrsiSistemskuOperaciju
-  commentId: M:SistemskeOperacije.SOUcitajListuFilmova.IzvrsiSistemskuOperaciju
-  fullName: SistemskeOperacije.SOUcitajListuFilmova.IzvrsiSistemskuOperaciju()
-  nameWithType: SOUcitajListuFilmova.IzvrsiSistemskuOperaciju()
-- uid: SistemskeOperacije.SOUcitajListuFilmova.IzvrsiSistemskuOperaciju*
-  name: IzvrsiSistemskuOperaciju
-  href: api/SistemskeOperacije.SOUcitajListuFilmova.html#SistemskeOperacije_SOUcitajListuFilmova_IzvrsiSistemskuOperaciju_
-  commentId: Overload:SistemskeOperacije.SOUcitajListuFilmova.IzvrsiSistemskuOperaciju
-  isSpec: "True"
-  fullName: SistemskeOperacije.SOUcitajListuFilmova.IzvrsiSistemskuOperaciju
-  nameWithType: SOUcitajListuFilmova.IzvrsiSistemskuOperaciju
 - uid: SistemskeOperacije.SOUcitajListuFilmova.UcitanaLista
   name: UcitanaLista
   href: api/SistemskeOperacije.SOUcitajListuFilmova.html#SistemskeOperacije_SOUcitajListuFilmova_UcitanaLista
@@ -783,19 +545,6 @@ references:
   commentId: T:SistemskeOperacije.SOUcitajListuGlumaca
   fullName: SistemskeOperacije.SOUcitajListuGlumaca
   nameWithType: SOUcitajListuGlumaca
-- uid: SistemskeOperacije.SOUcitajListuGlumaca.IzvrsiSistemskuOperaciju
-  name: IzvrsiSistemskuOperaciju()
-  href: api/SistemskeOperacije.SOUcitajListuGlumaca.html#SistemskeOperacije_SOUcitajListuGlumaca_IzvrsiSistemskuOperaciju
-  commentId: M:SistemskeOperacije.SOUcitajListuGlumaca.IzvrsiSistemskuOperaciju
-  fullName: SistemskeOperacije.SOUcitajListuGlumaca.IzvrsiSistemskuOperaciju()
-  nameWithType: SOUcitajListuGlumaca.IzvrsiSistemskuOperaciju()
-- uid: SistemskeOperacije.SOUcitajListuGlumaca.IzvrsiSistemskuOperaciju*
-  name: IzvrsiSistemskuOperaciju
-  href: api/SistemskeOperacije.SOUcitajListuGlumaca.html#SistemskeOperacije_SOUcitajListuGlumaca_IzvrsiSistemskuOperaciju_
-  commentId: Overload:SistemskeOperacije.SOUcitajListuGlumaca.IzvrsiSistemskuOperaciju
-  isSpec: "True"
-  fullName: SistemskeOperacije.SOUcitajListuGlumaca.IzvrsiSistemskuOperaciju
-  nameWithType: SOUcitajListuGlumaca.IzvrsiSistemskuOperaciju
 - uid: SistemskeOperacije.SOUcitajListuGlumaca.UcitanaLista
   name: UcitanaLista
   href: api/SistemskeOperacije.SOUcitajListuGlumaca.html#SistemskeOperacije_SOUcitajListuGlumaca_UcitanaLista
@@ -828,19 +577,6 @@ references:
   isSpec: "True"
   fullName: SistemskeOperacije.SOUcitajListuUlogaZaFilm.FilmID
   nameWithType: SOUcitajListuUlogaZaFilm.FilmID
-- uid: SistemskeOperacije.SOUcitajListuUlogaZaFilm.IzvrsiSistemskuOperaciju
-  name: IzvrsiSistemskuOperaciju()
-  href: api/SistemskeOperacije.SOUcitajListuUlogaZaFilm.html#SistemskeOperacije_SOUcitajListuUlogaZaFilm_IzvrsiSistemskuOperaciju
-  commentId: M:SistemskeOperacije.SOUcitajListuUlogaZaFilm.IzvrsiSistemskuOperaciju
-  fullName: SistemskeOperacije.SOUcitajListuUlogaZaFilm.IzvrsiSistemskuOperaciju()
-  nameWithType: SOUcitajListuUlogaZaFilm.IzvrsiSistemskuOperaciju()
-- uid: SistemskeOperacije.SOUcitajListuUlogaZaFilm.IzvrsiSistemskuOperaciju*
-  name: IzvrsiSistemskuOperaciju
-  href: api/SistemskeOperacije.SOUcitajListuUlogaZaFilm.html#SistemskeOperacije_SOUcitajListuUlogaZaFilm_IzvrsiSistemskuOperaciju_
-  commentId: Overload:SistemskeOperacije.SOUcitajListuUlogaZaFilm.IzvrsiSistemskuOperaciju
-  isSpec: "True"
-  fullName: SistemskeOperacije.SOUcitajListuUlogaZaFilm.IzvrsiSistemskuOperaciju
-  nameWithType: SOUcitajListuUlogaZaFilm.IzvrsiSistemskuOperaciju
 - uid: SistemskeOperacije.SOUcitajListuUlogaZaFilm.ListaUloga
   name: ListaUloga
   href: api/SistemskeOperacije.SOUcitajListuUlogaZaFilm.html#SistemskeOperacije_SOUcitajListuUlogaZaFilm_ListaUloga
@@ -860,19 +596,6 @@ references:
   commentId: T:SistemskeOperacije.SOUcitajListuZahteva
   fullName: SistemskeOperacije.SOUcitajListuZahteva
   nameWithType: SOUcitajListuZahteva
-- uid: SistemskeOperacije.SOUcitajListuZahteva.IzvrsiSistemskuOperaciju
-  name: IzvrsiSistemskuOperaciju()
-  href: api/SistemskeOperacije.SOUcitajListuZahteva.html#SistemskeOperacije_SOUcitajListuZahteva_IzvrsiSistemskuOperaciju
-  commentId: M:SistemskeOperacije.SOUcitajListuZahteva.IzvrsiSistemskuOperaciju
-  fullName: SistemskeOperacije.SOUcitajListuZahteva.IzvrsiSistemskuOperaciju()
-  nameWithType: SOUcitajListuZahteva.IzvrsiSistemskuOperaciju()
-- uid: SistemskeOperacije.SOUcitajListuZahteva.IzvrsiSistemskuOperaciju*
-  name: IzvrsiSistemskuOperaciju
-  href: api/SistemskeOperacije.SOUcitajListuZahteva.html#SistemskeOperacije_SOUcitajListuZahteva_IzvrsiSistemskuOperaciju_
-  commentId: Overload:SistemskeOperacije.SOUcitajListuZahteva.IzvrsiSistemskuOperaciju
-  isSpec: "True"
-  fullName: SistemskeOperacije.SOUcitajListuZahteva.IzvrsiSistemskuOperaciju
-  nameWithType: SOUcitajListuZahteva.IzvrsiSistemskuOperaciju
 - uid: SistemskeOperacije.SOUcitajListuZahteva.ListaZahteva
   name: ListaZahteva
   href: api/SistemskeOperacije.SOUcitajListuZahteva.html#SistemskeOperacije_SOUcitajListuZahteva_ListaZahteva
@@ -892,19 +615,6 @@ references:
   commentId: T:SistemskeOperacije.SOUcitajListuZahtevaZaGlumca
   fullName: SistemskeOperacije.SOUcitajListuZahtevaZaGlumca
   nameWithType: SOUcitajListuZahtevaZaGlumca
-- uid: SistemskeOperacije.SOUcitajListuZahtevaZaGlumca.IzvrsiSistemskuOperaciju
-  name: IzvrsiSistemskuOperaciju()
-  href: api/SistemskeOperacije.SOUcitajListuZahtevaZaGlumca.html#SistemskeOperacije_SOUcitajListuZahtevaZaGlumca_IzvrsiSistemskuOperaciju
-  commentId: M:SistemskeOperacije.SOUcitajListuZahtevaZaGlumca.IzvrsiSistemskuOperaciju
-  fullName: SistemskeOperacije.SOUcitajListuZahtevaZaGlumca.IzvrsiSistemskuOperaciju()
-  nameWithType: SOUcitajListuZahtevaZaGlumca.IzvrsiSistemskuOperaciju()
-- uid: SistemskeOperacije.SOUcitajListuZahtevaZaGlumca.IzvrsiSistemskuOperaciju*
-  name: IzvrsiSistemskuOperaciju
-  href: api/SistemskeOperacije.SOUcitajListuZahtevaZaGlumca.html#SistemskeOperacije_SOUcitajListuZahtevaZaGlumca_IzvrsiSistemskuOperaciju_
-  commentId: Overload:SistemskeOperacije.SOUcitajListuZahtevaZaGlumca.IzvrsiSistemskuOperaciju
-  isSpec: "True"
-  fullName: SistemskeOperacije.SOUcitajListuZahtevaZaGlumca.IzvrsiSistemskuOperaciju
-  nameWithType: SOUcitajListuZahtevaZaGlumca.IzvrsiSistemskuOperaciju
 - uid: SistemskeOperacije.SOUcitajListuZahtevaZaGlumca.ListaZahtevaZaGlumca
   name: ListaZahtevaZaGlumca
   href: api/SistemskeOperacije.SOUcitajListuZahtevaZaGlumca.html#SistemskeOperacije_SOUcitajListuZahtevaZaGlumca_ListaZahtevaZaGlumca
@@ -937,19 +647,6 @@ references:
   isSpec: "True"
   fullName: SistemskeOperacije.SOUcitavanjeZahteva.Id
   nameWithType: SOUcitavanjeZahteva.Id
-- uid: SistemskeOperacije.SOUcitavanjeZahteva.IzvrsiSistemskuOperaciju
-  name: IzvrsiSistemskuOperaciju()
-  href: api/SistemskeOperacije.SOUcitavanjeZahteva.html#SistemskeOperacije_SOUcitavanjeZahteva_IzvrsiSistemskuOperaciju
-  commentId: M:SistemskeOperacije.SOUcitavanjeZahteva.IzvrsiSistemskuOperaciju
-  fullName: SistemskeOperacije.SOUcitavanjeZahteva.IzvrsiSistemskuOperaciju()
-  nameWithType: SOUcitavanjeZahteva.IzvrsiSistemskuOperaciju()
-- uid: SistemskeOperacije.SOUcitavanjeZahteva.IzvrsiSistemskuOperaciju*
-  name: IzvrsiSistemskuOperaciju
-  href: api/SistemskeOperacije.SOUcitavanjeZahteva.html#SistemskeOperacije_SOUcitavanjeZahteva_IzvrsiSistemskuOperaciju_
-  commentId: Overload:SistemskeOperacije.SOUcitavanjeZahteva.IzvrsiSistemskuOperaciju
-  isSpec: "True"
-  fullName: SistemskeOperacije.SOUcitavanjeZahteva.IzvrsiSistemskuOperaciju
-  nameWithType: SOUcitavanjeZahteva.IzvrsiSistemskuOperaciju
 - uid: SistemskeOperacije.SOUcitavanjeZahteva.ZahtevZaFilm
   name: ZahtevZaFilm
   href: api/SistemskeOperacije.SOUcitavanjeZahteva.html#SistemskeOperacije_SOUcitavanjeZahteva_ZahtevZaFilm
@@ -982,19 +679,6 @@ references:
   isSpec: "True"
   fullName: SistemskeOperacije.SOUcitavanjeZahtevaZaGlumca.Id
   nameWithType: SOUcitavanjeZahtevaZaGlumca.Id
-- uid: SistemskeOperacije.SOUcitavanjeZahtevaZaGlumca.IzvrsiSistemskuOperaciju
-  name: IzvrsiSistemskuOperaciju()
-  href: api/SistemskeOperacije.SOUcitavanjeZahtevaZaGlumca.html#SistemskeOperacije_SOUcitavanjeZahtevaZaGlumca_IzvrsiSistemskuOperaciju
-  commentId: M:SistemskeOperacije.SOUcitavanjeZahtevaZaGlumca.IzvrsiSistemskuOperaciju
-  fullName: SistemskeOperacije.SOUcitavanjeZahtevaZaGlumca.IzvrsiSistemskuOperaciju()
-  nameWithType: SOUcitavanjeZahtevaZaGlumca.IzvrsiSistemskuOperaciju()
-- uid: SistemskeOperacije.SOUcitavanjeZahtevaZaGlumca.IzvrsiSistemskuOperaciju*
-  name: IzvrsiSistemskuOperaciju
-  href: api/SistemskeOperacije.SOUcitavanjeZahtevaZaGlumca.html#SistemskeOperacije_SOUcitavanjeZahtevaZaGlumca_IzvrsiSistemskuOperaciju_
-  commentId: Overload:SistemskeOperacije.SOUcitavanjeZahtevaZaGlumca.IzvrsiSistemskuOperaciju
-  isSpec: "True"
-  fullName: SistemskeOperacije.SOUcitavanjeZahtevaZaGlumca.IzvrsiSistemskuOperaciju
-  nameWithType: SOUcitavanjeZahtevaZaGlumca.IzvrsiSistemskuOperaciju
 - uid: SistemskeOperacije.SOUcitavanjeZahtevaZaGlumca.ZahtevZaGlumca
   name: ZahtevZaGlumca
   href: api/SistemskeOperacije.SOUcitavanjeZahtevaZaGlumca.html#SistemskeOperacije_SOUcitavanjeZahtevaZaGlumca_ZahtevZaGlumca
@@ -1014,32 +698,19 @@ references:
   commentId: T:SistemskeOperacije.SOVratiOceneFilma
   fullName: SistemskeOperacije.SOVratiOceneFilma
   nameWithType: SOVratiOceneFilma
-- uid: SistemskeOperacije.SOVratiOceneFilma.IzvrsiSistemskuOperaciju
-  name: IzvrsiSistemskuOperaciju()
-  href: api/SistemskeOperacije.SOVratiOceneFilma.html#SistemskeOperacije_SOVratiOceneFilma_IzvrsiSistemskuOperaciju
-  commentId: M:SistemskeOperacije.SOVratiOceneFilma.IzvrsiSistemskuOperaciju
-  fullName: SistemskeOperacije.SOVratiOceneFilma.IzvrsiSistemskuOperaciju()
-  nameWithType: SOVratiOceneFilma.IzvrsiSistemskuOperaciju()
-- uid: SistemskeOperacije.SOVratiOceneFilma.IzvrsiSistemskuOperaciju*
-  name: IzvrsiSistemskuOperaciju
-  href: api/SistemskeOperacije.SOVratiOceneFilma.html#SistemskeOperacije_SOVratiOceneFilma_IzvrsiSistemskuOperaciju_
-  commentId: Overload:SistemskeOperacije.SOVratiOceneFilma.IzvrsiSistemskuOperaciju
+- uid: SistemskeOperacije.SOVratiOceneFilma.ListaOcenaUloga
+  name: ListaOcenaUloga
+  href: api/SistemskeOperacije.SOVratiOceneFilma.html#SistemskeOperacije_SOVratiOceneFilma_ListaOcenaUloga
+  commentId: P:SistemskeOperacije.SOVratiOceneFilma.ListaOcenaUloga
+  fullName: SistemskeOperacije.SOVratiOceneFilma.ListaOcenaUloga
+  nameWithType: SOVratiOceneFilma.ListaOcenaUloga
+- uid: SistemskeOperacije.SOVratiOceneFilma.ListaOcenaUloga*
+  name: ListaOcenaUloga
+  href: api/SistemskeOperacije.SOVratiOceneFilma.html#SistemskeOperacije_SOVratiOceneFilma_ListaOcenaUloga_
+  commentId: Overload:SistemskeOperacije.SOVratiOceneFilma.ListaOcenaUloga
   isSpec: "True"
-  fullName: SistemskeOperacije.SOVratiOceneFilma.IzvrsiSistemskuOperaciju
-  nameWithType: SOVratiOceneFilma.IzvrsiSistemskuOperaciju
-- uid: SistemskeOperacije.SOVratiOceneFilma.listaOcenaUloga
-  name: listaOcenaUloga
-  href: api/SistemskeOperacije.SOVratiOceneFilma.html#SistemskeOperacije_SOVratiOceneFilma_listaOcenaUloga
-  commentId: P:SistemskeOperacije.SOVratiOceneFilma.listaOcenaUloga
-  fullName: SistemskeOperacije.SOVratiOceneFilma.listaOcenaUloga
-  nameWithType: SOVratiOceneFilma.listaOcenaUloga
-- uid: SistemskeOperacije.SOVratiOceneFilma.listaOcenaUloga*
-  name: listaOcenaUloga
-  href: api/SistemskeOperacije.SOVratiOceneFilma.html#SistemskeOperacije_SOVratiOceneFilma_listaOcenaUloga_
-  commentId: Overload:SistemskeOperacije.SOVratiOceneFilma.listaOcenaUloga
-  isSpec: "True"
-  fullName: SistemskeOperacije.SOVratiOceneFilma.listaOcenaUloga
-  nameWithType: SOVratiOceneFilma.listaOcenaUloga
+  fullName: SistemskeOperacije.SOVratiOceneFilma.ListaOcenaUloga
+  nameWithType: SOVratiOceneFilma.ListaOcenaUloga
 - uid: SistemskeOperacije.SOVratiOceneFilma.OcenaFilma
   name: OcenaFilma
   href: api/SistemskeOperacije.SOVratiOceneFilma.html#SistemskeOperacije_SOVratiOceneFilma_OcenaFilma
@@ -1072,19 +743,6 @@ references:
   commentId: T:SistemskeOperacije.SOVratiOcenuGlumca
   fullName: SistemskeOperacije.SOVratiOcenuGlumca
   nameWithType: SOVratiOcenuGlumca
-- uid: SistemskeOperacije.SOVratiOcenuGlumca.IzvrsiSistemskuOperaciju
-  name: IzvrsiSistemskuOperaciju()
-  href: api/SistemskeOperacije.SOVratiOcenuGlumca.html#SistemskeOperacije_SOVratiOcenuGlumca_IzvrsiSistemskuOperaciju
-  commentId: M:SistemskeOperacije.SOVratiOcenuGlumca.IzvrsiSistemskuOperaciju
-  fullName: SistemskeOperacije.SOVratiOcenuGlumca.IzvrsiSistemskuOperaciju()
-  nameWithType: SOVratiOcenuGlumca.IzvrsiSistemskuOperaciju()
-- uid: SistemskeOperacije.SOVratiOcenuGlumca.IzvrsiSistemskuOperaciju*
-  name: IzvrsiSistemskuOperaciju
-  href: api/SistemskeOperacije.SOVratiOcenuGlumca.html#SistemskeOperacije_SOVratiOcenuGlumca_IzvrsiSistemskuOperaciju_
-  commentId: Overload:SistemskeOperacije.SOVratiOcenuGlumca.IzvrsiSistemskuOperaciju
-  isSpec: "True"
-  fullName: SistemskeOperacije.SOVratiOcenuGlumca.IzvrsiSistemskuOperaciju
-  nameWithType: SOVratiOcenuGlumca.IzvrsiSistemskuOperaciju
 - uid: SistemskeOperacije.SOVratiOcenuGlumca.OcenaGlumca
   name: OcenaGlumca
   href: api/SistemskeOperacije.SOVratiOcenuGlumca.html#SistemskeOperacije_SOVratiOcenuGlumca_OcenaGlumca
@@ -1117,19 +775,6 @@ references:
   isSpec: "True"
   fullName: SistemskeOperacije.SOVratiSveOceneZaFilm.Film
   nameWithType: SOVratiSveOceneZaFilm.Film
-- uid: SistemskeOperacije.SOVratiSveOceneZaFilm.IzvrsiSistemskuOperaciju
-  name: IzvrsiSistemskuOperaciju()
-  href: api/SistemskeOperacije.SOVratiSveOceneZaFilm.html#SistemskeOperacije_SOVratiSveOceneZaFilm_IzvrsiSistemskuOperaciju
-  commentId: M:SistemskeOperacije.SOVratiSveOceneZaFilm.IzvrsiSistemskuOperaciju
-  fullName: SistemskeOperacije.SOVratiSveOceneZaFilm.IzvrsiSistemskuOperaciju()
-  nameWithType: SOVratiSveOceneZaFilm.IzvrsiSistemskuOperaciju()
-- uid: SistemskeOperacije.SOVratiSveOceneZaFilm.IzvrsiSistemskuOperaciju*
-  name: IzvrsiSistemskuOperaciju
-  href: api/SistemskeOperacije.SOVratiSveOceneZaFilm.html#SistemskeOperacije_SOVratiSveOceneZaFilm_IzvrsiSistemskuOperaciju_
-  commentId: Overload:SistemskeOperacije.SOVratiSveOceneZaFilm.IzvrsiSistemskuOperaciju
-  isSpec: "True"
-  fullName: SistemskeOperacije.SOVratiSveOceneZaFilm.IzvrsiSistemskuOperaciju
-  nameWithType: SOVratiSveOceneZaFilm.IzvrsiSistemskuOperaciju
 - uid: SistemskeOperacije.SOVratiSveOceneZaGlumca
   name: SOVratiSveOceneZaGlumca
   href: api/SistemskeOperacije.SOVratiSveOceneZaGlumca.html
@@ -1149,16 +794,3 @@ references:
   isSpec: "True"
   fullName: SistemskeOperacije.SOVratiSveOceneZaGlumca.Glumac
   nameWithType: SOVratiSveOceneZaGlumca.Glumac
-- uid: SistemskeOperacije.SOVratiSveOceneZaGlumca.IzvrsiSistemskuOperaciju
-  name: IzvrsiSistemskuOperaciju()
-  href: api/SistemskeOperacije.SOVratiSveOceneZaGlumca.html#SistemskeOperacije_SOVratiSveOceneZaGlumca_IzvrsiSistemskuOperaciju
-  commentId: M:SistemskeOperacije.SOVratiSveOceneZaGlumca.IzvrsiSistemskuOperaciju
-  fullName: SistemskeOperacije.SOVratiSveOceneZaGlumca.IzvrsiSistemskuOperaciju()
-  nameWithType: SOVratiSveOceneZaGlumca.IzvrsiSistemskuOperaciju()
-- uid: SistemskeOperacije.SOVratiSveOceneZaGlumca.IzvrsiSistemskuOperaciju*
-  name: IzvrsiSistemskuOperaciju
-  href: api/SistemskeOperacije.SOVratiSveOceneZaGlumca.html#SistemskeOperacije_SOVratiSveOceneZaGlumca_IzvrsiSistemskuOperaciju_
-  commentId: Overload:SistemskeOperacije.SOVratiSveOceneZaGlumca.IzvrsiSistemskuOperaciju
-  isSpec: "True"
-  fullName: SistemskeOperacije.SOVratiSveOceneZaGlumca.IzvrsiSistemskuOperaciju
-  nameWithType: SOVratiSveOceneZaGlumca.IzvrsiSistemskuOperaciju

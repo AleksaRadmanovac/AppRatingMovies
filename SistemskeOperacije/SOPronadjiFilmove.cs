@@ -29,7 +29,7 @@ namespace SistemskeOperacije
         /// Metoda za izvrsavanje sistemske operacije pronadji filmove. Pronalazi filmove iz baze po zadatom 
         /// kriterijumu i smesta ih u ListaFilmova.
         /// </summary>
-        protected override void IzvrsiSistemskuOperaciju()
+        internal override void IzvrsiSistemskuOperaciju()
         {
             ListaFilmova = new List<Film>();
             List<IDomenObjekat> lista = repository.Search(Kriterijum, new Film());

@@ -26,7 +26,7 @@ namespace SistemskeOperacije
         /// ako ne postoji dodaje novog administratora u bazu, ako postoji baca exception.
         /// </summary>
         /// <exception cref="UsernamePostojiException">Ako u bazi vec postoji administrator sa istim username-om.</exception>
-        protected override void IzvrsiSistemskuOperaciju()
+        internal override void IzvrsiSistemskuOperaciju()
         {
             List<IDomenObjekat> lista = repository.GetAll(Administrator);
             bool p = true;

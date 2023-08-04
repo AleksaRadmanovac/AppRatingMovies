@@ -15,9 +15,9 @@ namespace Testiranje
     {
         Film a;
         public IDbRepository<IDomenObjekat> repository;
-        [SetUp] public void SetUp() { a = new Film(); DbBroker.DbConnection.test = true; }
+        [SetUp] public void SetUp() { a = new Film(); DbBroker.DbConnection.test = true; repository = new GenericRepository(); }
 
-        [TearDown] public void TearDown() { a = null; DbBroker.DbConnection.test = false; }
+        [TearDown] public void TearDown() { a = null; DbBroker.DbConnection.test = false; repository.Close(); }
 
         [Test]
         public void TestGetObj()
@@ -28,7 +28,7 @@ namespace Testiranje
             a.Prikazan = true;
 
 
-            repository = new GenericRepository();
+            
             Film rez = (Film)repository.Get(a);
 
             Assert.NotNull(rez);

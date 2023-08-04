@@ -33,7 +33,7 @@ namespace SistemskeOperacije
         /// Zatim u zavisnosti od DodavanjeUloga, dodaje nove uloge postojecem filmu ili u zavisnosti od toga da li je film odobren,
         /// azurira ga i unosi u prikazane filmove ili brise uloge vezane za taj film.
         /// </summary>
-        protected override void IzvrsiSistemskuOperaciju()
+        internal override void IzvrsiSistemskuOperaciju()
         {
             repository.Update(ZahtevZaFilm);
             repository.Update(ZahtevZaFilm.Administrator);

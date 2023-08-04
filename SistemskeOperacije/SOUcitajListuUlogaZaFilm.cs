@@ -28,7 +28,7 @@ namespace SistemskeOperacije
         /// Metoda za izvrsavanje sistemske operacije ucitaj listu uloga za film. 
         /// Vraca iz baze sve uloge koje se nalaze u odredjenom filmu i dodaje ih u ListaUloga.
         /// </summary>
-        protected override void IzvrsiSistemskuOperaciju()
+        internal override void IzvrsiSistemskuOperaciju()
         {
             ListaUloga = new List<Uloga>();
             List<IDomenObjekat> lista = repository.GetAll(new Uloga());

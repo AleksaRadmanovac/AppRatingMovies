@@ -26,7 +26,7 @@ namespace SistemskeOperacije
         /// Metoda za izvrsavanje sistemske operacije vrati sve ocene za film. Vraca iz baze sve ocene za zadati film,
         /// i sve ocene za svaku ulogu u tom filmu i pridruzuje ih atributu Film.
         /// </summary>
-        protected override void IzvrsiSistemskuOperaciju()
+        internal override void IzvrsiSistemskuOperaciju()
         {
             List<IDomenObjekat> listaOf = repository.GetAllWhere(new OcenaFilma(), $"Where FilmID = {Film.Id}");
             foreach(OcenaFilma of in listaOf ) 

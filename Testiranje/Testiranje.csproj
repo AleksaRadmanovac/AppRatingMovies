@@ -61,6 +61,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Testiranje sistemskih operacija\SOVratiSveOceneZaFilmTest.cs" />
     <Compile Include="Testiranje domenskih klasa\AdministratorTest.cs" />
     <Compile Include="Testiranje domenskih klasa\FilmTest.cs" />
     <Compile Include="Testiranje domenskih klasa\GlumacTest.cs" />
@@ -73,6 +74,35 @@
     <Compile Include="Testiranje domenskih klasa\UlogaTest.cs" />
     <Compile Include="Testiranje domenskih klasa\ZahtevZaFilmTest.cs" />
     <Compile Include="Testiranje domenskih klasa\ZahtevZaGlumcaTest.cs" />
+    <Compile Include="Testiranje sistemskih operacija\OsnovaSistemskihOperacijaTest.cs" />
+    <Compile Include="Testiranje sistemskih operacija\SOCuvanjeOdlukeTest.cs" />
+    <Compile Include="Testiranje sistemskih operacija\SOCuvanjeOdlukeZaGlumcaTest.cs" />
+    <Compile Include="Testiranje sistemskih operacija\SODodajUloguTest.cs" />
+    <Compile Include="Testiranje sistemskih operacija\SOLoginTest.cs" />
+    <Compile Include="Testiranje sistemskih operacija\SOPrikaziFilmTest.cs" />
+    <Compile Include="Testiranje sistemskih operacija\SOPrikaziGlumcaTest.cs" />
+    <Compile Include="Testiranje sistemskih operacija\SOPromeniOceneTest.cs" />
+    <Compile Include="Testiranje sistemskih operacija\SOPromeniOcenuGlumcaTest.cs" />
+    <Compile Include="Testiranje sistemskih operacija\SOPronadjiFilmovePoGlumcuTest.cs" />
+    <Compile Include="Testiranje sistemskih operacija\SOPronadjiFilmoveTest.cs" />
+    <Compile Include="Testiranje sistemskih operacija\SOPronadjiGlumceTest.cs" />
+    <Compile Include="Testiranje sistemskih operacija\SORegistracijaAdministratoraTest.cs" />
+    <Compile Include="Testiranje sistemskih operacija\SORegistracijaTest.cs" />
+    <Compile Include="Testiranje sistemskih operacija\SOSacuvajOceneTest.cs" />
+    <Compile Include="Testiranje sistemskih operacija\SOSacuvajOcenuGlumcaTest.cs" />
+    <Compile Include="Testiranje sistemskih operacija\SOSacuvajZahtevTest.cs" />
+    <Compile Include="Testiranje sistemskih operacija\SOSacuvajZahtevZaGlumcaTest.cs" />
+    <Compile Include="Testiranje sistemskih operacija\SOUcitajListuFilmovaTest.cs" />
+    <Compile Include="Testiranje sistemskih operacija\SOUcitajListuGlumacaTest.cs" />
+    <Compile Include="Testiranje sistemskih operacija\SOUcitajListuUlogaZaFilmTest.cs" />
+    <Compile Include="Testiranje sistemskih operacija\SOUcitajListuZahtevaTest.cs" />
+    <Compile Include="Testiranje sistemskih operacija\SOUcitajListuZahtevaZaGlumcaTest.cs" />
+    <Compile Include="Testiranje sistemskih operacija\SOUcitavanjeZahtevaTest.cs" />
+    <Compile Include="Testiranje sistemskih operacija\SOUcitavanjeZahtevaZaGlumcaTest.cs" />
+    <Compile Include="Testiranje sistemskih operacija\SOVratiOceneFilmaTest.cs" />
+    <Compile Include="Testiranje sistemskih operacija\SOVratiOcenuGlumcaTest.cs" />
+    <Compile Include="Testiranje sistemskih operacija\SOVratiSveOceneZaGlumcaTest.cs" />
+    <Compile Include="Testiranje sistemskih operacija\TestRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Testiranje domenskih klasa\packages.config" />
@@ -85,6 +115,10 @@
     <ProjectReference Include="..\Domen\Common.csproj">
       <Project>{3B2675C8-8C7D-4CDD-BAD5-0FB79A5F3322}</Project>
       <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SistemskeOperacije\SistemskeOperacije.csproj">
+      <Project>{5100D8F0-CAC6-4EC6-808F-BDDBD88CAC30}</Project>
+      <Name>SistemskeOperacije</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

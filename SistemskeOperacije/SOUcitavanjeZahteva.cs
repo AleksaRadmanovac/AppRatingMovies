@@ -28,12 +28,19 @@ namespace SistemskeOperacije
         /// <summary>
         /// Metoda za sistemsku operaciju ucitavanje zahteva. Vraca iz baze zahtev po Id-u, ako je dati zahtev obradjen, dolazi do exceptiona.
         /// </summary>
-        /// <exception cref="MissingZahtevException">Ako je zahtev vec obradjen.</exception>
-        protected override void IzvrsiSistemskuOperaciju()
+        /// <exception cref="MissingZahtevException">Ako je zahtev vec obradjen ili ako zahtev ne postoji.</exception>
+        internal override void IzvrsiSistemskuOperaciju()
         {
             ZahtevZaFilm zahtev = (ZahtevZaFilm)repository.Get(new ZahtevZaFilm() { Id = this.Id });
-            if (!zahtev.Obradjen) ZahtevZaFilm = zahtev;
-            else { throw new MissingZahtevException(); }
+            if(zahtev != null) 
+            {
+                if (!zahtev.Obradjen)
+                {
+                    ZahtevZaFilm = zahtev;
+                    return;
+                }
+            }
+            throw new MissingZahtevException();
         }
     }
 }

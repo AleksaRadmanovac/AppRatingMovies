@@ -124,19 +124,19 @@ Nasledjuje apstraktnu klasu OsnovaSistemskihOperacija.</p>
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/new/Testiranje/apiSpec/new?filename=SistemskeOperacije_SOVratiOceneFilma_listaOcenaUloga.md&amp;value=---%0Auid%3A%20SistemskeOperacije.SOVratiOceneFilma.listaOcenaUloga%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/new/Testiranje/apiSpec/new?filename=SistemskeOperacije_SOVratiOceneFilma_ListaOcenaUloga.md&amp;value=---%0Auid%3A%20SistemskeOperacije.SOVratiOceneFilma.ListaOcenaUloga%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/blob/Testiranje/SistemskeOperacije/SOVratiOceneFilma.cs/#L34">View Source</a>
   </span>
-  <a id="SistemskeOperacije_SOVratiOceneFilma_listaOcenaUloga_" data-uid="SistemskeOperacije.SOVratiOceneFilma.listaOcenaUloga*"></a>
-  <h4 id="SistemskeOperacije_SOVratiOceneFilma_listaOcenaUloga" data-uid="SistemskeOperacije.SOVratiOceneFilma.listaOcenaUloga">listaOcenaUloga</h4>
+  <a id="SistemskeOperacije_SOVratiOceneFilma_ListaOcenaUloga_" data-uid="SistemskeOperacije.SOVratiOceneFilma.ListaOcenaUloga*"></a>
+  <h4 id="SistemskeOperacije_SOVratiOceneFilma_ListaOcenaUloga" data-uid="SistemskeOperacije.SOVratiOceneFilma.ListaOcenaUloga">ListaOcenaUloga</h4>
   <div class="markdown level1 summary"><p>Get i set metoda za listu objekata ocena uloga koje se nalaze u filmu za koji se vracaju ocene.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;OcenaUloge&gt; listaOcenaUloga { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public List&lt;OcenaUloge&gt; ListaOcenaUloga { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -214,44 +214,6 @@ Nasledjuje apstraktnu klasu OsnovaSistemskihOperacija.</p>
       <tr>
         <td><span class="xref">Domen.Communication.VratiOceneOdgovor</span></td>
         <td><p>Odgovor koji sadrzi ocenu filma i listu ocena za sve uloge u filmu.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="methods">Methods
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/new/Testiranje/apiSpec/new?filename=SistemskeOperacije_SOVratiOceneFilma_IzvrsiSistemskuOperaciju.md&amp;value=---%0Auid%3A%20SistemskeOperacije.SOVratiOceneFilma.IzvrsiSistemskuOperaciju%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/AleksaRadmanovac/AppRatingMovies/blob/Testiranje/SistemskeOperacije/SOVratiOceneFilma.cs/#L41">View Source</a>
-  </span>
-  <a id="SistemskeOperacije_SOVratiOceneFilma_IzvrsiSistemskuOperaciju_" data-uid="SistemskeOperacije.SOVratiOceneFilma.IzvrsiSistemskuOperaciju*"></a>
-  <h4 id="SistemskeOperacije_SOVratiOceneFilma_IzvrsiSistemskuOperaciju" data-uid="SistemskeOperacije.SOVratiOceneFilma.IzvrsiSistemskuOperaciju">IzvrsiSistemskuOperaciju()</h4>
-  <div class="markdown level1 summary"><p>Metoda za izvrsavanje sistemske operacije vrati ocene filma. 
-Vraca iz baze ocenu odredjenog filma od strane odredjenog korisnika, zatim tom filmu pridruzuje uloge iz tog filma
-i vraca ocene korisnika za te uloge, smesta sve ocene u Odgovor. Ako u bazi ne postoji ocena filma od strane korisnika dolazi do exceptiona.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void IzvrsiSistemskuOperaciju()</code></pre>
-  </div>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="SistemskeOperacije.OsnovaSistemskihOperacija.html#SistemskeOperacije_OsnovaSistemskihOperacija_IzvrsiSistemskuOperaciju">OsnovaSistemskihOperacija.IzvrsiSistemskuOperaciju()</a></div>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Domen.Exceptions.MissingOcenaException</span></td>
-        <td><p>Ako u bazi ne postoji ocena filma od strane korisnika.</p>
 </td>
       </tr>
     </tbody>

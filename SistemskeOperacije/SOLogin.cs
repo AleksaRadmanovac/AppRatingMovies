@@ -38,7 +38,7 @@ namespace SistemskeOperacije
         /// Proverava da li se username i password poklapaju sa nekim nalogom u bazi, ako je pronadjena, postavlja atribut Nalog na tu vrednost i boolean Uspesan na True,
         /// u suprotnom boolean Uspesan postavlja na False.
         /// </summary>
-        protected override void IzvrsiSistemskuOperaciju()
+        internal override void IzvrsiSistemskuOperaciju()
         {
             Uspesan = false;
             if (loginZahtev.Administrator)

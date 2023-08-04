@@ -24,7 +24,7 @@ namespace SistemskeOperacije
         /// Metoda koja izvrsava sistemsku operaciju cuvanja odluke za glumca. Azurira podatke u bazi podataka o broju obradjenih zahteva kod administratora,
         /// prikazanost glumca, kao i podatke o samom zahtevu.
         /// </summary>
-        protected override void IzvrsiSistemskuOperaciju()
+        internal override void IzvrsiSistemskuOperaciju()
         {
             repository.Update(ZahtevZaGlumca.Administrator);
             repository.Update(ZahtevZaGlumca.Glumac);

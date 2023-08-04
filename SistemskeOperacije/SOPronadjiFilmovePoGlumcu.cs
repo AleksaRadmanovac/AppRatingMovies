@@ -29,7 +29,7 @@ namespace SistemskeOperacije
         /// Metod za izvrsavanje sistemske operacije pronadji filmove po glumcu. Izvlaci sve filmove iz baze u kojima
         /// glumi glumac koji ima GlumacID i smesta ih u ListaFilmova.
         /// </summary>
-        protected override void IzvrsiSistemskuOperaciju()
+        internal override void IzvrsiSistemskuOperaciju()
         {
             ListaFilmova = new List<Film>();
             List<IDomenObjekat> lista = repository.GetAllWhere(new Film(),$"LEFT JOIN Uloga ON Film.ID = Uloga.FilmID LEFT JOIN Glumac ON Uloga.GlumacID = Glumac.ID WHERE Glumac.Id = {GlumacID} AND Film.Prikazan = 1");

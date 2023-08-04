@@ -19,10 +19,11 @@ namespace SistemskeOperacije
         /// </summary>
         /// <value>Uloga koja se dodaje.</value>
         public Uloga Uloga { get; set; }
+
         /// <summary>
         /// Metoda koja izvrsava sistemsku operaciju dodavanja uloge. Dodaje ulogu u bazu podataka.
         /// </summary>
-        protected override void IzvrsiSistemskuOperaciju()
+        internal override void IzvrsiSistemskuOperaciju()
         {
             repository.Add(Uloga);
         }

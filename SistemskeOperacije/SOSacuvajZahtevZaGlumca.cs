@@ -23,7 +23,7 @@ namespace SistemskeOperacije
         /// <summary>
         /// Metoda za izvrsavanje sistemske operacije zahtev za glumca. Dodaje glumca u bazu i na id glumca postavlja generisani id, dodaje zahtev u bazu.
         /// </summary>
-        protected override void IzvrsiSistemskuOperaciju()
+        internal override void IzvrsiSistemskuOperaciju()
         {
             Zahtev.Glumac.Id = repository.AddOutput(Zahtev.Glumac);
             repository.Add(Zahtev);

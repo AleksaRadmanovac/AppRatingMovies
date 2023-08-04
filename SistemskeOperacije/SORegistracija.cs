@@ -28,7 +28,7 @@ namespace SistemskeOperacije
         /// ako ne postoji dodaje novog korisnika u bazu, ako postoji baca exception.
         /// </summary>
         /// <exception cref="UsernamePostojiException">Ako u bazi vec postoji korisnik sa istim username-om.</exception>
-        protected override void IzvrsiSistemskuOperaciju()
+        internal override void IzvrsiSistemskuOperaciju()
         {
            List<IDomenObjekat> lista = repository.GetAll(Korisnik);
             bool p = true;

@@ -91,6 +91,19 @@ references:
   isSpec: "True"
   fullName: DbBroker.DbConnection.OtvoriKonekciju
   nameWithType: DbConnection.OtvoriKonekciju
+- uid: DbBroker.DbConnection.OtvoriTransakciju
+  name: OtvoriTransakciju()
+  href: api/DbBroker.DbConnection.html#DbBroker_DbConnection_OtvoriTransakciju
+  commentId: M:DbBroker.DbConnection.OtvoriTransakciju
+  fullName: DbBroker.DbConnection.OtvoriTransakciju()
+  nameWithType: DbConnection.OtvoriTransakciju()
+- uid: DbBroker.DbConnection.OtvoriTransakciju*
+  name: OtvoriTransakciju
+  href: api/DbBroker.DbConnection.html#DbBroker_DbConnection_OtvoriTransakciju_
+  commentId: Overload:DbBroker.DbConnection.OtvoriTransakciju
+  isSpec: "True"
+  fullName: DbBroker.DbConnection.OtvoriTransakciju
+  nameWithType: DbConnection.OtvoriTransakciju
 - uid: DbBroker.DbConnection.Rollback
   name: Rollback()
   href: api/DbBroker.DbConnection.html#DbBroker_DbConnection_Rollback

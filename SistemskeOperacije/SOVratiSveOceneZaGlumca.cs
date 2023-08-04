@@ -23,7 +23,7 @@ namespace SistemskeOperacije
         /// Metoda za izvrsavanje sistemske operacije vrati sve ocene za glumca. Vraca iz baze sve ocene za zadatog glumca,
         /// pridruzuje ih atributu Glumac.
         /// </summary>
-        protected override void IzvrsiSistemskuOperaciju()
+        internal override void IzvrsiSistemskuOperaciju()
         {
             List<IDomenObjekat> listaOg = repository.GetAllWhere(new OcenaGlumca(), $"Where GlumacID = {Glumac.Id}");
             foreach (IDomenObjekat og in listaOg)

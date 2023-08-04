@@ -30,7 +30,7 @@ namespace SistemskeOperacije
         /// vrednost atributa Rez.
         /// </summary>
         /// <exception cref="MissingFilmException">Ako dodje do greske pri citanju filma.</exception>
-        protected override void IzvrsiSistemskuOperaciju()
+        internal override void IzvrsiSistemskuOperaciju()
         {
             try
             {
@@ -43,7 +43,7 @@ namespace SistemskeOperacije
                 if (film.Prikazan) Rez = film;
                 else { throw new MissingFilmException(); }
             }
-            catch (MissingFilmException ex)
+            catch (Exception ex)
             { throw ex; }            
         }
     }

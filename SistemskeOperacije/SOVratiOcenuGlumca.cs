@@ -19,14 +19,14 @@ namespace SistemskeOperacije
         /// Get i set metoda za objekat ocene glumca za odredjenog glumca od strane odredjenog korisnika.
         /// </summary>
         /// <value>Objekat ocene glumca za odredjenog glumca od strane odredjenog korisnika.</value>
-        public OcenaGlumca OcenaGlumca { get; set; }    
+        public OcenaGlumca OcenaGlumca { get; set; }
         /// <summary>
         /// Metoda za izvrsvanje sistemske operacije vrati ocenu glumca.
         /// Vraca iz baze ocenu glumca iz atributa OcenaGlumca od strane korisnika iz atributa OcenaGlumca.
         /// Ako ne postoji OcenaGlumca u bazi dolazi do exceptiona.
         /// </summary>
         /// <exception cref="MissingOcenaException">Ako ne postoji OcenaGlumca u bazi.</exception>
-        protected override void IzvrsiSistemskuOperaciju()
+        internal override void IzvrsiSistemskuOperaciju()
         {
 
                 OcenaGlumca = (OcenaGlumca)repository.Get(OcenaGlumca);

@@ -23,7 +23,7 @@ namespace SistemskeOperacije
         /// Metoda za izvrsavanje sistemske operacije ucitaj listu zahteva za glumca. Vraca sve zahteve za unos glumca iz baze,
         /// proverava koji su neobradjeni i dodaje ih u ListaZahtevaZaGlumca.
         /// </summary>
-        protected override void IzvrsiSistemskuOperaciju()
+        internal override void IzvrsiSistemskuOperaciju()
         {
             ListaZahtevaZaGlumca = new List<ZahtevZaGlumca>();
             List<IDomenObjekat> lista = repository.GetAll(new ZahtevZaGlumca());

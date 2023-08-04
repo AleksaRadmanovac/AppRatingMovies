@@ -31,7 +31,7 @@ namespace SistemskeOperacije
         /// vrednost atributa Rez.
         /// </summary>
         /// <exception cref="MissingGlumacException">Ako dodje do greske pri citanju glumca.</exception>
-        protected override void IzvrsiSistemskuOperaciju()
+        internal override void IzvrsiSistemskuOperaciju()
         {
             try
             {
@@ -39,7 +39,8 @@ namespace SistemskeOperacije
                 if (glumac.Prikazan) Rez = glumac;
                 else { throw new MissingGlumacException(); }
             }
-            catch (MissingGlumacException ex) { throw ex; }
+            catch (Exception ex)
+            { throw ex; }
         }
     }
 }

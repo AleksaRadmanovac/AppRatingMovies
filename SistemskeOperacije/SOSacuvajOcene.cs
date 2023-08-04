@@ -28,14 +28,16 @@ namespace SistemskeOperacije
         /// Metoda za izvrsavanje sistemske operacije sacuvaj ocene. 
         /// Dodaje ocenu filma u bazu i dodaje ocene uloga u tom filmu.
         /// </summary>
-        protected override void IzvrsiSistemskuOperaciju()
+        internal override void IzvrsiSistemskuOperaciju()
         {
-            if(OcenaFilma != null)
-            repository.Add(OcenaFilma);
-            foreach(OcenaUloge o in ListaOcenaUloga) 
+            if (OcenaFilma != null)
             {
-                //if(o.Ocena != 0)
-                repository.Add(o);
+                repository.Add(OcenaFilma);
+                foreach (OcenaUloge o in ListaOcenaUloga)
+                {
+                    //if(o.Ocena != 0)
+                    repository.Add(o);
+                }
             }
         }
     }

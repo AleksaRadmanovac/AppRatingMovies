@@ -27,7 +27,7 @@ namespace SistemskeOperacije
         /// <summary>
         /// Metoda za izvrsavanje sistemske operacije promene ocene filma. Menja ocenu filma u bazi, kao i ocene svih uloga iz tog filma u bazi.
         /// </summary>
-        protected override void IzvrsiSistemskuOperaciju()
+        internal override void IzvrsiSistemskuOperaciju()
         {
             repository.Update(OcenaFilma);
             foreach (OcenaUloge o in ListaOcenaUloga)

@@ -23,7 +23,7 @@ namespace SistemskeOperacije
         /// Metoda za izvrsavanje sistemske operacije ucitaj listu filmova. Vraca iz baze sve filmove koji su oznaceni kao prikazani.
         /// Zatim svakom pridruzuje uloge iz tih filmova i dodaje filmove u UcitanaLista.
         /// </summary>
-        protected override void IzvrsiSistemskuOperaciju()
+        internal override void IzvrsiSistemskuOperaciju()
         {
             UcitanaLista= new List<Film>();
             List<IDomenObjekat> lista = repository.GetAllWhere(new Film(), $"WHERE Prikazan = 1");

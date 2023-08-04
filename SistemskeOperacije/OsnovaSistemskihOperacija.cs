@@ -27,6 +27,11 @@ namespace SistemskeOperacije
             repository = new GenericRepository();
         }
 
+        public OsnovaSistemskihOperacija(IDbRepository<IDomenObjekat> repository)
+        {
+            this.repository = repository;
+        }
+
         /// <summary>
         /// metoda koja izvrsava sistemsku operaciju i commit-uje rad nad bazom.
         /// Ako dodje do exception-a izvrsava se rollback, i baca se taj exception.
@@ -53,7 +58,7 @@ namespace SistemskeOperacije
         /// <summary>
         /// apstraktna metoda izvrsavanja sistemske operacije.
         /// </summary>
-        protected abstract void IzvrsiSistemskuOperaciju();
+        internal abstract void IzvrsiSistemskuOperaciju();
 
     }
 }
