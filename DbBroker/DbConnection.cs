@@ -18,8 +18,8 @@ namespace DbBroker
         public void NovaKonekcija()
         {
             if (test) connection = new SqlConnection("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=seminarskiTest;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
-            else connection = new SqlConnection("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=seminarskiTest;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False"
-                //ConfigurationManager.ConnectionStrings["psdb"].ConnectionString
+            else connection = new SqlConnection(ConfigurationManager.ConnectionStrings["psdb"].ConnectionString
+                //"Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=seminarskiTest;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False"
                 );
 
         }
