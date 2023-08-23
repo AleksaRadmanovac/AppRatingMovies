@@ -12,12 +12,17 @@ using System.Runtime.InteropServices.WindowsRuntime;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml.Linq;
+using System.Xml;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Serialization;
 
 namespace Forme.GUIControllers
 {
     public class OcenaFilmaGUIController
     {
         public OcenaFilma ocenaFilm;
+        public Film prikazaniFilm;
         public List<OcenaUloge> oceneUloga;
         public OcenaUloge trenutnaUloga;
         public List<OcenaUloge> listaOcenaUloga = new List<OcenaUloge>();
@@ -58,6 +63,7 @@ namespace Forme.GUIControllers
             try
             {
                 ocenaFilm.Film = Communication.Instance.VratiSveOceneZaFilm(ocenaFilm.Film);
+                prikazaniFilm = ocenaFilm.Film;
             }
             catch (IOException)
             {
@@ -346,6 +352,19 @@ namespace Forme.GUIControllers
         {
             if(ocenaFilma.ListBoxUloge.SelectedItem != null)
             KorisnikCoordinator.Instance.ShowOcenaGlumca(ocenaFilma, trenutnaUloga.Uloga.Glumac);
+        }
+
+        public void Odstampaj()
+        {
+            var settings = new JsonSerializerSettings
+            {
+                ReferenceLoopHandling = ReferenceLoopHandling.Ignore,
+                Formatting = Newtonsoft.Json.Formatting.Indented
+            };
+            string json = JsonConvert.SerializeObject(prikazaniFilm,settings);
+
+            File.WriteAllText($"C:\\Users\\radma\\source\\repos\\AleksaRadmanovac\\Jea\\AppRatingMovies\\Stampanje\\{prikazaniFilm}Output.json", json);
+            MessageBox.Show(prikazaniFilm.Naziv + " uspesno preveden u Json format.");
         }
 
     }

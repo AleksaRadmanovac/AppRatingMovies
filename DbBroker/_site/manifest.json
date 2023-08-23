@@ -12,7 +12,7 @@
           "hash": "JEOunZhZxuwEtBV/Iec9wMMp9pBHnxM7QSJPI8FYSVo="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -24,7 +24,7 @@
           "hash": "uDDn6qFaHg05YoTgCnw5eXAOPPsCcl5gB/jjddIDYM4="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -48,7 +48,7 @@
           "hash": "6A9ppu4/pSkUxGU4XMqk/fy2JyWq5rPgdJh0WZBXk88="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DbBroker.DbConnection.html",
-          "hash": "YGKySEaKyPBgMABMkFGT1Y+1NQkmbBXKb7sglyWMxrw="
+          "hash": "7RwwuIDac8AKnqD/UEZjNMtn9/EACs1TgXOjYJM6Za0="
         }
       },
       "is_incremental": false,
@@ -69,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DbBroker.DbConnectionFactory.html",
-          "hash": "/impSqR4PJ1gBNinRvoY5rI7qllreX34m4pNuR4IeNE="
+          "hash": "Ovgra3ivmdeO7guGY1QuuWd9c4eN2NDCg9pjJu4a1Bo="
         }
       },
       "is_incremental": false,
@@ -81,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DbBroker.GenericRepository.html",
-          "hash": "7bQJxX6dvsLkW2c1swY73XNX9sDi+JcmDpMtBMA/UVk="
+          "hash": "HP4+/Rqso/d0ewhfNyDia8kxKs+t1Bw34r8P3A0G5lI="
         }
       },
       "is_incremental": false,
@@ -93,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DbBroker.IDbRepository-1.html",
-          "hash": "zHN7ZlkwIBOUCWkg6aRhfxkmHK74lVfXV4uaZjknlBw="
+          "hash": "WbEpXWAHIX0lleZStmtARpVM8atC7yoUPBLVn7reu04="
         }
       },
       "is_incremental": false,
@@ -105,7 +105,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DbBroker.IRepository-1.html",
-          "hash": "wgzBgCJNZayygtAYfc7Sm5AZRuUvkV9hCm7WdoRMyag="
+          "hash": "YcwbVWQpSps/62QbdFkdbWsrcPQef2vbivGmhYTzUaw="
         }
       },
       "is_incremental": false,
@@ -151,25 +151,23 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": false,
-        "details": "Disable incremental build by force rebuild option.",
+        "can_incremental": true,
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0,
-        "full_build_reason_code": "ForceRebuild"
+        "skipped_file_count": 0
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 3,
-          "skipped_file_count": 0
+          "skipped_file_count": 3
         },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 6,
-          "skipped_file_count": 0
+          "skipped_file_count": 1
         },
         "TocDocumentProcessor": {
           "can_incremental": false,
@@ -182,8 +180,8 @@
     },
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot support incremental post processing, the reason is: it's disabled.",
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
         "incrementalPhase": "postProcessing",
         "total_file_count": 0,
         "skipped_file_count": 0

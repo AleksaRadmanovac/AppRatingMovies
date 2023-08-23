@@ -129,5 +129,10 @@ namespace Forme.UserControls
         {
             controller.OceniUlogu(5);
         }
+
+        private void btnStampaj_Click(object sender, EventArgs e)
+        {
+            controller.Odstampaj();
+        }
     }
 }

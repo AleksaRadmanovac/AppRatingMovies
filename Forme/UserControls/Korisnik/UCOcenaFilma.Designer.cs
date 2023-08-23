@@ -54,6 +54,7 @@ namespace Forme.UserControls
             this.lblProsecnaOcena = new System.Windows.Forms.Label();
             this.listBoxOceneUloge = new System.Windows.Forms.ListBox();
             this.LblUlogaOcena = new System.Windows.Forms.Label();
+            this.btnStampaj = new System.Windows.Forms.Button();
             this.grpBox1.SuspendLayout();
             this.grpBox2.SuspendLayout();
             this.SuspendLayout();
@@ -84,7 +85,7 @@ namespace Forme.UserControls
             this.listBoxUloge.FormattingEnabled = true;
             this.listBoxUloge.ItemHeight = 16;
             this.listBoxUloge.Location = new System.Drawing.Point(168, 258);
-            this.listBoxUloge.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.listBoxUloge.Margin = new System.Windows.Forms.Padding(4);
             this.listBoxUloge.Name = "listBoxUloge";
             this.listBoxUloge.Size = new System.Drawing.Size(317, 116);
             this.listBoxUloge.TabIndex = 3;
@@ -104,7 +105,7 @@ namespace Forme.UserControls
             // 
             this.radioButton1.AutoSize = true;
             this.radioButton1.Location = new System.Drawing.Point(21, 17);
-            this.radioButton1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButton1.Margin = new System.Windows.Forms.Padding(4);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(35, 20);
             this.radioButton1.TabIndex = 5;
@@ -117,7 +118,7 @@ namespace Forme.UserControls
             // 
             this.radioButton2.AutoSize = true;
             this.radioButton2.Location = new System.Drawing.Point(69, 17);
-            this.radioButton2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButton2.Margin = new System.Windows.Forms.Padding(4);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(35, 20);
             this.radioButton2.TabIndex = 6;
@@ -130,7 +131,7 @@ namespace Forme.UserControls
             // 
             this.radioButton3.AutoSize = true;
             this.radioButton3.Location = new System.Drawing.Point(119, 17);
-            this.radioButton3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButton3.Margin = new System.Windows.Forms.Padding(4);
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.Size = new System.Drawing.Size(35, 20);
             this.radioButton3.TabIndex = 7;
@@ -143,7 +144,7 @@ namespace Forme.UserControls
             // 
             this.radioButton4.AutoSize = true;
             this.radioButton4.Location = new System.Drawing.Point(169, 17);
-            this.radioButton4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButton4.Margin = new System.Windows.Forms.Padding(4);
             this.radioButton4.Name = "radioButton4";
             this.radioButton4.Size = new System.Drawing.Size(35, 20);
             this.radioButton4.TabIndex = 8;
@@ -156,7 +157,7 @@ namespace Forme.UserControls
             // 
             this.radioButton5.AutoSize = true;
             this.radioButton5.Location = new System.Drawing.Point(219, 17);
-            this.radioButton5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButton5.Margin = new System.Windows.Forms.Padding(4);
             this.radioButton5.Name = "radioButton5";
             this.radioButton5.Size = new System.Drawing.Size(35, 20);
             this.radioButton5.TabIndex = 9;
@@ -169,7 +170,7 @@ namespace Forme.UserControls
             // 
             this.radioButton10.AutoSize = true;
             this.radioButton10.Location = new System.Drawing.Point(221, 22);
-            this.radioButton10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButton10.Margin = new System.Windows.Forms.Padding(4);
             this.radioButton10.Name = "radioButton10";
             this.radioButton10.Size = new System.Drawing.Size(35, 20);
             this.radioButton10.TabIndex = 15;
@@ -183,7 +184,7 @@ namespace Forme.UserControls
             // 
             this.radioButton9.AutoSize = true;
             this.radioButton9.Location = new System.Drawing.Point(173, 22);
-            this.radioButton9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButton9.Margin = new System.Windows.Forms.Padding(4);
             this.radioButton9.Name = "radioButton9";
             this.radioButton9.Size = new System.Drawing.Size(35, 20);
             this.radioButton9.TabIndex = 14;
@@ -197,7 +198,7 @@ namespace Forme.UserControls
             // 
             this.radioButton8.AutoSize = true;
             this.radioButton8.Location = new System.Drawing.Point(124, 22);
-            this.radioButton8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButton8.Margin = new System.Windows.Forms.Padding(4);
             this.radioButton8.Name = "radioButton8";
             this.radioButton8.Size = new System.Drawing.Size(35, 20);
             this.radioButton8.TabIndex = 13;
@@ -211,7 +212,7 @@ namespace Forme.UserControls
             // 
             this.radioButton7.AutoSize = true;
             this.radioButton7.Location = new System.Drawing.Point(75, 22);
-            this.radioButton7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButton7.Margin = new System.Windows.Forms.Padding(4);
             this.radioButton7.Name = "radioButton7";
             this.radioButton7.Size = new System.Drawing.Size(35, 20);
             this.radioButton7.TabIndex = 12;
@@ -225,7 +226,7 @@ namespace Forme.UserControls
             // 
             this.radioButton6.AutoSize = true;
             this.radioButton6.Location = new System.Drawing.Point(25, 22);
-            this.radioButton6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButton6.Margin = new System.Windows.Forms.Padding(4);
             this.radioButton6.Name = "radioButton6";
             this.radioButton6.Size = new System.Drawing.Size(35, 20);
             this.radioButton6.TabIndex = 11;
@@ -239,7 +240,7 @@ namespace Forme.UserControls
             // 
             this.txtFilmKomentar.BackColor = System.Drawing.Color.NavajoWhite;
             this.txtFilmKomentar.Location = new System.Drawing.Point(584, 160);
-            this.txtFilmKomentar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtFilmKomentar.Margin = new System.Windows.Forms.Padding(4);
             this.txtFilmKomentar.Multiline = true;
             this.txtFilmKomentar.Name = "txtFilmKomentar";
             this.txtFilmKomentar.Size = new System.Drawing.Size(237, 64);
@@ -250,7 +251,7 @@ namespace Forme.UserControls
             this.txtKomentarUloga.BackColor = System.Drawing.Color.NavajoWhite;
             this.txtKomentarUloga.Enabled = false;
             this.txtKomentarUloga.Location = new System.Drawing.Point(584, 300);
-            this.txtKomentarUloga.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtKomentarUloga.Margin = new System.Windows.Forms.Padding(4);
             this.txtKomentarUloga.Multiline = true;
             this.txtKomentarUloga.Name = "txtKomentarUloga";
             this.txtKomentarUloga.Size = new System.Drawing.Size(237, 74);
@@ -261,7 +262,7 @@ namespace Forme.UserControls
             // 
             this.btnOceni.BackColor = System.Drawing.Color.NavajoWhite;
             this.btnOceni.Location = new System.Drawing.Point(661, 418);
-            this.btnOceni.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnOceni.Margin = new System.Windows.Forms.Padding(4);
             this.btnOceni.Name = "btnOceni";
             this.btnOceni.Size = new System.Drawing.Size(161, 28);
             this.btnOceni.TabIndex = 21;
@@ -344,7 +345,7 @@ namespace Forme.UserControls
             this.listBoxOceneUloge.FormattingEnabled = true;
             this.listBoxOceneUloge.ItemHeight = 16;
             this.listBoxOceneUloge.Location = new System.Drawing.Point(483, 258);
-            this.listBoxOceneUloge.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.listBoxOceneUloge.Margin = new System.Windows.Forms.Padding(4);
             this.listBoxOceneUloge.Name = "listBoxOceneUloge";
             this.listBoxOceneUloge.Size = new System.Drawing.Size(36, 116);
             this.listBoxOceneUloge.TabIndex = 27;
@@ -361,10 +362,22 @@ namespace Forme.UserControls
             this.LblUlogaOcena.Text = "Ocena";
             this.LblUlogaOcena.Visible = false;
             // 
+            // btnStampaj
+            // 
+            this.btnStampaj.BackColor = System.Drawing.Color.NavajoWhite;
+            this.btnStampaj.Location = new System.Drawing.Point(168, 418);
+            this.btnStampaj.Name = "btnStampaj";
+            this.btnStampaj.Size = new System.Drawing.Size(175, 28);
+            this.btnStampaj.TabIndex = 29;
+            this.btnStampaj.Text = "Odstampaj kao Json";
+            this.btnStampaj.UseVisualStyleBackColor = false;
+            this.btnStampaj.Click += new System.EventHandler(this.btnStampaj_Click);
+            // 
             // UCOcenaFilma
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.btnStampaj);
             this.Controls.Add(this.LblUlogaOcena);
             this.Controls.Add(this.listBoxOceneUloge);
             this.Controls.Add(this.lblProsecnaOcena);
@@ -379,7 +392,7 @@ namespace Forme.UserControls
             this.Controls.Add(this.listBoxUloge);
             this.Controls.Add(this.lblZanr);
             this.Controls.Add(this.lblNaziv);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "UCOcenaFilma";
             this.Size = new System.Drawing.Size(975, 500);
             this.grpBox1.ResumeLayout(false);
@@ -417,6 +430,7 @@ namespace Forme.UserControls
         private Label lblProsecnaOcena;
         private ListBox listBoxOceneUloge;
         private Label LblUlogaOcena;
+        private Button btnStampaj;
 
         public Label LblNaziv { get => lblNaziv; set => lblNaziv = value; }
         public Label LblZanr { get => lblZanr; set => lblZanr = value; }

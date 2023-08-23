@@ -1,0 +1,158 @@
+{
+  "Id": 1,
+  "Naziv": "Fight Club",
+  "Zanr": 2,
+  "Prikazan": true,
+  "Uloge": [
+    {
+      "Glumac": {
+        "Id": 1,
+        "Ime": "Brad",
+        "Prezime": "Pitt",
+        "Godiste": 1963,
+        "Pol": 0,
+        "Prikazan": true,
+        "Ocene": [],
+        "TableName": "Glumac",
+        "InsertValues": "'Brad', 'Pitt', 1963, 0, 1",
+        "PrimarniKljuc": "id = 1",
+        "Joins": "",
+        "Update": "Ime='Brad', Prezime = 'Pitt', Godine = 1963, Pol = 0, Prikazan = 1",
+        "Output": "output inserted.id"
+      },
+      "Ime": "Tyler Durden",
+      "JeGlavna": true,
+      "Ocene": [
+        {
+          "Korisnik": {
+            "Id": 1,
+            "Username": "Aleksa",
+            "Password": "aleksa",
+            "Pol": 0,
+            "TableName": "Korisnik",
+            "InsertValues": "'Aleksa', 'aleksa', 0",
+            "PrimarniKljuc": "id = 1",
+            "Joins": "",
+            "Update": "Username='Aleksa', Password = 'aleksa', Pol = 0",
+            "Output": ""
+          },
+          "Ocena": 0,
+          "Komentar": "",
+          "TableName": "OcenaUloge",
+          "InsertValues": "1, 1, 1, 0, ''",
+          "PrimarniKljuc": "OcenaUloge.KorisnikID = 1 AND OcenaUloge.FilmID = 1 AND OcenaUloge.GlumacID = 1",
+          "Joins": "INNER JOIN Korisnik ON OcenaUloge.KorisnikID = Korisnik.ID INNER JOIN Uloga ON OcenaUloge.FilmID = Uloga.FilmID and OcenaUloge.GlumacID = Uloga.GlumacID INNER JOIN Film ON Uloga.FilmID = Film.ID INNER JOIN Glumac ON Uloga.GlumacID = Glumac.ID",
+          "Update": "KorisnikID=1, FilmID = 1, GlumacID = 1, Ocena = 0, Komentar = ''",
+          "Output": ""
+        }
+      ],
+      "TableName": "Uloga",
+      "InsertValues": "1, 1, 'Tyler Durden', 1",
+      "PrimarniKljuc": "FilmID = 1 AND GlumacID = 1",
+      "Joins": "INNER JOIN Film ON Uloga.FilmID = Film.ID INNER JOIN Glumac ON Uloga.GlumacID = Glumac.ID",
+      "Update": "FilmID=1, GlumacID = 1, Ime = 'Tyler Durden', JeGlavna = 1",
+      "Output": ""
+    },
+    {
+      "Glumac": {
+        "Id": 2,
+        "Ime": "Edward",
+        "Prezime": "Norton",
+        "Godiste": 1969,
+        "Pol": 0,
+        "Prikazan": true,
+        "Ocene": [],
+        "TableName": "Glumac",
+        "InsertValues": "'Edward', 'Norton', 1969, 0, 1",
+        "PrimarniKljuc": "id = 2",
+        "Joins": "",
+        "Update": "Ime='Edward', Prezime = 'Norton', Godine = 1969, Pol = 0, Prikazan = 1",
+        "Output": "output inserted.id"
+      },
+      "Ime": "Narator",
+      "JeGlavna": true,
+      "Ocene": [
+        {
+          "Korisnik": {
+            "Id": 1,
+            "Username": "Aleksa",
+            "Password": "aleksa",
+            "Pol": 0,
+            "TableName": "Korisnik",
+            "InsertValues": "'Aleksa', 'aleksa', 0",
+            "PrimarniKljuc": "id = 1",
+            "Joins": "",
+            "Update": "Username='Aleksa', Password = 'aleksa', Pol = 0",
+            "Output": ""
+          },
+          "Ocena": 0,
+          "Komentar": "",
+          "TableName": "OcenaUloge",
+          "InsertValues": "1, 1, 2, 0, ''",
+          "PrimarniKljuc": "OcenaUloge.KorisnikID = 1 AND OcenaUloge.FilmID = 1 AND OcenaUloge.GlumacID = 2",
+          "Joins": "INNER JOIN Korisnik ON OcenaUloge.KorisnikID = Korisnik.ID INNER JOIN Uloga ON OcenaUloge.FilmID = Uloga.FilmID and OcenaUloge.GlumacID = Uloga.GlumacID INNER JOIN Film ON Uloga.FilmID = Film.ID INNER JOIN Glumac ON Uloga.GlumacID = Glumac.ID",
+          "Update": "KorisnikID=1, FilmID = 1, GlumacID = 2, Ocena = 0, Komentar = ''",
+          "Output": ""
+        }
+      ],
+      "TableName": "Uloga",
+      "InsertValues": "1, 2, 'Narator', 1",
+      "PrimarniKljuc": "FilmID = 1 AND GlumacID = 2",
+      "Joins": "INNER JOIN Film ON Uloga.FilmID = Film.ID INNER JOIN Glumac ON Uloga.GlumacID = Glumac.ID",
+      "Update": "FilmID=1, GlumacID = 2, Ime = 'Narator', JeGlavna = 1",
+      "Output": ""
+    }
+  ],
+  "Ocene": [
+    {
+      "Korisnik": {
+        "Id": 1,
+        "Username": "Aleksa",
+        "Password": "aleksa",
+        "Pol": 0,
+        "TableName": "Korisnik",
+        "InsertValues": "'Aleksa', 'aleksa', 0",
+        "PrimarniKljuc": "id = 1",
+        "Joins": "",
+        "Update": "Username='Aleksa', Password = 'aleksa', Pol = 0",
+        "Output": ""
+      },
+      "Ocena": 4,
+      "Komentar": "",
+      "TableName": "OcenaFilma",
+      "InsertValues": "1, 1, 4, ''",
+      "PrimarniKljuc": "KorisnikID = 1 AND FilmID = 1",
+      "Joins": "INNER JOIN Korisnik ON OcenaFilma.KorisnikID = Korisnik.ID INNER JOIN Film ON OcenaFilma.FilmID = Film.ID",
+      "Update": "KorisnikID=1, FilmID = 1, Ocena = 4, Komentar = ''",
+      "Output": ""
+    },
+    {
+      "Korisnik": {
+        "Id": 2,
+        "Username": "Jelena",
+        "Password": "jelena",
+        "Pol": 0,
+        "TableName": "Korisnik",
+        "InsertValues": "'Jelena', 'jelena', 0",
+        "PrimarniKljuc": "id = 2",
+        "Joins": "",
+        "Update": "Username='Jelena', Password = 'jelena', Pol = 0",
+        "Output": ""
+      },
+      "Ocena": 4,
+      "Komentar": "",
+      "TableName": "OcenaFilma",
+      "InsertValues": "2, 1, 4, ''",
+      "PrimarniKljuc": "KorisnikID = 2 AND FilmID = 1",
+      "Joins": "INNER JOIN Korisnik ON OcenaFilma.KorisnikID = Korisnik.ID INNER JOIN Film ON OcenaFilma.FilmID = Film.ID",
+      "Update": "KorisnikID=2, FilmID = 1, Ocena = 4, Komentar = ''",
+      "Output": ""
+    }
+  ],
+  "TableName": "Film",
+  "InsertValues": "'Fight Club',2, 1",
+  "PrimarniKljuc": "id = 1",
+  "Joins": "",
+  "Update": "Naziv='Fight Club', Zanr = 2, Prikazan = 1",
+  "Output": "output inserted.id"
+}
