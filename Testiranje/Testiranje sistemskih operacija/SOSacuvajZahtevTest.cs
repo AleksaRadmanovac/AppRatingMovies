@@ -12,20 +12,18 @@ namespace Testiranje.Testiranje_sistemskih_operacija
 {
     internal class SOSacuvajZahtevTest
     {
-        public IDbRepository<IDomenObjekat> repository;
+        
         [SetUp]
         public void SetUp()
         {
-            repository = new GenericRepository();
-            DbBroker.DbConnection.test = true;
+         
         }
 
         [TearDown]
         public void TearDown()
         {
-            repository.Rollback();
-            repository.Close();
-            DbBroker.DbConnection.test = false;
+            TestSetup.repository.Rollback();
+           
         }
 
         [Test]
@@ -51,20 +49,20 @@ namespace Testiranje.Testiranje_sistemskih_operacija
             };
             zahtevZaFilm.Uloge = listaUloga;
             so.Zahtev = zahtevZaFilm;
-            List<IDomenObjekat> listaZahteva = repository.GetAll(new ZahtevZaFilm());
+            List<IDomenObjekat> listaZahteva = TestSetup.repository.GetAll(new ZahtevZaFilm());
             so.IzvrsiSistemskuOperaciju();
             zahtevZaFilm.Film.Id = so.FilmId;
-            ZahtevZaFilm rezZahtev = (ZahtevZaFilm)repository.Get(zahtevZaFilm);
+            ZahtevZaFilm rezZahtev = (ZahtevZaFilm)TestSetup.repository.Get(zahtevZaFilm);
 
-            List<IDomenObjekat> rez = repository.GetAll(new ZahtevZaFilm());
+            List<IDomenObjekat> rez = TestSetup.repository.GetAll(new ZahtevZaFilm());
 
-            Film rezFilm = (Film)repository.Get(zahtevZaFilm.Film);
+            Film rezFilm = (Film)TestSetup.repository.Get(zahtevZaFilm.Film);
 
             List<Uloga> rezListaUloga = new List<Uloga>();
             foreach (Uloga uloga in listaUloga)
             {
                 uloga.Film.Id = so.FilmId;
-                rezListaUloga.Add((Uloga)repository.Get(uloga));
+                rezListaUloga.Add((Uloga)TestSetup.repository.Get(uloga));
             }
 
             Assert.Greater(rez.Count, listaZahteva.Count);

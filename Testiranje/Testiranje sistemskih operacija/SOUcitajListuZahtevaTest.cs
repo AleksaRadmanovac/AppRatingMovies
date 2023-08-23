@@ -12,20 +12,17 @@ namespace Testiranje.Testiranje_sistemskih_operacija
 {
     internal class SOUcitajListuZahtevaTest
     {
-        public IDbRepository<IDomenObjekat> repository;
         [SetUp]
         public void SetUp()
         {
-            repository = new GenericRepository();
-            DbBroker.DbConnection.test = true;
+            
         }
 
         [TearDown]
         public void TearDown()
         {
-            repository.Rollback();
-            repository.Close();
-            DbBroker.DbConnection.test = false;
+            TestSetup.repository.Rollback();
+           
         }
 
         [Test]
@@ -34,27 +31,27 @@ namespace Testiranje.Testiranje_sistemskih_operacija
             SOUcitajListuZahteva so = new SOUcitajListuZahteva();
             List<ZahtevZaFilm> listaZahteva = new List<ZahtevZaFilm>();
             List<Uloga> listaUloga2 = new List<Uloga>();
-            listaUloga2.Add((Uloga)repository.Get(new Uloga()
+            listaUloga2.Add((Uloga)TestSetup.repository.Get(new Uloga()
             {
                 Film = new Film() { Id = 2 },
                 Glumac = new Glumac() { Id = 1 }
             }
             ));
-            listaUloga2.Add((Uloga)repository.Get(new Uloga()
+            listaUloga2.Add((Uloga)TestSetup.repository.Get(new Uloga()
             {
                 Film = new Film() { Id = 2 },
                 Glumac = new Glumac() { Id = 2 }
             }
             ));
             List<Uloga> listaUloga1002 = new List<Uloga>();
-            listaUloga1002.Add((Uloga)repository.Get(new Uloga()
+            listaUloga1002.Add((Uloga)TestSetup.repository.Get(new Uloga()
             {
                 Film = new Film() { Id = 3 },
                 Glumac = new Glumac() { Id = 1 }
             }
             ));
-            listaZahteva.Add((ZahtevZaFilm)repository.Get(new ZahtevZaFilm() { Id = 2 }));
-            listaZahteva.Add((ZahtevZaFilm)repository.Get(new ZahtevZaFilm() { Id = 1002 }));
+            listaZahteva.Add((ZahtevZaFilm)TestSetup.repository.Get(new ZahtevZaFilm() { Id = 2 }));
+            listaZahteva.Add((ZahtevZaFilm)TestSetup.repository.Get(new ZahtevZaFilm() { Id = 1002 }));
             listaZahteva[0].Uloge = listaUloga2;
             listaZahteva[1].Uloge = listaUloga1002;
             so.IzvrsiSistemskuOperaciju();

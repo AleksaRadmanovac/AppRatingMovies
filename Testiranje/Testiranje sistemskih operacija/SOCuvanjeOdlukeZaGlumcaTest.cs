@@ -12,20 +12,15 @@ namespace Testiranje.Testiranje_sistemskih_operacija
 {
     internal class SOCuvanjeOdlukeZaGlumcaTest
     {
-        public IDbRepository<IDomenObjekat> repository;
         [SetUp]
         public void SetUp()
         {
-            repository = new GenericRepository();
-            DbBroker.DbConnection.test = true;
         }
 
         [TearDown]
         public void TearDown()
         {
-            repository.Rollback();
-            repository.Close();
-            DbBroker.DbConnection.test = false;
+            TestSetup.repository.Rollback();
         }
 
         [Test]
@@ -43,7 +38,7 @@ namespace Testiranje.Testiranje_sistemskih_operacija
             so.ZahtevZaGlumca = zahtevZaGlumca;
             so.IzvrsiSistemskuOperaciju();
 
-            ZahtevZaGlumca rez = (ZahtevZaGlumca)repository.Get(new ZahtevZaGlumca() { Id = 1 });
+            ZahtevZaGlumca rez = (ZahtevZaGlumca)TestSetup.repository.Get(new ZahtevZaGlumca() { Id = 1 });
             Assert.NotNull(rez);
             Assert.AreEqual(rez.Id, 1);
             Assert.AreEqual(rez.Administrator.Id , 1);

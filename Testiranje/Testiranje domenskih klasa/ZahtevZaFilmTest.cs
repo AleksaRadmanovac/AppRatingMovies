@@ -13,10 +13,9 @@ namespace Testiranje
     internal class ZahtevZaFilmTest
     {
         ZahtevZaFilm a;
-        public IDbRepository<IDomenObjekat> repository;
-        [SetUp] public void SetUp() { a = new ZahtevZaFilm(); DbBroker.DbConnection.test = true; repository = new GenericRepository(); }
+        [SetUp] public void SetUp() { a = new ZahtevZaFilm(); }
 
-        [TearDown] public void TearDown() { a = null; DbBroker.DbConnection.test = false; repository.Close(); }
+        [TearDown] public void TearDown() { a = null; }
 
         [Test]
         public void TestGetObjNeobradjen()
@@ -32,7 +31,7 @@ namespace Testiranje
             a.Administrator = new Administrator();
 
             
-            ZahtevZaFilm rez = (ZahtevZaFilm)repository.Get(a);
+            ZahtevZaFilm rez = (ZahtevZaFilm)TestSetup.repository.Get(a);
 
             Assert.IsNotNull(rez);
             Assert.IsNotNull(rez.Film);
@@ -64,8 +63,7 @@ namespace Testiranje
             a.Film.Zanr = (Zanr)2;
             a.Film.Prikazan = true;
 
-            repository = new GenericRepository();
-            ZahtevZaFilm rez = (ZahtevZaFilm)repository.Get(a);
+            ZahtevZaFilm rez = (ZahtevZaFilm)TestSetup.repository.Get(a);
 
             Assert.NotNull(rez);
             Assert.NotNull(rez.Film);

@@ -12,10 +12,9 @@ namespace Testiranje
     internal class GlumacTest
     {
         Glumac a;
-        public IDbRepository<IDomenObjekat> repository;
-        [SetUp] public void SetUp() { a = new Glumac(); DbBroker.DbConnection.test = true; repository = new GenericRepository(); }
+        [SetUp] public void SetUp() { a = new Glumac(); }
 
-        [TearDown] public void TearDown() { a = null; DbBroker.DbConnection.test = false; repository.Close(); }
+        [TearDown] public void TearDown() { a = null; }
 
         [Test]
         public void TestGetObj()
@@ -27,7 +26,7 @@ namespace Testiranje
             a.Pol = (Pol)1;
             a.Prikazan = true;
 
-            Glumac rez = (Glumac)repository.Get(a);
+            Glumac rez = (Glumac)TestSetup.repository.Get(a);
 
             Assert.NotNull(rez);
             Assert.AreEqual(a.Id, rez.Id);

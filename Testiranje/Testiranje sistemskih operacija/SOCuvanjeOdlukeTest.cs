@@ -12,20 +12,15 @@ namespace Testiranje.Testiranje_sistemskih_operacija
 {
     internal class SOCuvanjeOdlukeTest
     {
-        public IDbRepository<IDomenObjekat> repository;
         [SetUp]
         public void SetUp()
         {
-            repository = new GenericRepository();
-            DbBroker.DbConnection.test = true;
         }
 
         [TearDown]
         public void TearDown()
         {
-            repository.Rollback();
-            repository.Close();
-            DbBroker.DbConnection.test = false;
+            TestSetup.repository.Rollback();
         }
 
         [Test]
@@ -45,11 +40,11 @@ namespace Testiranje.Testiranje_sistemskih_operacija
             so.DodavanjeUloga = true;
             so.ZahtevZaFilm = zahtevZaFilm;
             so.IzvrsiSistemskuOperaciju();
-            ZahtevZaFilm zahtevRez = (ZahtevZaFilm)repository.Get(zahtevZaFilm);
-            Administrator adminRez = (Administrator)repository.Get(admin);
+            ZahtevZaFilm zahtevRez = (ZahtevZaFilm)TestSetup.repository.Get(zahtevZaFilm);
+            Administrator adminRez = (Administrator)TestSetup.repository.Get(admin);
             List<Uloga> rez = new List<Uloga>();
             for(int j = 0; j < zahtevZaFilm.Uloge.Count; j++) {
-                Uloga uloga = (Uloga)repository.Get(new Uloga() { Film = new Film() { Id = 4 }, Glumac = new Glumac() { Id = 1 } });
+                Uloga uloga = (Uloga)TestSetup.repository.Get(new Uloga() { Film = new Film() { Id = 4 }, Glumac = new Glumac() { Id = 1 } });
                 //Console.WriteLine("" + j);
                 //Console.WriteLine(uloga);
                 rez.Add(uloga);   
@@ -88,9 +83,9 @@ namespace Testiranje.Testiranje_sistemskih_operacija
             so.DodavanjeUloga = false;
             so.ZahtevZaFilm = zahtevZaFilm;
             so.IzvrsiSistemskuOperaciju();
-            ZahtevZaFilm zahtevRez = (ZahtevZaFilm)repository.Get(zahtevZaFilm);
-            Administrator adminRez = (Administrator)repository.Get(admin);
-            Film rez = (Film)repository.Get(new Film() { Id = 2 });
+            ZahtevZaFilm zahtevRez = (ZahtevZaFilm)TestSetup.repository.Get(zahtevZaFilm);
+            Administrator adminRez = (Administrator)TestSetup.repository.Get(admin);
+            Film rez = (Film)TestSetup.repository.Get(new Film() { Id = 2 });
 
             Assert.NotNull(adminRez);
             Assert.NotNull(zahtevRez);
@@ -127,14 +122,14 @@ namespace Testiranje.Testiranje_sistemskih_operacija
             so.DodavanjeUloga = false;
             so.ZahtevZaFilm = zahtevZaFilm;
             so.IzvrsiSistemskuOperaciju();
-            ZahtevZaFilm zahtevRez = (ZahtevZaFilm)repository.Get(zahtevZaFilm);
-            Administrator adminRez = (Administrator)repository.Get(admin);
-            Film rez = (Film)repository.Get(new Film() { Id = 2 });
+            ZahtevZaFilm zahtevRez = (ZahtevZaFilm)TestSetup.repository.Get(zahtevZaFilm);
+            Administrator adminRez = (Administrator)TestSetup.repository.Get(admin);
+            Film rez = (Film)TestSetup.repository.Get(new Film() { Id = 2 });
 
             List<Uloga> rezUloge = new List<Uloga>();
             for (int j = 0; j < zahtevZaFilm.Uloge.Count; j++)
             {
-                Uloga uloga = (Uloga)repository.Get(new Uloga() { Film = new Film() { Id = 3 }, Glumac = new Glumac() { Id = 1 } });
+                Uloga uloga = (Uloga)TestSetup.repository.Get(new Uloga() { Film = new Film() { Id = 3 }, Glumac = new Glumac() { Id = 1 } });
                 //Console.WriteLine("" + j);
                 //Console.WriteLine(uloga);
                 rezUloge.Add(uloga);

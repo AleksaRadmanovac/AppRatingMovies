@@ -14,10 +14,9 @@ namespace Testiranje
     internal class FilmTest
     {
         Film a;
-        public IDbRepository<IDomenObjekat> repository;
-        [SetUp] public void SetUp() { a = new Film(); DbBroker.DbConnection.test = true; repository = new GenericRepository(); }
+        [SetUp] public void SetUp() { a = new Film(); }
 
-        [TearDown] public void TearDown() { a = null; DbBroker.DbConnection.test = false; repository.Close(); }
+        [TearDown] public void TearDown() { a = null; }
 
         [Test]
         public void TestGetObj()
@@ -29,7 +28,7 @@ namespace Testiranje
 
 
             
-            Film rez = (Film)repository.Get(a);
+            Film rez = (Film)TestSetup.repository.Get(a);
 
             Assert.NotNull(rez);
             Assert.AreEqual(a.Id, rez.Id);

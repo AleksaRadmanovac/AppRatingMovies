@@ -13,19 +13,13 @@ namespace Testiranje.Testiranje_sistemskih_operacija
 {
     internal class OsnovaSistemskihOperacijaTest
     {
-        public IDbRepository<IDomenObjekat> repository;
         [SetUp]
         public void SetUp()
         {
-            repository = new GenericRepository();
-            DbBroker.DbConnection.test = true;
         }
         [TearDown]
         public void TearDown()
         {
-            repository.Rollback();
-            repository.Close();
-            DbBroker.DbConnection.test = false;
         }
 
         [Test]

@@ -12,10 +12,9 @@ namespace Testiranje
     internal class ZahtevZaGlumcaTest
     {
         ZahtevZaGlumca a;
-        public IDbRepository<IDomenObjekat> repository;
-        [SetUp] public void SetUp() { a = new ZahtevZaGlumca(); DbBroker.DbConnection.test = true; repository = new GenericRepository(); }
+        [SetUp] public void SetUp() { a = new ZahtevZaGlumca(); }
 
-        [TearDown] public void TearDown() { a = null; DbBroker.DbConnection.test = false; repository.Close(); }
+        [TearDown] public void TearDown() { a = null; }
 
         [Test]
         public void TestGetObjNeobradjen()
@@ -33,7 +32,7 @@ namespace Testiranje
             a.Administrator = new Administrator();
 
             
-            ZahtevZaGlumca rez = (ZahtevZaGlumca)repository.Get(a);
+            ZahtevZaGlumca rez = (ZahtevZaGlumca)TestSetup.repository.Get(a);
 
             Assert.IsNotNull(rez);
             Assert.IsNotNull(rez.Glumac);
@@ -68,8 +67,8 @@ namespace Testiranje
             a.Glumac.Pol = (Pol)1;
             a.Glumac.Prikazan = true;
 
-            repository = new GenericRepository();
-            ZahtevZaGlumca rez = (ZahtevZaGlumca)repository.Get(a);
+            
+            ZahtevZaGlumca rez = (ZahtevZaGlumca)TestSetup.repository.Get(a);
 
             Assert.IsNotNull(rez);
             Assert.IsNotNull(rez.Glumac);

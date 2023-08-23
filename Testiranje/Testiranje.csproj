@@ -103,6 +103,7 @@
     <Compile Include="Testiranje sistemskih operacija\SOVratiOcenuGlumcaTest.cs" />
     <Compile Include="Testiranje sistemskih operacija\SOVratiSveOceneZaGlumcaTest.cs" />
     <Compile Include="Testiranje sistemskih operacija\TestRepository.cs" />
+    <Compile Include="TestSetup.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Testiranje domenskih klasa\packages.config" />

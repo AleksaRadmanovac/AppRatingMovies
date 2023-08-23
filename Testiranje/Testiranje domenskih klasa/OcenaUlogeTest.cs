@@ -12,10 +12,9 @@ namespace Testiranje
     internal class OcenaUlogeTest
     {
         OcenaUloge a;
-        public IDbRepository<IDomenObjekat> repository;
-        [SetUp] public void SetUp() { a = new OcenaUloge(); DbBroker.DbConnection.test = true; repository = new GenericRepository(); }
+        [SetUp] public void SetUp() { a = new OcenaUloge(); }
 
-        [TearDown] public void TearDown() { a = null; DbBroker.DbConnection.test = false; repository.Close(); }
+        [TearDown] public void TearDown() { a = null; }
 
         [Test]
         public void TestGetObj()
@@ -46,7 +45,7 @@ namespace Testiranje
 
 
             
-            OcenaUloge rez = (OcenaUloge)repository.Get(a);
+            OcenaUloge rez = (OcenaUloge)TestSetup.repository.Get(a);
 
             Assert.NotNull(rez);
             Assert.NotNull(rez.Korisnik);

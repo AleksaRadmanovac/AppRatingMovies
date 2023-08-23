@@ -12,20 +12,16 @@ namespace Testiranje.Testiranje_sistemskih_operacija
 {
     internal class SOUcitajListuFilmovaTest
     {
-        public IDbRepository<IDomenObjekat> repository;
         [SetUp]
         public void SetUp()
         {
-            repository = new GenericRepository();
-            DbBroker.DbConnection.test = true;
+           
         }
 
         [TearDown]
         public void TearDown()
         {
-            repository.Rollback();
-            repository.Close();
-            DbBroker.DbConnection.test = false;
+            TestSetup.repository.Rollback();
         }
 
         [Test]
@@ -33,9 +29,9 @@ namespace Testiranje.Testiranje_sistemskih_operacija
         {
             SOUcitajListuFilmova so = new SOUcitajListuFilmova();
             List<Film> listaFilmova = new List<Film>();
-            listaFilmova.Add((Film)repository.Get(new Film() { Id = 1 }));
-            listaFilmova.Add((Film)repository.Get(new Film() { Id = 3 }));
-            listaFilmova.Add((Film)repository.Get(new Film() { Id = 4 }));
+            listaFilmova.Add((Film)TestSetup.repository.Get(new Film() { Id = 1 }));
+            listaFilmova.Add((Film)TestSetup.repository.Get(new Film() { Id = 3 }));
+            listaFilmova.Add((Film)TestSetup.repository.Get(new Film() { Id = 4 }));
             so.IzvrsiSistemskuOperaciju();
             for(int i = 0; i < listaFilmova.Count; i++) 
             {

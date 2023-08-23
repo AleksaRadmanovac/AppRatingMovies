@@ -9,9 +9,9 @@ namespace Testiranje
     {
         Administrator a;
         public IDbRepository<IDomenObjekat> repository;
-        [SetUp] public void SetUp() { a = new Administrator(); DbBroker.DbConnection.test = true; repository = new GenericRepository(); }
+        [SetUp] public void SetUp() { a = new Administrator(); }
 
-        [TearDown] public void TearDown() { a = null; DbBroker.DbConnection.test = false; repository.Close(); }
+        [TearDown] public void TearDown() { a = null;  }
  
         [Test]
         public void TestGetObj()
@@ -23,7 +23,7 @@ namespace Testiranje
 
             
             
-            Administrator rez = (Administrator)repository.Get(a);
+            Administrator rez = (Administrator)TestSetup.repository.Get(a);
 
             Assert.NotNull(rez);
             Assert.AreEqual(a.Id, rez.Id);

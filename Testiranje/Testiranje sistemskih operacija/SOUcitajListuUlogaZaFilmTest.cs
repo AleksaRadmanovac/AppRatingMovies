@@ -12,20 +12,18 @@ namespace Testiranje.Testiranje_sistemskih_operacija
 {
     internal class SOUcitajListuUlogaZaFilmTest
     {
-        public IDbRepository<IDomenObjekat> repository;
+
         [SetUp]
         public void SetUp()
         {
-            repository = new GenericRepository();
-            DbBroker.DbConnection.test = true;
+           
         }
 
         [TearDown]
         public void TearDown()
         {
-            repository.Rollback();
-            repository.Close();
-            DbBroker.DbConnection.test = false;
+            TestSetup.repository.Rollback();
+          
         }
 
         [Test]
@@ -34,8 +32,8 @@ namespace Testiranje.Testiranje_sistemskih_operacija
             SOUcitajListuUlogaZaFilm so = new SOUcitajListuUlogaZaFilm();
             List<Uloga> listaUloga = new List<Uloga>();
             Film film = new Film() { Id = 1 };
-            listaUloga.Add((Uloga)repository.Get(new Uloga() { Glumac = new Glumac() { Id = 1 }, Film = film }));
-            listaUloga.Add((Uloga)repository.Get(new Uloga() { Glumac = new Glumac() { Id = 2 }, Film = film }));
+            listaUloga.Add((Uloga)TestSetup.repository.Get(new Uloga() { Glumac = new Glumac() { Id = 1 }, Film = film }));
+            listaUloga.Add((Uloga)TestSetup.repository.Get(new Uloga() { Glumac = new Glumac() { Id = 2 }, Film = film }));
             so.FilmID = film.Id;
             so.IzvrsiSistemskuOperaciju();
             

@@ -12,20 +12,17 @@ namespace Testiranje.Testiranje_sistemskih_operacija
 {
     internal class SOPromeniOceneTest
     {
-        public IDbRepository<IDomenObjekat> repository;
         [SetUp]
         public void SetUp()
         {
-            repository = new GenericRepository();
-            DbBroker.DbConnection.test = true;
+            
         }
 
         [TearDown]
         public void TearDown()
         {
-            repository.Rollback();
-            repository.Close();
-            DbBroker.DbConnection.test = false;
+            TestSetup.repository.Rollback();
+            
         }
 
         [Test]
@@ -59,7 +56,7 @@ namespace Testiranje.Testiranje_sistemskih_operacija
             so.OcenaFilma = ocenaFilma;
             so.ListaOcenaUloga = listaOcenaUloga;
             so.IzvrsiSistemskuOperaciju();
-            OcenaFilma rez = (OcenaFilma)repository.Get(new OcenaFilma()
+            OcenaFilma rez = (OcenaFilma)TestSetup.repository.Get(new OcenaFilma()
             {
                 Film = new Film() { Id = 1 },
 
@@ -68,7 +65,7 @@ namespace Testiranje.Testiranje_sistemskih_operacija
             List<OcenaUloge> rezLista = new List<OcenaUloge>();
             foreach (OcenaUloge o in listaOcenaUloga) 
             {
-                rezLista.Add((OcenaUloge)repository.Get(o));
+                rezLista.Add((OcenaUloge)TestSetup.repository.Get(o));
             }
             Assert.NotNull(rez);
             Assert.NotNull(rez.Film);

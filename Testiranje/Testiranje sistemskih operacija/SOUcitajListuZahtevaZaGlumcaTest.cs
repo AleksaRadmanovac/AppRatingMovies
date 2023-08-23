@@ -12,20 +12,17 @@ namespace Testiranje.Testiranje_sistemskih_operacija
 {
     internal class SOUcitajListuZahtevaZaGlumcaTest
     {
-        public IDbRepository<IDomenObjekat> repository;
         [SetUp]
         public void SetUp()
         {
-            repository = new GenericRepository();
-            DbBroker.DbConnection.test = true;
+           
         }
 
         [TearDown]
         public void TearDown()
         {
-            repository.Rollback();
-            repository.Close();
-            DbBroker.DbConnection.test = false;
+            TestSetup.repository.Rollback();
+            
         }
 
         [Test]
@@ -34,8 +31,8 @@ namespace Testiranje.Testiranje_sistemskih_operacija
             SOUcitajListuZahtevaZaGlumca so = new SOUcitajListuZahtevaZaGlumca();
             List<ZahtevZaGlumca> listaZahteva = new List<ZahtevZaGlumca>();
             
-            listaZahteva.Add((ZahtevZaGlumca)repository.Get(new ZahtevZaGlumca() { Id = 1 }));
-            listaZahteva.Add((ZahtevZaGlumca)repository.Get(new ZahtevZaGlumca() { Id = 1004 }));
+            listaZahteva.Add((ZahtevZaGlumca)TestSetup.repository.Get(new ZahtevZaGlumca() { Id = 1 }));
+            listaZahteva.Add((ZahtevZaGlumca)TestSetup.repository.Get(new ZahtevZaGlumca() { Id = 1004 }));
 
             so.IzvrsiSistemskuOperaciju();
 

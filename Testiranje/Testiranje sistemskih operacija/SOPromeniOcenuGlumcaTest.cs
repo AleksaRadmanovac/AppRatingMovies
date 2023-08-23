@@ -12,20 +12,17 @@ namespace Testiranje.Testiranje_sistemskih_operacija
 {
     internal class SOPromeniOcenuGlumcaTest
     {
-        public IDbRepository<IDomenObjekat> repository;
         [SetUp]
         public void SetUp()
         {
-            repository = new GenericRepository();
-            DbBroker.DbConnection.test = true;
+           
         }
 
         [TearDown]
         public void TearDown()
         {
-            repository.Rollback();
-            repository.Close();
-            DbBroker.DbConnection.test = false;
+            TestSetup.repository.Rollback();
+            
         }
 
         [Test]
@@ -41,7 +38,7 @@ namespace Testiranje.Testiranje_sistemskih_operacija
             };
             so.OcenaGlumca = ocenaGlumca;
             so.IzvrsiSistemskuOperaciju();
-            OcenaGlumca rez = (OcenaGlumca)repository.Get(new OcenaGlumca()
+            OcenaGlumca rez = (OcenaGlumca)TestSetup.repository.Get(new OcenaGlumca()
             {
                 Korisnik = new Korisnik() { Id = 1 },
                 Glumac = new Glumac() { Id = 1 },

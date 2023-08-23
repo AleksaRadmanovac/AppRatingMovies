@@ -12,20 +12,17 @@ namespace Testiranje.Testiranje_sistemskih_operacija
 {
     internal class SOVratiSveOceneZaFilmTest
     {
-        public IDbRepository<IDomenObjekat> repository;
         [SetUp]
         public void SetUp()
         {
-            repository = new GenericRepository();
-            DbBroker.DbConnection.test = true;
+            
         }
 
         [TearDown]
         public void TearDown()
         {
-            repository.Rollback();
-            repository.Close();
-            DbBroker.DbConnection.test = false;
+            TestSetup.repository.Rollback();
+            
         }
 
         [Test]
@@ -52,10 +49,10 @@ namespace Testiranje.Testiranje_sistemskih_operacija
             so.Film = film;
 
             List<OcenaFilma> oceneFilma = new List<OcenaFilma>();
-            oceneFilma.Add((OcenaFilma)repository.Get(new OcenaFilma() { Film = film, Korisnik = new Korisnik() { Id = 1 } }));
-            oceneFilma.Add((OcenaFilma)repository.Get(new OcenaFilma() { Film = film, Korisnik = new Korisnik() { Id = 2 } }));
-            ulogeTest[0].Ocene.Add((OcenaUloge)repository.Get(new OcenaUloge() { Uloga = ulogeTest[0], Korisnik = new Korisnik() { Id=1 } }));
-            ulogeTest[1].Ocene.Add((OcenaUloge)repository.Get(new OcenaUloge() { Uloga = ulogeTest[1], Korisnik = new Korisnik() { Id = 1 } }));
+            oceneFilma.Add((OcenaFilma)TestSetup.repository.Get(new OcenaFilma() { Film = film, Korisnik = new Korisnik() { Id = 1 } }));
+            oceneFilma.Add((OcenaFilma)TestSetup.repository.Get(new OcenaFilma() { Film = film, Korisnik = new Korisnik() { Id = 2 } }));
+            ulogeTest[0].Ocene.Add((OcenaUloge)TestSetup.repository.Get(new OcenaUloge() { Uloga = ulogeTest[0], Korisnik = new Korisnik() { Id=1 } }));
+            ulogeTest[1].Ocene.Add((OcenaUloge)TestSetup.repository.Get(new OcenaUloge() { Uloga = ulogeTest[1], Korisnik = new Korisnik() { Id = 1 } }));
 
             so.IzvrsiSistemskuOperaciju();
 

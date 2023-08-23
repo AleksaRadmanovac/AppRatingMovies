@@ -12,10 +12,9 @@ namespace Testiranje
     internal class OcenaGlumcaTest
     {
         OcenaGlumca a;
-        public IDbRepository<IDomenObjekat> repository;
-        [SetUp] public void SetUp() { a = new OcenaGlumca(); DbBroker.DbConnection.test = true; repository = new GenericRepository(); }
+        [SetUp] public void SetUp() { a = new OcenaGlumca(); }
 
-        [TearDown] public void TearDown() { a = null; DbBroker.DbConnection.test = false; repository.Close(); }
+        [TearDown] public void TearDown() { a = null; }
 
         [Test]
         public void TestGetObj()
@@ -36,7 +35,7 @@ namespace Testiranje
             a.Korisnik = k;
             a.Ocena = 5;
             a.Komentar = "";
-            OcenaGlumca rez = (OcenaGlumca)repository.Get(a);
+            OcenaGlumca rez = (OcenaGlumca)TestSetup.repository.Get(a);
 
             Assert.NotNull(rez);
             Assert.NotNull(rez.Glumac);

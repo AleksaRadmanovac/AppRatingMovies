@@ -13,20 +13,17 @@ namespace Testiranje.Testiranje_sistemskih_operacija
 {
     internal class SORegistracijaTest
     {
-        public IDbRepository<IDomenObjekat> repository;
         [SetUp]
         public void SetUp()
         {
-            repository = new GenericRepository();
-            DbBroker.DbConnection.test = true;
+            
         }
 
         [TearDown]
         public void TearDown()
         {
-            repository.Rollback();
-            repository.Close();
-            DbBroker.DbConnection.test = false;
+            TestSetup.repository.Rollback();
+         
         }
 
         [Test]
@@ -37,7 +34,7 @@ namespace Testiranje.Testiranje_sistemskih_operacija
             SORegistracija so = new SORegistracija();
             so.Korisnik = korisnik;
             so.IzvrsiSistemskuOperaciju();
-            List<IDomenObjekat> rez = repository.GetAll(korisnik);
+            List<IDomenObjekat> rez = TestSetup.repository.GetAll(korisnik);
             bool p = false;
             foreach (IDomenObjekat o in rez)
             {

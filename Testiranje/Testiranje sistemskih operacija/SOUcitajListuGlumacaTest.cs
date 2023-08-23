@@ -12,20 +12,18 @@ namespace Testiranje.Testiranje_sistemskih_operacija
 {
     internal class SOUcitajListuGlumacaTest
     {
-        public IDbRepository<IDomenObjekat> repository;
+  
         [SetUp]
         public void SetUp()
         {
-            repository = new GenericRepository();
-            DbBroker.DbConnection.test = true;
+           
         }
 
         [TearDown]
         public void TearDown()
         {
-            repository.Rollback();
-            repository.Close();
-            DbBroker.DbConnection.test = false;
+            TestSetup.repository.Rollback();
+        
         }
 
         [Test]
@@ -33,9 +31,9 @@ namespace Testiranje.Testiranje_sistemskih_operacija
         {
             SOUcitajListuGlumaca so = new SOUcitajListuGlumaca();
             List<Glumac> listaGlumaca = new List<Glumac>();
-            listaGlumaca.Add((Glumac)repository.Get(new Glumac() { Id = 1 }));
-            listaGlumaca.Add((Glumac)repository.Get(new Glumac() { Id = 4 }));
-            listaGlumaca.Add((Glumac)repository.Get(new Glumac() { Id = 5 }));
+            listaGlumaca.Add((Glumac)TestSetup.repository.Get(new Glumac() { Id = 1 }));
+            listaGlumaca.Add((Glumac)TestSetup.repository.Get(new Glumac() { Id = 4 }));
+            listaGlumaca.Add((Glumac)TestSetup.repository.Get(new Glumac() { Id = 5 }));
             so.IzvrsiSistemskuOperaciju();
             for (int i = 0; i < listaGlumaca.Count; i++)
             {

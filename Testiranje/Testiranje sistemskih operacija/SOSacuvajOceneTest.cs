@@ -12,20 +12,17 @@ namespace Testiranje.Testiranje_sistemskih_operacija
 {
     internal class SOSacuvajOceneTest
     {
-        public IDbRepository<IDomenObjekat> repository;
         [SetUp]
         public void SetUp()
         {
-            repository = new GenericRepository();
-            DbBroker.DbConnection.test = true;
+            
         }
 
         [TearDown]
         public void TearDown()
         {
-            repository.Rollback();
-            repository.Close();
-            DbBroker.DbConnection.test = false;
+            TestSetup.repository.Rollback();
+            
         }
 
         [Test]
@@ -44,11 +41,11 @@ namespace Testiranje.Testiranje_sistemskih_operacija
             };
             so.ListaOcenaUloga = listaOcenaUloga;
             so.IzvrsiSistemskuOperaciju();
-            OcenaFilma rezOcenaFilma = (OcenaFilma)repository.Get(ocenaFilma);
+            OcenaFilma rezOcenaFilma = (OcenaFilma)TestSetup.repository.Get(ocenaFilma);
             List<OcenaUloge> rezListaOcenaUloga = new List<OcenaUloge>();
             foreach (OcenaUloge ocenaUloge in listaOcenaUloga)
             {
-                rezListaOcenaUloga.Add((OcenaUloge)repository.Get(ocenaUloge));
+                rezListaOcenaUloga.Add((OcenaUloge)TestSetup.repository.Get(ocenaUloge));
             }
 
             Assert.NotNull(rezOcenaFilma);

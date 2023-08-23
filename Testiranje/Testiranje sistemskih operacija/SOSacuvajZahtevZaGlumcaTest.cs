@@ -12,20 +12,18 @@ namespace Testiranje.Testiranje_sistemskih_operacija
 {
     internal class SOSacuvajZahtevZaGlumcaTest
     {
-        public IDbRepository<IDomenObjekat> repository;
+    
         [SetUp]
         public void SetUp()
         {
-            repository = new GenericRepository();
-            DbBroker.DbConnection.test = true;
+           
         }
 
         [TearDown]
         public void TearDown()
         {
-            repository.Rollback();
-            repository.Close();
-            DbBroker.DbConnection.test = false;
+            TestSetup.repository.Rollback();
+
         }
 
         [Test]
@@ -35,12 +33,12 @@ namespace Testiranje.Testiranje_sistemskih_operacija
             Glumac glumac = new Glumac() { Ime = "Imetest5", Prezime = "Prezimetest5", Godiste = 1990, Pol = Pol.Muski, Prikazan = false };
             ZahtevZaGlumca zahtevZaGlumca = new ZahtevZaGlumca() { Glumac = glumac, Obradjen = false, Odobren = false };
             so.Zahtev = zahtevZaGlumca;
-            List<IDomenObjekat> listaZahteva = repository.GetAll(new ZahtevZaGlumca());
+            List<IDomenObjekat> listaZahteva = TestSetup.repository.GetAll(new ZahtevZaGlumca());
             so.IzvrsiSistemskuOperaciju();
 
-            List<IDomenObjekat> rez = repository.GetAll(new ZahtevZaGlumca());
+            List<IDomenObjekat> rez = TestSetup.repository.GetAll(new ZahtevZaGlumca());
 
-            Glumac rezGlumac = (Glumac)repository.Get(glumac);
+            Glumac rezGlumac = (Glumac)TestSetup.repository.Get(glumac);
 
             Assert.Greater(rez.Count, listaZahteva.Count);
 

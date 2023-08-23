@@ -12,10 +12,9 @@ namespace Testiranje
     internal class OcenaFilmaTest
     {
         OcenaFilma a;
-        public IDbRepository<IDomenObjekat> repository;
-        [SetUp] public void SetUp() { a = new OcenaFilma(); DbBroker.DbConnection.test = true; repository = new GenericRepository(); }
+        [SetUp] public void SetUp() { a = new OcenaFilma(); }
 
-        [TearDown] public void TearDown() { a = null; DbBroker.DbConnection.test = false; repository.Close(); }
+        [TearDown] public void TearDown() { a = null; }
 
         [Test]
         public void TestGetObj()
@@ -38,7 +37,7 @@ namespace Testiranje
 
 
             
-            OcenaFilma rez = (OcenaFilma)repository.Get(a);
+            OcenaFilma rez = (OcenaFilma)TestSetup.repository.Get(a);
 
             Assert.NotNull(rez);
             Assert.NotNull(rez.Film);

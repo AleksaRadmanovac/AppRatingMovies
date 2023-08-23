@@ -13,18 +13,13 @@ namespace Testiranje.Testiranje_sistemskih_operacija
     
     internal class SODodajUloguTest
     {
-        public IDbRepository<IDomenObjekat> repository;
         [SetUp] public void SetUp() 
         {
-            repository = new GenericRepository();
-            DbBroker.DbConnection.test = true;
         }
 
         [TearDown] public void TearDown() 
         {
-            repository.Rollback();
-            repository.Close();
-            DbBroker.DbConnection.test = false; 
+            TestSetup.repository.Rollback();
         }
 
         [Test]
@@ -48,7 +43,7 @@ namespace Testiranje.Testiranje_sistemskih_operacija
             SODodajUlogu so = new SODodajUlogu();
             so.Uloga = uloga;
             so.IzvrsiSistemskuOperaciju();
-            Uloga rez = (Uloga)repository.Get(uloga);
+            Uloga rez = (Uloga)TestSetup.repository.Get(uloga);
             Assert.IsNotNull(rez);
             Assert.NotNull(rez.Glumac);
             Assert.NotNull(rez.Film);
